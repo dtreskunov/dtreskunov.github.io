@@ -9,4 +9,4 @@ before_install:
   - ssh-add deploy_key
 
 script:
-  - bundle exec rake deploy
+  - bundle exec rake prepare deploy
