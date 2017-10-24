@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-10-24T17:45:06+00:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">Bonya</title><link href="https://dtreskunov.github.io/bonya/" rel="alternate" type="text/html" title="Bonya" /><published>2017-10-24T00:00:00+00:00</published><updated>2017-10-24T00:00:00+00:00</updated><id>https://dtreskunov.github.io/bonya</id><content type="html" xml:base="https://dtreskunov.github.io/bonya/">&lt;p&gt;Here are some photos of my cat Bonya.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-10-24T23:58:25+00:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">First Post, starring Бонифаций the cat</title><link href="https://dtreskunov.github.io/bonya/" rel="alternate" type="text/html" title="First Post, starring Бонифаций the cat" /><published>2017-10-24T00:00:00+00:00</published><updated>2017-10-24T00:00:00+00:00</updated><id>https://dtreskunov.github.io/bonya</id><content type="html" xml:base="https://dtreskunov.github.io/bonya/">&lt;p&gt;Here are some photos of my cat.&lt;/p&gt;
 
 &lt;p&gt;His full name is Boniface (Бонифаций in Russian). He is named after the cat I grew up with,
 a purebred &lt;a href=&quot;https://en.wikipedia.org/wiki/Russian_Blue&quot;&gt;Russian Blue&lt;/a&gt; who had fathered many an offspring and lived to the grand
@@ -11,31 +11,82 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.&lt;/
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/HwV_vpY3wB4?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;figure&gt;
-    &lt;a href=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/NM7Noi-3Rc8RfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/I/IMG_20151204_110418.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/28 ISO618&quot; data-foo=&quot;bar1&quot;&gt;
-      &lt;img src=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg&quot; alt=&quot;IMG_20151204_110418.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg 400w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s800/IMG_20151204_110418.jpg 800w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s1600/IMG_20151204_110418.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
-    &lt;/a&gt;
+    
+      
+      &lt;a href=&quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/IuqewQTMd8s9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/I/IMG_20140927_124404.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; LGE Nexus 4 f/2.65 1/30 ISO1100&quot;&gt;
+    &lt;img src=&quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s400/IMG_20140927_124404.jpg&quot; alt=&quot;IMG_20140927_124404.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s400/IMG_20140927_124404.jpg 400w,https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s800/IMG_20140927_124404.jpg 800w,https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s1600/IMG_20140927_124404.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+  &lt;/a&gt;
+    
+    
     
   &lt;/figure&gt;
 
 &lt;figure&gt;
-    &lt;a href=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/AUD5oRUtBrQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/I/IMG_20160209_190906.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/19 ISO884&quot; data-foo=&quot;bar1&quot;&gt;
-      &lt;img src=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg&quot; alt=&quot;IMG_20160209_190906.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg 297w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s800/IMG_20160209_190906.jpg 594w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s1600/IMG_20160209_190906.jpg 1188w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
-    &lt;/a&gt;
+    
+      
+      &lt;a href=&quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/qQoVRCo8oUYGFiTvad8qEkZyaMHxSDCwQCHMYBhgL/I/20150614_110800.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; LG Electronics LG-D800 f/2.4 1/20 ISO100&quot;&gt;
+    &lt;img src=&quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s400/20150614_110800.jpg&quot; alt=&quot;20150614_110800.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s400/20150614_110800.jpg 400w,https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s800/20150614_110800.jpg 800w,https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s1600/20150614_110800.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+  &lt;/a&gt;
+    
+    
     
   &lt;/figure&gt;
 
 &lt;figure&gt;
-    &lt;a href=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/to610M4na_MN_pKmTuheNcANc8vaEfkngCHMYBhgL/I/IMG_20160228_170516.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/127 ISO40&quot; data-foo=&quot;bar1&quot;&gt;
-      &lt;img src=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg&quot; alt=&quot;IMG_20160228_170516.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg 400w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s800/IMG_20160228_170516.jpg 800w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s1600/IMG_20160228_170516.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
-    &lt;/a&gt;
+    
+      
+      &lt;a href=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/NM7Noi-3Rc8RfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/I/IMG_20151204_110418.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/28 ISO618&quot;&gt;
+    &lt;img src=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg&quot; alt=&quot;IMG_20151204_110418.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg 400w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s800/IMG_20151204_110418.jpg 800w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s1600/IMG_20151204_110418.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+  &lt;/a&gt;
+    
+    
+    
+  &lt;/figure&gt;
+
+&lt;figure&gt;
+    
+      
+      &lt;a href=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/AUD5oRUtBrQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/I/IMG_20160209_190906.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/19 ISO884&quot;&gt;
+    &lt;img src=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg&quot; alt=&quot;IMG_20160209_190906.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg 297w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s800/IMG_20160209_190906.jpg 594w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s1600/IMG_20160209_190906.jpg 1188w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+  &lt;/a&gt;
+    
+    
+    
+  &lt;/figure&gt;
+
+&lt;figure&gt;
+    
+      
+      &lt;a href=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/to610M4na_MN_pKmTuheNcANc8vaEfkngCHMYBhgL/I/IMG_20160228_170516.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/127 ISO40&quot;&gt;
+    &lt;img src=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg&quot; alt=&quot;IMG_20160228_170516.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg 400w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s800/IMG_20160228_170516.jpg 800w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s1600/IMG_20160228_170516.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+  &lt;/a&gt;
+    
     
       &lt;figcaption&gt;#cover&lt;/figcaption&gt;
     
+    
   &lt;/figure&gt;
 
 &lt;figure&gt;
-    &lt;a href=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/n1yjqMyMnIQ6lU9VIAQmi1hptUArYrgOQCHMYBhgL/I/IMG_20160322_142210.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/86 ISO224&quot; data-foo=&quot;bar1&quot;&gt;
-      &lt;img src=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg&quot; alt=&quot;IMG_20160322_142210.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg 400w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s800/IMG_20160322_142210.jpg 800w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s1600/IMG_20160322_142210.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
-    &lt;/a&gt;
     
-  &lt;/figure&gt;</content><author><name>Denis Treskunov</name></author><summary type="html">Here are some photos of my cat Bonya.</summary></entry></feed>
+      
+      &lt;a href=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/n1yjqMyMnIQ6lU9VIAQmi1hptUArYrgOQCHMYBhgL/I/IMG_20160322_142210.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/86 ISO224&quot;&gt;
+    &lt;img src=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg&quot; alt=&quot;IMG_20160322_142210.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg 400w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s800/IMG_20160322_142210.jpg 800w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s1600/IMG_20160322_142210.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+  &lt;/a&gt;
+    
+    
+    
+  &lt;/figure&gt;
+
+&lt;figure&gt;
+    
+      &lt;video controls=&quot;controls&quot; src=&quot;https://lh3.googleusercontent.com/RJRhTeMoYxGYWSS72ATe23gQCSpx6Ra2Y27UYPyysshneSIycLnGnm-umehYgT8tUp85ih8hcWo=m37&quot;&gt;
+        Your browser doesn't support HTML5 video.
+        
+    &lt;img src=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4&quot; alt=&quot;VID_20160604_125922.mp4&quot; srcset=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4 400w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s800/VID_20160604_125922.mp4 800w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s1600/VID_20160604_125922.mp4 854w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+  
+      &lt;/video&gt;
+    
+    
+    
+  &lt;/figure&gt;</content><author><name>Denis Treskunov</name></author><summary type="html">Here are some photos of my cat.</summary></entry></feed>
