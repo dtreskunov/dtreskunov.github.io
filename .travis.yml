@@ -8,6 +8,8 @@ before_install:
   - openssl aes-256-cbc -K $encrypted_7d60601be663_key -iv $encrypted_7d60601be663_iv -in deploy_key.enc -out deploy_key -d
   - chmod 600 deploy_key
   - ssh-add deploy_key
+  - echo "commit_url: 'https://github.com/${TRAVIS_REPO_SLUG}/commit/${TRAVIS_COMMIT}'" >> _config_prod.yml
+  - echo "commit_hash: '${TRAVIS_COMMIT:0:7}'" >> _config_prod.yml
 
 script:
   - bundle exec rake prepare deploy
