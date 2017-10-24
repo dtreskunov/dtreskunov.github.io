@@ -84,9 +84,6 @@ EOS
         auth = GooglePhotos::Auth.new(email, client_secrets_json, tokens_yml)
         Picasa::Client.new(user_id: email, access_token: auth.access_token)
       end
-      # def cached_albums(client)
-      #   @albums ||= client.album.list.entries
-      # end
     end
 
     class Generator < ::Jekyll::Generator
@@ -113,6 +110,7 @@ EOS
             cover_entry = album_data['entries'].find {|e| e['caption'].include? '#cover'}
 
             doc.data.deep_merge!({'gphoto_album_data' => album_data})
+            doc.data['header'] = (doc.data['header'] || {}).dup
             doc.data.deep_merge!({'header' => {'overlay_image' => cover_entry['thumbnails'].last['url']}}) if cover_entry
           end
         end          
