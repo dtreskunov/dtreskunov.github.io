@@ -126,32 +126,37 @@ EOS
       
       def get_album_data(album)
         {'entries' => album.entries.map {|entry|
-           orig_src = entry.content.src
-           kind = case orig_src
-                  when PHOTO_REGEX
-                    'photo'
-                  when VIDEO_REGEX
-                    'video'
-                  end
+           contents = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$content')
+           best = contents.max_by{|i|i['width']}
+
            exif = "#{entry.exif.make} #{entry.exif.model}"
            exif += " f/#{entry.exif.fstop}" if entry.exif.fstop
            exif += " 1/#{'%.0f' % (1 / entry.exif.exposure)}" if entry.exif.exposure
            exif += " ISO#{entry.exif.iso}" if entry.exif.iso
 
-           thumbnails = entry.media.thumbnails.sort_by(&:width).map do |t|
-             {'url' => t.url, 'width' => t.width}
-           end
+           raw_thumbnails = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$thumbnail')
+           thumbnails = raw_thumbnails.map{|i|content_item(i)}.sort_by{|i|i['width']}
 
            srcset = thumbnails.map{|t| "#{t['url']} #{t['width']}w"}.join(',')
 
-           {'kind' => kind,
+           {'raw' => entry.parsed_body,
+            'raw_debug' => JSON.pretty_unparse(entry.parsed_body),
+            'best' => content_item(best),
             'exif' => exif,
             'thumbnails' => thumbnails,
             'srcset' => srcset,
-            'url' => entry.content.src,
             'title' => entry.media.title,
             'caption' => entry.media.description}
          }}
+      end
+
+      def content_item(raw_item)
+        {'url' => raw_item['url'],
+         'height' => raw_item['height'],
+         'width' => raw_item['width'],
+         'type' => raw_item['type'],
+         'medium' => raw_item['medium']
+        }
       end
     end
   end

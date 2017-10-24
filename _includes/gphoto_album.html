@@ -1,14 +1,35 @@
+{% assign sizes = "(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px" %}
 {% for entry in page.gphoto_album_data.entries %}
-  {% capture exif %}<i class="fa fa-camera" aria-hidden="true"></i> {{ entry.exif }}{% endcapture %}
+  {% capture img %}
+    <img src="{{ entry.thumbnails.first.url }}"
+         alt="{{ entry.title | escape }}"
+         srcset="{{ entry.srcset }}"
+         sizes="{{ sizes }}">
+  {% endcapture %}
   <figure>
-    <a href="{{ entry.url }}" title="{{ exif | escape }}" data-foo="bar1">
-      <img src="{{ entry.thumbnails[0].url }}"
-           alt="{{ entry.title | escape }}"
-           srcset="{{ entry.srcset }}"
-           sizes="(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px">
-    </a>
+    {% case entry.best.medium %}
+    {% when 'image' %}
+      {% capture exif %}<i class="fa fa-camera" aria-hidden="true"></i> {{ entry.exif }}{% endcapture %}
+      <a href="{{ entry.best.url }}" title="{{ exif | escape }}">{{ img }}</a>
+    {% when 'video' %}
+      <video controls="controls"
+             src="{{ entry.best.url }}">
+        Your browser doesn't support HTML5 video.
+        {{ img }}
+      </video>
+    {% endcase %}
     {% if entry.caption != blank %}
       <figcaption>{{ entry.caption | escape }}</figcaption>
     {% endif %}
+    {% comment %}
+      <small style="max-width: 100%">
+        {% highlight json %}
+          {{ entry | jsonify }}
+        {% endhighlight %}
+        {% highlight json %}
+          {{ entry.raw_debug }}
+        {% endhighlight %}
+      </small>
+    {% endcomment %}
   </figure>
 {% endfor %}
