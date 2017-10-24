@@ -255,3 +255,8 @@ defaults:
       comments: # true
       share: false
       related: true
+      header:
+        overlay_filter: 0.5
+
+gphoto:
+  email: denis.treskunov@gmail.com

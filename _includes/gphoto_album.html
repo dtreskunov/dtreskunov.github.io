@@ -1,0 +1,14 @@
+{% for entry in page.gphoto_album_data.entries %}
+  {% capture exif %}<i class="fa fa-camera" aria-hidden="true"></i> {{ entry.exif }}{% endcapture %}
+  <figure>
+    <a href="{{ entry.url }}" title="{{ exif | escape }}" data-foo="bar1">
+      <img src="{{ entry.thumbnails[0].url }}"
+           alt="{{ entry.title | escape }}"
+           srcset="{{ entry.srcset }}"
+           sizes="(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px">
+    </a>
+    {% if entry.caption != blank %}
+      <figcaption>{{ entry.caption | escape }}</figcaption>
+    {% endif %}
+  </figure>
+{% endfor %}
