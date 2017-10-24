@@ -80,7 +80,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : custom # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -251,9 +251,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
-      share: false
+      share: true
       related: true
       header:
         overlay_filter: 0.5
