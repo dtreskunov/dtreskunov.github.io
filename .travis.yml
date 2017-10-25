@@ -6,7 +6,7 @@ cache:
   bundler: true
   directories:
   - build
-  - cache
+  - caches
 
 before_install:
 - sudo apt-get install -y libexif-dev
