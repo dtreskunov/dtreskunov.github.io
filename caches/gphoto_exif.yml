@@ -1,0 +1,757 @@
+---
+? https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/IuqewQTMd8s9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/I/IMG_20140927_124404.jpg
+: :ifd0:
+    :make: LGE
+    :model: Nexus 4
+    :orientation: 1
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+    :software: Picasa
+    :ycbcr_positioning: 1
+  :ifd1:
+    :compression: 6
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+  :exif:
+    :exposure_time: !ruby/object:Rational
+      denominator: 30
+      numerator: 1
+    :fnumber: !ruby/object:Rational
+      denominator: 20
+      numerator: 53
+    :iso_speed_ratings: 1100
+    :exif_version: '0220'
+    :date_time_original: 2014:09:27 12:44:04
+    :date_time_digitized: 2014:09:27 12:44:04
+    :components_configuration: !binary |-
+      AQIDAA==
+    :focal_length: !ruby/object:Rational
+      denominator: 5
+      numerator: 23
+    :flash_pix_version: '0100'
+    :color_space: 1
+    :pixel_x_dimension: 3264
+    :pixel_y_dimension: 2448
+    :image_unique_id: 27a3b54b82d26da90000000000000000
+  :gps:
+    :gps_version_id:
+    - 2
+    - 2
+    - 0
+    - 0
+    :gps_latitude_ref: N
+    :gps_latitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 47
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 37
+    - !ruby/object:Rational
+      denominator: 2000
+      numerator: 34649
+    :gps_longitude_ref: W
+    :gps_longitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 122
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 21
+    - !ruby/object:Rational
+      denominator: 10000
+      numerator: 269659
+    :gps_altitude_ref: 0
+    :gps_altitude: !ruby/object:Rational
+      denominator: 1
+      numerator: 0
+    :gps_time_stamp:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 19
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 43
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 49
+    :gps_img_direction_ref: M
+    :gps_img_direction: !ruby/object:Rational
+      denominator: 1
+      numerator: 172
+    :gps_processing_method: ASCII
+    :gps_date_stamp: '2014:09:27'
+  :interoperability:
+    :interoperability_index: R98
+    :interoperability_version: '0100'
+? https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/qQoVRCo8oUYGFiTvad8qEkZyaMHxSDCwQCHMYBhgL/I/20150614_110800.jpg
+: :ifd0:
+    :make: LG Electronics
+    :model: LG-D800
+    :orientation: 1
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+    :software: Picasa
+    :ycbcr_positioning: 1
+  :ifd1:
+    :compression: 6
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+  :exif:
+    :exposure_time: !ruby/object:Rational
+      denominator: 20
+      numerator: 1
+    :fnumber: !ruby/object:Rational
+      denominator: 5
+      numerator: 12
+    :iso_speed_ratings: 100
+    :exif_version: '0220'
+    :date_time_original: 2015:06:14 11:08:00
+    :date_time_digitized: 2015:06:14 11:08:00
+    :components_configuration: !binary |-
+      AQIDAA==
+    :exposure_bias_value: !ruby/object:Rational
+      denominator: 1
+      numerator: 0
+    :metering_mode: 3
+    :flash: 0
+    :focal_length: !ruby/object:Rational
+      denominator: 100
+      numerator: 397
+    :user_comment: !binary |-
+      QVNDSUkAAAAgICAgRm9jdXNBcmVhPTAwMDAwMDAwMAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+    :flash_pix_version: '0100'
+    :color_space: 1
+    :pixel_x_dimension: 4160
+    :pixel_y_dimension: 3120
+    :white_balance: 0
+    :digital_zoom_ratio: !ruby/object:Rational
+      denominator: 1
+      numerator: 1
+    :image_unique_id: d72471537a52a1800000000000000000
+  :gps:
+    :gps_version_id:
+    - 2
+    - 2
+    - 0
+    - 0
+    :gps_latitude_ref: N
+    :gps_latitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 47
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 37
+    - !ruby/object:Rational
+      denominator: 1250
+      numerator: 21839
+    :gps_longitude_ref: W
+    :gps_longitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 122
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 21
+    - !ruby/object:Rational
+      denominator: 1000
+      numerator: 27041
+    :gps_altitude_ref: 0
+    :gps_altitude: !ruby/object:Rational
+      denominator: 1
+      numerator: 0
+    :gps_time_stamp:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 18
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 7
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 49
+    :gps_date_stamp: '2015:06:14'
+  :interoperability:
+    :interoperability_index: R98
+    :interoperability_version: '0100'
+? https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/NM7Noi-3Rc8RfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/I/IMG_20151204_110418.jpg
+: :ifd0:
+    :image_width: 4160
+    :image_length: 3088
+    :make: motorola
+    :model: Nexus 6
+    :orientation: 1
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+    :software: HDR+ 1.0.106412213r
+    :date_time: 2015:12:04 11:04:20
+    :ycbcr_positioning: 1
+  :ifd1:
+    :compression: 6
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+  :exif:
+    :exposure_time: !ruby/object:Rational
+      denominator: 40000
+      numerator: 1411
+    :fnumber: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :exposure_program: 2
+    :iso_speed_ratings: 618
+    :exif_version: '0210'
+    :date_time_original: 2015:12:04 11:04:20
+    :date_time_digitized: 2015:12:04 11:04:20
+    :components_configuration: !binary |-
+      AQIDAA==
+    :shutter_speed_value: !ruby/object:Rational
+      denominator: 100
+      numerator: 483
+    :aperture_value: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :max_aperture_value: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :subject_distance: !ruby/object:Rational
+      denominator: 1
+      numerator: 0
+    :metering_mode: 2
+    :flash: 16
+    :focal_length: !ruby/object:Rational
+      denominator: 50
+      numerator: 191
+    :flash_pix_version: '0100'
+    :color_space: 1
+    :pixel_x_dimension: 4160
+    :pixel_y_dimension: 3088
+    :sensing_method: 2
+    :scene_type: !binary |-
+      AQ==
+    :custom_rendered: 1
+    :exposure_mode: 0
+    :digital_zoom_ratio: !ruby/object:Rational
+      denominator: 1
+      numerator: 1
+    :scene_capture_type: 0
+    :contrast: 0
+    :saturation: 0
+    :sharpness: 0
+    :subject_distance_range: 0
+    :image_unique_id: d815add62fbd2c0d0000000000000000
+  :gps:
+    :gps_version_id:
+    - 2
+    - 2
+    - 0
+    - 0
+    :gps_latitude_ref: N
+    :gps_latitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 47
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 37
+    - !ruby/object:Rational
+      denominator: 20
+      numerator: 351
+    :gps_longitude_ref: W
+    :gps_longitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 122
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 21
+    - !ruby/object:Rational
+      denominator: 100
+      numerator: 2549
+    :gps_altitude_ref: 0
+    :gps_altitude: !ruby/object:Rational
+      denominator: 1
+      numerator: 46
+    :gps_time_stamp:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 19
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 4
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 18
+    :gps_img_direction_ref: M
+    :gps_img_direction: !ruby/object:Rational
+      denominator: 1
+      numerator: 270
+    :gps_date_stamp: '2015:12:04'
+  :interoperability: {}
+? https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/AUD5oRUtBrQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/I/IMG_20160209_190906.jpg
+: :ifd0:
+    :image_width: 3088
+    :image_length: 4160
+    :make: motorola
+    :model: Nexus 6
+    :orientation: 1
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+    :software: HDR+ 1.0.106412213r
+    :date_time: 2016:02:09 19:09:08
+    :ycbcr_positioning: 1
+  :ifd1:
+    :compression: 6
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+  :exif:
+    :exposure_time: !ruby/object:Rational
+      denominator: 62500
+      numerator: 3263
+    :fnumber: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :exposure_program: 2
+    :iso_speed_ratings: 884
+    :exif_version: '0210'
+    :date_time_original: 2016:02:09 19:09:08
+    :date_time_digitized: 2016:02:09 19:09:08
+    :components_configuration: !binary |-
+      AQIDAA==
+    :shutter_speed_value: !ruby/object:Rational
+      denominator: 50
+      numerator: 213
+    :aperture_value: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :max_aperture_value: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :subject_distance: !ruby/object:Rational
+      denominator: 1
+      numerator: 0
+    :metering_mode: 2
+    :flash: 16
+    :focal_length: !ruby/object:Rational
+      denominator: 50
+      numerator: 191
+    :flash_pix_version: '0100'
+    :color_space: 1
+    :pixel_x_dimension: 3088
+    :pixel_y_dimension: 4160
+    :sensing_method: 2
+    :scene_type: !binary |-
+      AQ==
+    :custom_rendered: 1
+    :exposure_mode: 0
+    :digital_zoom_ratio: !ruby/object:Rational
+      denominator: 1
+      numerator: 1
+    :scene_capture_type: 0
+    :contrast: 0
+    :saturation: 0
+    :sharpness: 0
+    :subject_distance_range: 0
+    :image_unique_id: 125d49576647798c0000000000000000
+  :gps:
+    :gps_version_id:
+    - 2
+    - 2
+    - 0
+    - 0
+    :gps_latitude_ref: N
+    :gps_latitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 47
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 37
+    - !ruby/object:Rational
+      denominator: 10
+      numerator: 177
+    :gps_longitude_ref: W
+    :gps_longitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 122
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 21
+    - !ruby/object:Rational
+      denominator: 10
+      numerator: 289
+    :gps_altitude_ref: 0
+    :gps_time_stamp:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 3
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 9
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 4
+    :gps_img_direction_ref: M
+    :gps_img_direction: !ruby/object:Rational
+      denominator: 1
+      numerator: 216
+    :gps_date_stamp: '2016:02:10'
+  :interoperability: {}
+? https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/to610M4na_MN_pKmTuheNcANc8vaEfkngCHMYBhgL/I/IMG_20160228_170516.jpg
+: :ifd0:
+    :image_width: 4160
+    :image_length: 3088
+    :make: motorola
+    :model: Nexus 6
+    :orientation: 1
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+    :software: HDR+ 1.0.106412213r
+    :date_time: 2016:02:28 17:05:17
+    :ycbcr_positioning: 1
+  :ifd1:
+    :compression: 6
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+  :exif:
+    :exposure_time: !ruby/object:Rational
+      denominator: 1000000
+      numerator: 7867
+    :fnumber: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :exposure_program: 2
+    :iso_speed_ratings: 40
+    :exif_version: '0210'
+    :date_time_original: 2016:02:28 17:05:17
+    :date_time_digitized: 2016:02:28 17:05:17
+    :components_configuration: !binary |-
+      AQIDAA==
+    :shutter_speed_value: !ruby/object:Rational
+      denominator: 100
+      numerator: 699
+    :aperture_value: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :max_aperture_value: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :subject_distance: !ruby/object:Rational
+      denominator: 1
+      numerator: 0
+    :metering_mode: 2
+    :flash: 16
+    :focal_length: !ruby/object:Rational
+      denominator: 50
+      numerator: 191
+    :flash_pix_version: '0100'
+    :color_space: 1
+    :pixel_x_dimension: 4160
+    :pixel_y_dimension: 3088
+    :sensing_method: 2
+    :scene_type: !binary |-
+      AQ==
+    :custom_rendered: 1
+    :exposure_mode: 0
+    :digital_zoom_ratio: !ruby/object:Rational
+      denominator: 1
+      numerator: 1
+    :scene_capture_type: 0
+    :contrast: 0
+    :saturation: 0
+    :sharpness: 0
+    :subject_distance_range: 0
+    :image_unique_id: edfa71ffc7bceb3f0000000000000000
+  :gps:
+    :gps_version_id:
+    - 2
+    - 2
+    - 0
+    - 0
+    :gps_latitude_ref: N
+    :gps_latitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 47
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 37
+    - !ruby/object:Rational
+      denominator: 20
+      numerator: 363
+    :gps_longitude_ref: W
+    :gps_longitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 122
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 21
+    - !ruby/object:Rational
+      denominator: 100
+      numerator: 2743
+    :gps_altitude_ref: 0
+    :gps_altitude: !ruby/object:Rational
+      denominator: 1
+      numerator: 67
+    :gps_time_stamp:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 1
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 5
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 14
+    :gps_img_direction_ref: M
+    :gps_img_direction: !ruby/object:Rational
+      denominator: 1
+      numerator: 143
+    :gps_date_stamp: '2016:02:29'
+  :interoperability: {}
+? https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/n1yjqMyMnIQ6lU9VIAQmi1hptUArYrgOQCHMYBhgL/I/IMG_20160322_142210.jpg
+: :ifd0:
+    :image_width: 4160
+    :image_length: 3088
+    :make: motorola
+    :model: Nexus 6
+    :orientation: 1
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+    :software: HDR+ 1.0.106412213r
+    :date_time: 2016:03:22 14:22:11
+    :ycbcr_positioning: 1
+  :ifd1:
+    :compression: 6
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+  :exif:
+    :exposure_time: !ruby/object:Rational
+      denominator: 62500
+      numerator: 729
+    :fnumber: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :exposure_program: 2
+    :iso_speed_ratings: 224
+    :exif_version: '0210'
+    :date_time_original: 2016:03:22 14:22:11
+    :date_time_digitized: 2016:03:22 14:22:11
+    :components_configuration: !binary |-
+      AQIDAA==
+    :shutter_speed_value: !ruby/object:Rational
+      denominator: 50
+      numerator: 321
+    :aperture_value: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :max_aperture_value: !ruby/object:Rational
+      denominator: 1
+      numerator: 2
+    :subject_distance: !ruby/object:Rational
+      denominator: 1
+      numerator: 0
+    :metering_mode: 2
+    :flash: 16
+    :focal_length: !ruby/object:Rational
+      denominator: 50
+      numerator: 191
+    :flash_pix_version: '0100'
+    :color_space: 1
+    :pixel_x_dimension: 4160
+    :pixel_y_dimension: 3088
+    :sensing_method: 2
+    :scene_type: !binary |-
+      AQ==
+    :custom_rendered: 1
+    :exposure_mode: 0
+    :digital_zoom_ratio: !ruby/object:Rational
+      denominator: 1
+      numerator: 1
+    :scene_capture_type: 0
+    :contrast: 0
+    :saturation: 0
+    :sharpness: 0
+    :subject_distance_range: 0
+    :image_unique_id: c36922a8c9c5e5100000000000000000
+  :gps:
+    :gps_version_id:
+    - 2
+    - 2
+    - 0
+    - 0
+    :gps_latitude_ref: N
+    :gps_latitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 47
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 37
+    - !ruby/object:Rational
+      denominator: 50
+      numerator: 857
+    :gps_longitude_ref: W
+    :gps_longitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 122
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 21
+    - !ruby/object:Rational
+      denominator: 25
+      numerator: 718
+    :gps_altitude_ref: 0
+    :gps_altitude: !ruby/object:Rational
+      denominator: 1
+      numerator: 30
+    :gps_time_stamp:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 21
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 22
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 10
+    :gps_img_direction_ref: M
+    :gps_img_direction: !ruby/object:Rational
+      denominator: 1
+      numerator: 354
+    :gps_date_stamp: '2016:03:22'
+  :interoperability: {}
+? https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/Rz0IYbMYzSIXZKw7ECAiKmZi1twyeHqfACHMYBhgL/I/PANO_20171012_134421.jpg
+: :ifd0:
+    :image_width: 5876
+    :model: Pixel XL
+    :image_length: 2530
+    :orientation: 0
+    :date_time: 2017:10:12 13:45:55
+    :make: Google
+    :x_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :y_resolution: !ruby/object:Rational
+      denominator: 1
+      numerator: 72
+    :resolution_unit: 2
+  :ifd1: {}
+  :exif:
+    :light_source: 0
+    :date_time_digitized: 2017:10:12 13:45:55
+    :date_time_original: 2017:10:12 13:45:55
+    :exif_version: '0210'
+    :flash_pix_version: '0100'
+    :color_space: 65535
+  :gps:
+    :gps_latitude_ref: N
+    :gps_latitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 45
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 27
+    - !ruby/object:Rational
+      denominator: 100
+      numerator: 5583
+    :gps_longitude_ref: E
+    :gps_longitude:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 9
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 11
+    - !ruby/object:Rational
+      denominator: 20
+      numerator: 471
+    :gps_altitude_ref: 0
+    :gps_time_stamp:
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 11
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 45
+    - !ruby/object:Rational
+      denominator: 1
+      numerator: 41
+    :gps_processing_method: fused
+    :gps_date_stamp: '2017:10:12'
+  :interoperability: {}
