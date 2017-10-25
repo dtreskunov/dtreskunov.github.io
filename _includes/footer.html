@@ -1,3 +1,19 @@
+<script>
+  var corsProxy = 'https://dtreskunov-cors-anywhere.herokuapp.com';
+  // var corsProxy = 'https://cors-anywhere.herokuapp.com';
+  var containers = document.getElementsByClassName('photosphere');
+  for (var i = 0; i < containers.length; i++) {
+    var container = containers[i];
+    var viewer = PhotoSphereViewer({
+      container: container,
+      panorama: corsProxy + '/' + container.dataset.url,
+      caption: container.dataset.caption,
+      gyroscope: true
+    });
+    viewer.getNavbarButton('markers').hide();
+  };
+</script>
+
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
   Updated on {{ site.time | date: '%D' }}.

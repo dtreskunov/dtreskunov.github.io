@@ -139,6 +139,9 @@ EOS
 
            srcset = thumbnails.map{|t| "#{t['url']} #{t['width']}w"}.join(',')
 
+           stream_id = Picasa::Utils.safe_retrieve(entry.parsed_body, 'gphoto$streamId')&.first&.[]('$t')
+           photosphere = ('photosphere' == stream_id)
+
            {'raw' => entry.parsed_body,
             'raw_debug' => JSON.pretty_unparse(entry.parsed_body),
             'best' => content_item(best),
@@ -146,7 +149,8 @@ EOS
             'thumbnails' => thumbnails,
             'srcset' => srcset,
             'title' => entry.media.title,
-            'caption' => entry.media.description}
+            'caption' => entry.media.description,
+            'photosphere' => photosphere}
          }}
       end
 
