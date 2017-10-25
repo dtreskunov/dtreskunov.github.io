@@ -2,5 +2,5 @@
 .sass-cache/
 *.swp
 build/
-deploy_key
-.gphoto/
+secrets/
+caches/

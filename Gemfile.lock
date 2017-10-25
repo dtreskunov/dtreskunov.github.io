@@ -12,6 +12,7 @@ GEM
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
     deep_merge (1.1.1)
+    exif (2.1.0)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
@@ -126,6 +127,7 @@ PLATFORMS
 DEPENDENCIES
   bigdecimal
   deep_merge
+  exif
   googleauth
   jekyll (~> 3.5)
   json
