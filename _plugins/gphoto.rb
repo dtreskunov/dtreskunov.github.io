@@ -59,26 +59,22 @@ end
 
 module Jekyll
   module GPhoto
-    module Base
-      DEFAULT_CONFIG = {
-        'client_secrets_json' => 'secrets/gphoto_client_secrets.json',
-        'tokens_yml' => 'secrets/gphoto_tokens.yml',
-        'exif_cache_yml' => 'caches/gphoto_exif.yml'
-      }
+    DEFAULT_CONFIG = {
+      'client_secrets_json' => 'secrets/gphoto_client_secrets.json',
+      'tokens_yml' => 'secrets/gphoto_tokens.yml',
+      'exif_cache_yml' => 'caches/gphoto_exif.yml'
+    }
 
-      ERR_EMAIL = "Specify `gphoto.email` in _config.yml"
-      ERR_CLIENT_SECRETS = <<-EOS
+    ERR_EMAIL = "Specify `gphoto.email` in _config.yml"
+    ERR_CLIENT_SECRETS = <<-EOS
 Login to Google API Console to register an app and create OAuth client_id and client_secret.
 Then click on `DOWNLOAD JSON` and save the file to %s. This path comes from _config.yml
 key `gphoto.client_secrets_json`.
 
 https://console.developers.google.com/apis/credentials
 EOS
-    end
 
     class PicasaClient < Picasa::Client
-      include Base
-
       def initialize(config)
         config = DEFAULT_CONFIG.merge(config)
         email = config['email']
@@ -96,8 +92,6 @@ EOS
     end
 
     class ExifReader
-      include Base
-
       def initialize(config)
         config = DEFAULT_CONFIG.merge(config)
         @filename = config['exif_cache_yml']
@@ -141,8 +135,6 @@ EOS
     end
 
     class Generator < ::Jekyll::Generator
-      include Base
-
       PHOTO_REGEX = /\.(jpg|jpeg|gif|png)$/i
       VIDEO_REGEX = /\.(mp4|mov|mkv)$/i
 
