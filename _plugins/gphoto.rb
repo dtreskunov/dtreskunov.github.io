@@ -170,8 +170,10 @@ EOS
 
         @reverse_geocode_cache = Cache.new(config['reverse_geocode_cache_yml'], 'reverse geocode') do |lat_lng|
           response = self.class.get('/geocode/json', {query: {latlng: ("%f,%f" % lat_lng)}})
-          raise "invalid HTTP response code #{response.code}" unless response.code.to_i == 200
-          raise "invalid application response code #{response.body.status}" unless response.parsed_response['status'] == 'OK'
+          code = response.code.to_i
+          raise "invalid HTTP response code #{code}, body: #{response.body}" unless code == 200
+          status = response.parsed_response['status']
+          raise "invalid application response status #{status}, body: #{response.body}" unless status == 'OK'
           response.parsed_response['results']
         end
       end
