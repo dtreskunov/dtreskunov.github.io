@@ -1,0 +1,18 @@
+video {
+  width: 100%;
+  height: auto;
+}
+.page__share {
+  border: none !important;
+}
+.photosphere {
+  width: 100%;
+  height: 20em;
+}
+.psv-caption {
+  font-size: smaller;
+}
+.sidebar .google-map {
+  width: 100%;
+  height: 10em;;
+}

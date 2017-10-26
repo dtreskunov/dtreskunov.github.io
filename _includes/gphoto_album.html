@@ -12,7 +12,7 @@
          srcset="{{ entry.srcset }}"
          sizes="{{ sizes }}">
   {% endcapture %}
-  <figure class="gphoto_entry" data-gphoto-id="{{ entry.id }}">
+  <figure class="gphoto_entry" data-gphoto-id="{{ entry.id }}" data-geojson-id="{{ entry.geojson_id }}">
     {% case entry.best.medium %}
     {% when 'image' %}
       {% capture exif %}<i class="fa fa-camera" aria-hidden="true"></i> {{ entry.exif }}{% endcapture %}

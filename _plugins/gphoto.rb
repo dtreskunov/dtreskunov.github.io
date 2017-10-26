@@ -282,6 +282,7 @@ EOS
 
            template_entries << {
              'id' => entry.id,
+             'geojson_id' => entry.id,
              'best' => content_item(best),
              'exif' => exif,
              'thumbnails' => thumbnails,

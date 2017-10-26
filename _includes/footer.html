@@ -2,7 +2,7 @@
   window.SHOW_MAP = {{ page.show_map | jsonify }};
   window.MAP_OPTIONS = {{ page.map_options || jsonify }};
 </script>
-<script src="{{ '/assets/js/footer.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/dtreskunov.github.io.js' | relative_url }}"></script>
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
   Updated on {{ site.time | date: '%D' }}.

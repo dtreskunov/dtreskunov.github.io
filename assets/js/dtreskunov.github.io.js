@@ -1,12 +1,13 @@
 (function() {
 
+  //var CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
+  var CORS_PROXY = 'https://dtreskunov-cors-anywhere.herokuapp.com';
+
   window.addEventListener('load', function setupPhotospheres() {
-    var corsProxy = 'https://cors-anywhere.herokuapp.com';
-    //var corsProxy = 'https://dtreskunov-cors-anywhere.herokuapp.com';
     $('.photosphere').each(function() {
       var viewer = PhotoSphereViewer({
         container: this,
-        panorama: corsProxy + '/' + this.dataset.url,
+        panorama: CORS_PROXY + '/' + this.dataset.url,
         caption: this.dataset.caption,
         gyroscope: true
       });
@@ -53,8 +54,31 @@
           icon: feature.getProperty('icon') || 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png',
         };
       });
-      map.data.addGeoJson(geoJson);
+      features = map.data.addGeoJson(geoJson, {idPropertyName: 'id'});
       map.fitBounds(bounds);
+    });
+
+    $('[data-geojson-id]').on('mouseover', function() {
+      var feature = map.data.getFeatureById(this.dataset.geojsonId);
+      if (feature !== undefined) {
+        map.data.revertStyle(feature);
+        map.data.overrideStyle(feature, {
+          icon: 'https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png',
+          zIndex: 1000,
+        });
+      }
+    }).on('mouseout', function() {
+      var feature = map.data.getFeatureById(this.dataset.geojsonId);
+      if (feature !== undefined) {
+        map.data.revertStyle(feature);
+      }
+    });
+
+    map.data.addListener('click', function(event) {
+      var id = event.feature.getId();
+      if (id !== undefined) {
+        $.smoothScroll({scrollTarget: $('[data-geojson-id="' + id + '"]')});
+      }
     });
   });
 

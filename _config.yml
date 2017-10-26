@@ -24,9 +24,9 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : facebook # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : dtreskunov # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -80,7 +80,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : custom # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -265,6 +265,8 @@ defaults:
         # https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapOptions
         mapTypeId: terrain
         maxZoom: 16
+        gestureHandling: greedy
+        clickableIcons: false
 
 gphoto:
   email: denis.treskunov@gmail.com
