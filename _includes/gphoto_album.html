@@ -1,17 +1,23 @@
+<!-- begin gphoto_album.html -->
+<!-- page.gphoto_album_data:
+{{ page.gphoto_album_data_yml }}
+-->
+{% assign album = page.gphoto_album_data %}
 {% assign sizes = "(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px" %}
-{% for entry in page.gphoto_album_data.entries %}
+<div class="gphoto_album" data-gphoto-id="{{ album.id }}" data-geojson="{{ album.geojson | escape}}">
+{% for entry in album.entries %}
   {% capture img %}
     <img src="{{ entry.thumbnails.first.url }}"
          alt="{{ entry.title | escape }}"
          srcset="{{ entry.srcset }}"
          sizes="{{ sizes }}">
   {% endcapture %}
-  <figure>
+  <figure class="gphoto_entry" data-gphoto-id="{{ entry.id }}">
     {% case entry.best.medium %}
     {% when 'image' %}
       {% capture exif %}<i class="fa fa-camera" aria-hidden="true"></i> {{ entry.exif }}{% endcapture %}
       {% if entry.photosphere %}
-        <div class="photosphere" data-url="{{ entry.best.url }}" data-caption="{{ entry.title | escape }}"></div>
+        <div class="photosphere" data-url="{{ entry.best.url }}" data-caption="{{ exif | escape }}"></div>
       {% else %}
         <a href="{{ entry.best.url }}" title="{{ exif | escape }}">{{ img }}</a>
       {% endif %}
@@ -30,15 +36,7 @@
       {% endunless %}{% endif %}
       {{ entry.caption | escape }}
     </figcaption>
-    {% comment %}
-      <small style="max-width: 100%">
-        {% highlight json %}
-          {{ entry | jsonify }}
-        {% endhighlight %}
-        {% highlight json %}
-          {{ entry.raw_debug }}
-        {% endhighlight %}
-      </small>
-    {% endcomment %}
   </figure>
 {% endfor %}
+</div>
+<!-- end gphoto_album.html -->

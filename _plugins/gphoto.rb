@@ -218,7 +218,8 @@ EOS
 
             cover_entry = album_data['entries'].find {|e| e['caption'].include? '#cover'}
 
-            doc.data.deep_merge!({'gphoto_album_data' => album_data})
+            doc.data['gphoto_album_data'] = album_data
+            doc.data['gphoto_album_data_yml'] = YAML.dump album_data
             doc.data['header'] = (doc.data['header'] || {}).dup
             doc.data.deep_merge!({'header' => {'overlay_image' => cover_entry['thumbnails'].last['url']}}) if cover_entry
           end
@@ -239,7 +240,9 @@ EOS
       end
 
       def get_album_data(album, exif_reader, gmaps_client)
-        {'entries' => album.entries.map {|entry|
+        geojson_features = []
+        template_entries = []
+        album.entries.each do |entry|
            contents = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$content')
            best = contents.max_by{|i|i['width']}
 
@@ -249,6 +252,16 @@ EOS
            unless exif_data.empty?
              lat, lng = exif_to_lat_lng(exif_data)
              locality = gmaps_client.reverse_geocode(lat, lng)
+             geojson_features << {
+               'type' => 'Feature',
+               'geometry' => {
+                 'type' => 'Point',
+                 'coordinates' => [lng, lat]
+               },
+               'properties' => {
+                 'id' => entry.id
+               }
+             }
            end
 
            exif_arr = []
@@ -267,17 +280,29 @@ EOS
            stream_id = Picasa::Utils.safe_retrieve(entry.parsed_body, 'gphoto$streamId')&.first&.[]('$t')
            photosphere = ('photosphere' == stream_id)
 
-           {'raw' => entry.parsed_body,
-            'raw_debug' => JSON.pretty_unparse(entry.parsed_body),
-            'best' => content_item(best),
-            'exif' => exif,
-            'thumbnails' => thumbnails,
-            'srcset' => srcset,
-            'title' => entry.media.title,
-            'caption' => entry.media.description,
-            'photosphere' => photosphere,
-            'locality' => locality}
-         }}
+           template_entries << {
+             'id' => entry.id,
+             'best' => content_item(best),
+             'exif' => exif,
+             'thumbnails' => thumbnails,
+             'srcset' => srcset,
+             'title' => entry.media.title,
+             'caption' => entry.media.description,
+             'photosphere' => photosphere,
+             'locality' => locality
+           }
+        end
+        
+        geojson = {
+          'type' => 'FeatureCollection',
+          'features' => geojson_features
+        }
+        
+        return {
+          'id' => album.id,
+          'entries' => template_entries,
+          'geojson' => JSON.unparse(geojson)
+        }
       end
 
       def format_exposure_time(t)
