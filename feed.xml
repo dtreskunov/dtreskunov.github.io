@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-10-26T11:03:51-07:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">Milan - Galleria Vittorio Emanuele II</title><link href="https://dtreskunov.github.io/milan-galleria/" rel="alternate" type="text/html" title="Milan - Galleria Vittorio Emanuele II" /><published>2017-10-24T00:00:00-07:00</published><updated>2017-10-24T00:00:00-07:00</updated><id>https://dtreskunov.github.io/milan-galleria</id><content type="html" xml:base="https://dtreskunov.github.io/milan-galleria/">&lt;p&gt;The &lt;strong&gt;Galleria Vittorio Emanuele II&lt;/strong&gt; is the world’s oldest shopping mall.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-10-26T16:24:40-07:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">Milan - Galleria Vittorio Emanuele II</title><link href="https://dtreskunov.github.io/milan-galleria/" rel="alternate" type="text/html" title="Milan - Galleria Vittorio Emanuele II" /><published>2017-10-24T00:00:00-07:00</published><updated>2017-10-24T00:00:00-07:00</updated><id>https://dtreskunov.github.io/milan-galleria</id><content type="html" xml:base="https://dtreskunov.github.io/milan-galleria/">&lt;p&gt;The &lt;strong&gt;Galleria Vittorio Emanuele II&lt;/strong&gt; is the world’s oldest shopping mall.&lt;/p&gt;
 
 &lt;p&gt;Housed within a four-story double arcade in central Milan,
 the Galleria is named after &lt;a href=&quot;https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy&quot;&gt;Victor Emmanuel II&lt;/a&gt;,
@@ -13,6 +13,7 @@ the first king of the Kingdom of Italy. It was designed in 1861 and built by arc
 id: '6480710145333999457'
 entries:
 - id: '6480710146736193394'
+  geojson_id: '6480710146736193394'
   best:
     url: https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/Rz0IYbMYzSIXZKw7ECAiKmZi1twyeHqfACHMYBhgL/I/PANO_20171012_134421.jpg
     height: 2530
@@ -51,7 +52,7 @@ geojson: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[
 &lt;div class=&quot;gphoto_album&quot; data-gphoto-id=&quot;6480710145333999457&quot; data-geojson=&quot;{&amp;quot;type&amp;quot;:&amp;quot;FeatureCollection&amp;quot;,&amp;quot;features&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[9.189875,45.46550833333333]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480710146736193394&amp;quot;}}]}&quot;&gt;
 
   
-  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480710146736193394&quot;&gt;
+  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480710146736193394&quot; data-geojson-id=&quot;6480710146736193394&quot;&gt;
     
       
       
@@ -83,6 +84,7 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.&lt;/
 id: '6480522913483266113'
 entries:
 - id: '6480555901343214562'
+  geojson_id: '6480555901343214562'
   best:
     url: https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/IuqewQTMd8s9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/I/IMG_20140927_124404.jpg
     height: 2448
@@ -115,6 +117,7 @@ entries:
   photosphere: false
   locality: Seattle, WA
 - id: '6480555364947914162'
+  geojson_id: '6480555364947914162'
   best:
     url: https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/qQoVRCo8oUYGFiTvad8qEkZyaMHxSDCwQCHMYBhgL/I/20150614_110800.jpg
     height: 3120
@@ -147,6 +150,7 @@ entries:
   photosphere: false
   locality: Seattle, WA
 - id: '6480522914587888370'
+  geojson_id: '6480522914587888370'
   best:
     url: https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/NM7Noi-3Rc8RfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/I/IMG_20151204_110418.jpg
     height: 3088
@@ -179,6 +183,7 @@ entries:
   photosphere: false
   locality: Seattle, WA
 - id: '6480522915752660242'
+  geojson_id: '6480522915752660242'
   best:
     url: https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/AUD5oRUtBrQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/I/IMG_20160209_190906.jpg
     height: 4160
@@ -211,6 +216,7 @@ entries:
   photosphere: false
   locality: Seattle, WA
 - id: '6480522914410833746'
+  geojson_id: '6480522914410833746'
   best:
     url: https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/to610M4na_MN_pKmTuheNcANc8vaEfkngCHMYBhgL/I/IMG_20160228_170516.jpg
     height: 3088
@@ -243,6 +249,7 @@ entries:
   photosphere: false
   locality: Seattle, WA
 - id: '6480522915692925330'
+  geojson_id: '6480522915692925330'
   best:
     url: https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/n1yjqMyMnIQ6lU9VIAQmi1hptUArYrgOQCHMYBhgL/I/IMG_20160322_142210.jpg
     height: 3088
@@ -275,6 +282,7 @@ entries:
   photosphere: false
   locality: Seattle, WA
 - id: '6480556224578117954'
+  geojson_id: '6480556224578117954'
   best:
     url: https://lh3.googleusercontent.com/RJRhTeMoYxGYWSS72ATe23gQCSpx6Ra2Y27UYPyysshneSIycLnGnm-umehYgT8tUp85ih8hcWo=m37
     height: 1080
@@ -313,7 +321,7 @@ geojson: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[
 &lt;div class=&quot;gphoto_album&quot; data-gphoto-id=&quot;6480522913483266113&quot; data-geojson=&quot;{&amp;quot;type&amp;quot;:&amp;quot;FeatureCollection&amp;quot;,&amp;quot;features&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35749052777778,47.62147902777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480555901343214562&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.3575113888889,47.62151977777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480555364947914162&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35708055555556,47.621541666666666]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480522914587888370&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35802777777778,47.621583333333334]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480522915752660242&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35761944444444,47.62170833333333]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480522914410833746&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35797777777778,47.621427777777775]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480522915692925330&amp;quot;}}]}&quot;&gt;
 
   
-  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480555901343214562&quot;&gt;
+  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480555901343214562&quot; data-geojson-id=&quot;6480555901343214562&quot;&gt;
     
       
       
@@ -329,7 +337,7 @@ geojson: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[
   &lt;/figure&gt;
 
   
-  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480555364947914162&quot;&gt;
+  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480555364947914162&quot; data-geojson-id=&quot;6480555364947914162&quot;&gt;
     
       
       
@@ -345,7 +353,7 @@ geojson: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[
   &lt;/figure&gt;
 
   
-  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522914587888370&quot;&gt;
+  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522914587888370&quot; data-geojson-id=&quot;6480522914587888370&quot;&gt;
     
       
       
@@ -361,7 +369,7 @@ geojson: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[
   &lt;/figure&gt;
 
   
-  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522915752660242&quot;&gt;
+  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522915752660242&quot; data-geojson-id=&quot;6480522915752660242&quot;&gt;
     
       
       
@@ -377,7 +385,7 @@ geojson: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[
   &lt;/figure&gt;
 
   
-  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522914410833746&quot;&gt;
+  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522914410833746&quot; data-geojson-id=&quot;6480522914410833746&quot;&gt;
     
       
       
@@ -393,7 +401,7 @@ geojson: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[
   &lt;/figure&gt;
 
   
-  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522915692925330&quot;&gt;
+  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522915692925330&quot; data-geojson-id=&quot;6480522915692925330&quot;&gt;
     
       
       
@@ -409,7 +417,7 @@ geojson: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[
   &lt;/figure&gt;
 
   
-  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480556224578117954&quot;&gt;
+  &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480556224578117954&quot; data-geojson-id=&quot;6480556224578117954&quot;&gt;
     
       &lt;video controls=&quot;controls&quot; poster=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4&quot; src=&quot;https://lh3.googleusercontent.com/RJRhTeMoYxGYWSS72ATe23gQCSpx6Ra2Y27UYPyysshneSIycLnGnm-umehYgT8tUp85ih8hcWo=m37&quot; onclick=&quot;if (this.paused) {this.play();} else {this.pause();}&quot;&gt;
         Your browser doesn't support HTML5 video.

@@ -146,26 +146,7 @@
     <script src="https://dtreskunov.github.io/assets/js/mrdoob/three.js/master/examples/js/controls/DeviceOrientationControls.js"></script>
   
 
-    <style media="screen" type="text/css">
-video {
-  width: 100%;
-  height: auto;
-}
-.page__share {
-  border: none !important;
-}
-.photosphere {
-  width: 100%;
-  height: 20em;
-}
-.psv-caption {
-  font-size: smaller;
-}
-.sidebar .google-map {
-  width: 100%;
-  height: 10em;;
-}
-</style>
+    <link rel="stylesheet" href="https://dtreskunov.github.io/assets/css/dtreskunov.github.io.css">
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/photo-sphere-viewer@3.2.3/dist/photo-sphere-viewer.min.css">
 
   </head>
@@ -367,6 +348,7 @@ the first king of the Kingdom of Italy. It was designed in 1861 and built by arc
 id: '6480710145333999457'
 entries:
 - id: '6480710146736193394'
+  geojson_id: '6480710146736193394'
   best:
     url: https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/Rz0IYbMYzSIXZKw7ECAiKmZi1twyeHqfACHMYBhgL/I/PANO_20171012_134421.jpg
     height: 2530
@@ -405,7 +387,7 @@ geojson: '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{
 <div class="gphoto_album" data-gphoto-id="6480710145333999457" data-geojson="{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[{&quot;type&quot;:&quot;Feature&quot;,&quot;geometry&quot;:{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[9.189875,45.46550833333333]},&quot;properties&quot;:{&quot;id&quot;:&quot;6480710146736193394&quot;}}]}">
 
   
-  <figure class="gphoto_entry" data-gphoto-id="6480710146736193394">
+  <figure class="gphoto_entry" data-gphoto-id="6480710146736193394" data-geojson-id="6480710146736193394">
     
       
       
@@ -443,12 +425,17 @@ geojson: '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{
       </footer>
 
       <section class="page__share">
-  <div class="fb-like"
-    data-href="https://dtreskunov.github.io/milan-galleria/"
-    data-layout="standard"
-    data-action="like"
-    data-show-faces="true">
-  </div>
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Milan+-+Galleria+Vittorio+Emanuele+II%20https%3A%2F%2Fdtreskunov.github.io%2Fmilan-galleria%2F" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdtreskunov.github.io%2Fmilan-galleria%2F" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=https%3A%2F%2Fdtreskunov.github.io%2Fmilan-galleria%2F" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdtreskunov.github.io%2Fmilan-galleria%2F" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -470,7 +457,7 @@ geojson: '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{
   
     
         <h4 class="page__comments-title">Leave a Comment</h4>
-        <section class="fb-comments" data-href="https://dtreskunov.github.io/milan-galleria/" data-mobile="true" data-num-posts="5" data-width="100%" data-colorscheme="light"></section>
+        <section id="disqus_thread"></section>
       
 </div>
     
@@ -516,14 +503,14 @@ geojson: '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{
 <!-- end custom footer snippets -->
         <script>
   window.SHOW_MAP = true;
-  window.MAP_OPTIONS = {"mapTypeId":"terrain","maxZoom":16};
+  window.MAP_OPTIONS = {"mapTypeId":"terrain","maxZoom":16,"gestureHandling":"greedy","clickableIcons":false};
 </script>
-<script src="/assets/js/footer.js"></script>
+<script src="/assets/js/dtreskunov.github.io.js"></script>
 <div class="page__footer-copyright">
   &copy; 2017 Denis Treskunov. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
   Updated on 10/26/17.
   
-  Based on commit <a href="https://github.com/dtreskunov/dtreskunov.github.io/commit/08c3ca5f3885dc822a42d83795644ad80f23fd80">08c3ca5</a>.
+  Based on commit <a href="https://github.com/dtreskunov/dtreskunov.github.io/commit/eba02c8eb415e2379267db793184397fa001cd5b">eba02c8</a>.
   
 </div>
 
@@ -536,38 +523,23 @@ geojson: '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{
 
 
 
-
-  <!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '285243261970957');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=285243261970957&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
-
-
-
-
-
   
-      <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1976040759347434";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+      
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://dtreskunov.github.io/milan-galleria/";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "/milan-galleria"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://dtreskunov.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
     
 
 
