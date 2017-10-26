@@ -148,6 +148,9 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /caches
+  - /secrets
+  - /_plugins
 keep_files:
   - .git
   - .svn

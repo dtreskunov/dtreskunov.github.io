@@ -1,6 +1,6 @@
 # Github Pages at User level (not Project level) use the `source` branch, not `gh-pages`
 ENV['BRANCH_NAME'] = 'master'
-ENV['JEKYLL_OPTS'] = '--verbose'
+ENV['JEKYLL_OPTS'] = '--verbose --trace'
 
 task default: 'build'
 

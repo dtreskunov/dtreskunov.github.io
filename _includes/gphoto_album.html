@@ -17,14 +17,19 @@
       {% endif %}
     {% when 'video' %}
       <video controls="controls"
-             src="{{ entry.best.url }}">
+             poster="{{ entry.thumbnails.first.url }}"
+             src="{{ entry.best.url }}"
+             onclick="if (this.paused) {this.play();} else {this.pause();}">
         Your browser doesn't support HTML5 video.
         {{ img }}
       </video>
     {% endcase %}
-    {% if entry.caption != blank %}
-      <figcaption>{{ entry.caption | escape }}</figcaption>
-    {% endif %}
+    <figcaption>
+      {% if entry.locality %}{% unless page.locality %}
+        <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ entry.locality | escape }}
+      {% endunless %}{% endif %}
+      {{ entry.caption | escape }}
+    </figcaption>
     {% comment %}
       <small style="max-width: 100%">
         {% highlight json %}

@@ -62,7 +62,9 @@ module Jekyll
     DEFAULT_CONFIG = {
       'client_secrets_json' => 'secrets/gphoto_client_secrets.json',
       'tokens_yml' => 'secrets/gphoto_tokens.yml',
-      'exif_cache_yml' => 'caches/gphoto_exif.yml'
+      'google_api_key_yml' => 'secrets/google_api_key.yml',
+      'exif_cache_yml' => 'caches/gphoto_exif.yml',
+      'reverse_geocode_cache_yml' => 'caches/gphoto_reverse_geocode.yml',
     }
 
     ERR_EMAIL = "Specify `gphoto.email` in _config.yml"
@@ -91,16 +93,18 @@ EOS
       end
     end
 
-    class ExifReader
-      def initialize(config)
-        config = DEFAULT_CONFIG.merge(config)
-        @filename = config['exif_cache_yml']
+    class Cache
+      def initialize(filename, description, &fetcher)
+        @filename = filename
+        @description = description
+        @fetcher = fetcher
         begin
           FileUtils.mkdir_p File.dirname(@filename)
           @cache = YAML.load_file(@filename)
-          Jekyll.logger.debug 'GPhoto:', "Loaded EXIF cache from `#{@filename}`"
+          raise "YAML.load_file returned false - is the file empty?" unless @cache
+          Jekyll.logger.debug 'GPhoto:', "Loaded #{@description} cache from `#{@filename}`"
         rescue => e
-          Jekyll.logger.debug 'GPhoto:', "Could not load EXIF cache from `#{@filename}` - cache will be empty"
+          Jekyll.logger.debug 'GPhoto:', "Could not load #{@description} cache from `#{@filename}` - cache will be empty"
           @cache = {}
         end
 
@@ -109,20 +113,20 @@ EOS
         end
       end
 
-      def for_url(url)
-        if @cache.include? url
-          Jekyll.logger.debug 'GPhoto:', "Using cached EXIF for image #{url}"
-          exif = @cache[url]
+      def get(key)
+        if @cache.include? key
+          Jekyll.logger.debug 'GPhoto:', "Using cached #{@description} for key #{key}"
+          val = @cache[key]
         else
           begin
-            exif = Exif::Data.new(open(url)).to_h
-            Jekyll.logger.debug 'GPhoto:', "Successfully fetched EXIF for image #{url}"
-            @cache[url] = exif
+            val = @fetcher.call(key)
+            Jekyll.logger.debug 'GPhoto:', "Successfully fetched #{@description} for key #{key}"
+            @cache[key] = val
           rescue => e
-            Jekyll.logger.warn 'GPhoto:', "Error fetching EXIF for image #{url}: #{e}"
+            Jekyll.logger.warn 'GPhoto:', "Error fetching #{@description} for key #{key}: #{e}"
           end
         end
-        exif
+        val
       end
 
       private
@@ -130,7 +134,58 @@ EOS
         open(@filename, 'w') do |file|
           file.write(YAML.dump(@cache))
         end
-        Jekyll.logger.debug 'GPhoto:', "Saved EXIF cache to #{@filename}"
+        Jekyll.logger.debug 'GPhoto:', "Saved #{@description} cache to #{@filename}"
+      end
+    end
+
+    class ExifReader
+      def initialize(config)
+        config = DEFAULT_CONFIG.merge(config)
+        @cache = Cache.new(config['exif_cache_yml'], 'EXIF') do |url|
+          Exif::Data.new(open(url)).to_h
+        end
+      end
+
+      def for_url(url)
+        @cache.get(url)
+      end
+    end
+
+    class GoogleMapsClient
+      include HTTParty
+
+      base_uri 'https://maps.googleapis.com/maps/api'
+      format :json
+
+      def initialize(config)
+        config = DEFAULT_CONFIG.merge(config)
+        api_key_yml = config['google_api_key_yml']
+        begin
+          api_key = YAML.load_file(api_key_yml)
+        rescue => e
+          Jekyll.logger.error 'GPhoto:', "Google API key (required for geocoding) must be provided in `#{api_key_yml}`"
+          raise
+        end
+        self.class.default_params key: api_key
+
+        @reverse_geocode_cache = Cache.new(config['reverse_geocode_cache_yml'], 'reverse geocode') do |lat_lng|
+          response = self.class.get('/geocode/json', {query: {latlng: ("%f,%f" % lat_lng)}})
+          raise "invalid HTTP response code #{response.code}" unless response.code.to_i == 200
+          raise "invalid application response code #{response.body.status}" unless response.parsed_response['status'] == 'OK'
+          response.parsed_response['results']
+        end
+      end
+
+      # returns a human-readable locality, e.g. "Seattle, WA" or "Milan, Lombardy, Italy"
+      def reverse_geocode(lat, lng)
+        # see https://developers.google.com/maps/documentation/geocoding/intro#ReverseGeocoding
+        results = @reverse_geocode_cache.get([lat, lng])
+        ac = results&.first&.[]('address_components')
+        city    = ac&.find{|c| c['types'].include? 'locality'}&.[]('long_name')
+        state   = ac&.find{|c| c['types'].include? 'administrative_area_level_1'}&.[]('short_name')
+        country = ac&.find{|c| c['types'].include? 'country'}&.[]('long_name')
+
+        "#{city}, #{state}#{country == 'United States' ? '' : ', ' + country}" if (city and state and country)
       end
     end
 
@@ -142,6 +197,7 @@ EOS
         config = site.config['gphoto']
         picasa_client = PicasaClient.new(config)
         exif_reader = ExifReader.new(config)
+        gmaps_client = GoogleMapsClient.new(config)
 
         groups = (site.pages + site.posts.docs).group_by {|doc| doc.data['gphoto_album']}.reject {|k, _| k.nil?}
         return if groups.empty?
@@ -155,7 +211,9 @@ EOS
           end
           album = picasa_client.album.show(album_id, imgmax: 'd', thumbsize: '400,800,1600')
           docs.each do |doc|
-            album_data = get_album_data(album, exif_reader)
+            album_data = get_album_data(album, exif_reader, gmaps_client)
+            doc.data['locality'] ||= common_val(album_data['entries'], 'locality')
+
             cover_entry = album_data['entries'].find {|e| e['caption'].include? '#cover'}
 
             doc.data.deep_merge!({'gphoto_album_data' => album_data})
@@ -166,6 +224,11 @@ EOS
       end
 
       private
+      def common_val(hashes, key)
+        set = Set.new(hashes.map{|h| h[key]}.reject(&:nil?))
+        set.size == 1 ? set.first : nil
+      end
+
       def find_album_id(albums, search_str)
         album = albums.find do |album|
           album.title.upcase.gsub(/\W/, '').include? search_str.upcase.gsub(/\W/, '')
@@ -173,17 +236,26 @@ EOS
         album&.id
       end
 
-      def get_album_data(album, exif_reader)
+      def get_album_data(album, exif_reader, gmaps_client)
         {'entries' => album.entries.map {|entry|
            contents = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$content')
            best = contents.max_by{|i|i['width']}
 
-           exif_data = exif_reader.for_url(best['url']) if best['medium'] == 'image'
+           exif_data = best['medium'] == 'image' ?
+                         exif_reader.for_url(best['url']) :
+                         {}
+           unless exif_data.empty?
+             lat, lng = exif_to_lat_lng(exif_data)
+             locality = gmaps_client.reverse_geocode(lat, lng)
+           end
 
-           exif = "#{entry.exif.make} #{entry.exif.model}"
-           exif += " f/#{entry.exif.fstop}" if entry.exif.fstop
-           exif += " 1/#{'%.0f' % (1 / entry.exif.exposure)}" if entry.exif.exposure
-           exif += " ISO#{entry.exif.iso}" if entry.exif.iso
+           exif_arr = []
+           exif_arr << (exif_data.dig :ifd0, :make) if (exif_data.dig :ifd0, :make)
+           exif_arr << (exif_data.dig :ifd0, :model) if (exif_data.dig :ifd0, :model)
+           exif_arr << ("f/%.1f" % (exif_data.dig :exif, :fnumber)) if (exif_data.dig :exif, :fnumber)
+           exif_arr << format_exposure_time(exif_data.dig :exif, :exposure_time) if (exif_data.dig :exif, :exposure_time)
+           exif_arr << ("ISO %s" % (exif_data.dig :exif, :iso_speed_ratings)) if (exif_data.dig :exif, :iso_speed_ratings)
+           exif = exif_arr.join ' '
 
            raw_thumbnails = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$thumbnail')
            thumbnails = raw_thumbnails.map{|i|content_item(i)}.sort_by{|i|i['width']}
@@ -201,8 +273,25 @@ EOS
             'srcset' => srcset,
             'title' => entry.media.title,
             'caption' => entry.media.description,
-            'photosphere' => photosphere}
+            'photosphere' => photosphere,
+            'locality' => locality}
          }}
+      end
+
+      def format_exposure_time(t)
+        t < 1 ?
+          '1/%.0f' % (1/t) :
+          '%.0fs' % t
+      end
+
+      def dms_to_f(deg, min, sec, ref)
+        sign = (ref == 'S' or ref == 'W') ? -1.0 : 1.0
+        sign * (deg + (min / 60) + (sec / 3600))
+      end
+
+      def exif_to_lat_lng(exif)
+        [dms_to_f(*(exif.dig :gps, :gps_latitude), (exif.dig :gps, :gps_latitude_ref)),
+         dms_to_f(*(exif.dig :gps, :gps_longitude), (exif.dig :gps, :gps_longitude_ref))]
       end
 
       def content_item(raw_item)
