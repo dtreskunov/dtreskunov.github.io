@@ -119,6 +119,9 @@
 
   
     
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTzriL8x2ujGJRK80VHxSF-THcHa4tEvE"></script>
+  
+    
     <script src="https://cdn.jsdelivr.net/npm/three@0.87.1/build/three.min.js"></script>
   
     
@@ -157,6 +160,10 @@ video {
 }
 .psv-caption {
   font-size: smaller;
+}
+.sidebar .google-map {
+  width: 100%;
+  height: 10em;;
 }
 </style>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/photo-sphere-viewer@3.2.3/dist/photo-sphere-viewer.min.css">
@@ -357,7 +364,243 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.</p>
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HwV_vpY3wB4?rel=0" frameborder="0" allowfullscreen=""></iframe>
 
-<figure>
+<!-- begin gphoto_album.html -->
+<!-- page.gphoto_album_data:
+---
+id: '6480522913483266113'
+entries:
+- id: '6480555901343214562'
+  best:
+    url: https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/IuqewQTMd8s9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/I/IMG_20140927_124404.jpg
+    height: 2448
+    width: 3264
+    type: image/jpeg
+    medium: image
+  exif: LGE Nexus 4 f/2.7 1/30 ISO 1100
+  thumbnails:
+  - url: https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s400/IMG_20140927_124404.jpg
+    height: 300
+    width: 400
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s800/IMG_20140927_124404.jpg
+    height: 600
+    width: 800
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s1600/IMG_20140927_124404.jpg
+    height: 1200
+    width: 1600
+    type: 
+    medium: 
+  srcset: https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s400/IMG_20140927_124404.jpg
+    400w,https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s800/IMG_20140927_124404.jpg
+    800w,https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s1600/IMG_20140927_124404.jpg
+    1600w
+  title: IMG_20140927_124404.jpg
+  caption: ''
+  photosphere: false
+  locality: Seattle, WA
+- id: '6480555364947914162'
+  best:
+    url: https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/qQoVRCo8oUYGFiTvad8qEkZyaMHxSDCwQCHMYBhgL/I/20150614_110800.jpg
+    height: 3120
+    width: 4160
+    type: image/jpeg
+    medium: image
+  exif: LG Electronics LG-D800 f/2.4 1/20 ISO 100
+  thumbnails:
+  - url: https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s400/20150614_110800.jpg
+    height: 300
+    width: 400
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s800/20150614_110800.jpg
+    height: 600
+    width: 800
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s1600/20150614_110800.jpg
+    height: 1200
+    width: 1600
+    type: 
+    medium: 
+  srcset: https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s400/20150614_110800.jpg
+    400w,https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s800/20150614_110800.jpg
+    800w,https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s1600/20150614_110800.jpg
+    1600w
+  title: 20150614_110800.jpg
+  caption: ''
+  photosphere: false
+  locality: Seattle, WA
+- id: '6480522914587888370'
+  best:
+    url: https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/NM7Noi-3Rc8RfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/I/IMG_20151204_110418.jpg
+    height: 3088
+    width: 4160
+    type: image/jpeg
+    medium: image
+  exif: motorola Nexus 6 f/2.0 1/28 ISO 618
+  thumbnails:
+  - url: https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg
+    height: 297
+    width: 400
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s800/IMG_20151204_110418.jpg
+    height: 594
+    width: 800
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s1600/IMG_20151204_110418.jpg
+    height: 1188
+    width: 1600
+    type: 
+    medium: 
+  srcset: https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg
+    400w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s800/IMG_20151204_110418.jpg
+    800w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s1600/IMG_20151204_110418.jpg
+    1600w
+  title: IMG_20151204_110418.jpg
+  caption: ''
+  photosphere: false
+  locality: Seattle, WA
+- id: '6480522915752660242'
+  best:
+    url: https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/AUD5oRUtBrQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/I/IMG_20160209_190906.jpg
+    height: 4160
+    width: 3088
+    type: image/jpeg
+    medium: image
+  exif: motorola Nexus 6 f/2.0 1/19 ISO 884
+  thumbnails:
+  - url: https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg
+    height: 400
+    width: 297
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s800/IMG_20160209_190906.jpg
+    height: 800
+    width: 594
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s1600/IMG_20160209_190906.jpg
+    height: 1600
+    width: 1188
+    type: 
+    medium: 
+  srcset: https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg
+    297w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s800/IMG_20160209_190906.jpg
+    594w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s1600/IMG_20160209_190906.jpg
+    1188w
+  title: IMG_20160209_190906.jpg
+  caption: ''
+  photosphere: false
+  locality: Seattle, WA
+- id: '6480522914410833746'
+  best:
+    url: https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/to610M4na_MN_pKmTuheNcANc8vaEfkngCHMYBhgL/I/IMG_20160228_170516.jpg
+    height: 3088
+    width: 4160
+    type: image/jpeg
+    medium: image
+  exif: motorola Nexus 6 f/2.0 1/127 ISO 40
+  thumbnails:
+  - url: https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg
+    height: 297
+    width: 400
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s800/IMG_20160228_170516.jpg
+    height: 594
+    width: 800
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s1600/IMG_20160228_170516.jpg
+    height: 1188
+    width: 1600
+    type: 
+    medium: 
+  srcset: https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg
+    400w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s800/IMG_20160228_170516.jpg
+    800w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s1600/IMG_20160228_170516.jpg
+    1600w
+  title: IMG_20160228_170516.jpg
+  caption: "#cover"
+  photosphere: false
+  locality: Seattle, WA
+- id: '6480522915692925330'
+  best:
+    url: https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/n1yjqMyMnIQ6lU9VIAQmi1hptUArYrgOQCHMYBhgL/I/IMG_20160322_142210.jpg
+    height: 3088
+    width: 4160
+    type: image/jpeg
+    medium: image
+  exif: motorola Nexus 6 f/2.0 1/86 ISO 224
+  thumbnails:
+  - url: https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg
+    height: 297
+    width: 400
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s800/IMG_20160322_142210.jpg
+    height: 594
+    width: 800
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s1600/IMG_20160322_142210.jpg
+    height: 1188
+    width: 1600
+    type: 
+    medium: 
+  srcset: https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg
+    400w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s800/IMG_20160322_142210.jpg
+    800w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s1600/IMG_20160322_142210.jpg
+    1600w
+  title: IMG_20160322_142210.jpg
+  caption: ''
+  photosphere: false
+  locality: Seattle, WA
+- id: '6480556224578117954'
+  best:
+    url: https://lh3.googleusercontent.com/RJRhTeMoYxGYWSS72ATe23gQCSpx6Ra2Y27UYPyysshneSIycLnGnm-umehYgT8tUp85ih8hcWo=m37
+    height: 1080
+    width: 1920
+    type: video/mpeg4
+    medium: video
+  exif: ''
+  thumbnails:
+  - url: https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4
+    height: 225
+    width: 400
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s800/VID_20160604_125922.mp4
+    height: 450
+    width: 800
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s1600/VID_20160604_125922.mp4
+    height: 480
+    width: 854
+    type: 
+    medium: 
+  srcset: https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4
+    400w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s800/VID_20160604_125922.mp4
+    800w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s1600/VID_20160604_125922.mp4
+    854w
+  title: VID_20160604_125922.mp4
+  caption: ''
+  photosphere: false
+  locality: 
+geojson: '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.35749052777778,47.62147902777778]},"properties":{"id":"6480555901343214562"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.3575113888889,47.62151977777778]},"properties":{"id":"6480555364947914162"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.35708055555556,47.621541666666666]},"properties":{"id":"6480522914587888370"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.35802777777778,47.621583333333334]},"properties":{"id":"6480522915752660242"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.35761944444444,47.62170833333333]},"properties":{"id":"6480522914410833746"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[-122.35797777777778,47.621427777777775]},"properties":{"id":"6480522915692925330"}}]}'
+
+-->
+
+<div class="gphoto_album" data-gphoto-id="6480522913483266113" data-geojson="{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[{&quot;type&quot;:&quot;Feature&quot;,&quot;geometry&quot;:{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-122.35749052777778,47.62147902777778]},&quot;properties&quot;:{&quot;id&quot;:&quot;6480555901343214562&quot;}},{&quot;type&quot;:&quot;Feature&quot;,&quot;geometry&quot;:{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-122.3575113888889,47.62151977777778]},&quot;properties&quot;:{&quot;id&quot;:&quot;6480555364947914162&quot;}},{&quot;type&quot;:&quot;Feature&quot;,&quot;geometry&quot;:{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-122.35708055555556,47.621541666666666]},&quot;properties&quot;:{&quot;id&quot;:&quot;6480522914587888370&quot;}},{&quot;type&quot;:&quot;Feature&quot;,&quot;geometry&quot;:{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-122.35802777777778,47.621583333333334]},&quot;properties&quot;:{&quot;id&quot;:&quot;6480522915752660242&quot;}},{&quot;type&quot;:&quot;Feature&quot;,&quot;geometry&quot;:{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-122.35761944444444,47.62170833333333]},&quot;properties&quot;:{&quot;id&quot;:&quot;6480522914410833746&quot;}},{&quot;type&quot;:&quot;Feature&quot;,&quot;geometry&quot;:{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[-122.35797777777778,47.621427777777775]},&quot;properties&quot;:{&quot;id&quot;:&quot;6480522915692925330&quot;}}]}">
+
+  
+  <figure class="gphoto_entry" data-gphoto-id="6480555901343214562">
     
       
       
@@ -370,10 +613,10 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.</p>
       
       
     </figcaption>
-    
   </figure>
 
-<figure>
+  
+  <figure class="gphoto_entry" data-gphoto-id="6480555364947914162">
     
       
       
@@ -386,10 +629,10 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.</p>
       
       
     </figcaption>
-    
   </figure>
 
-<figure>
+  
+  <figure class="gphoto_entry" data-gphoto-id="6480522914587888370">
     
       
       
@@ -402,10 +645,10 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.</p>
       
       
     </figcaption>
-    
   </figure>
 
-<figure>
+  
+  <figure class="gphoto_entry" data-gphoto-id="6480522915752660242">
     
       
       
@@ -418,10 +661,10 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.</p>
       
       
     </figcaption>
-    
   </figure>
 
-<figure>
+  
+  <figure class="gphoto_entry" data-gphoto-id="6480522914410833746">
     
       
       
@@ -434,10 +677,10 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.</p>
       
       #cover
     </figcaption>
-    
   </figure>
 
-<figure>
+  
+  <figure class="gphoto_entry" data-gphoto-id="6480522915692925330">
     
       
       
@@ -450,10 +693,10 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.</p>
       
       
     </figcaption>
-    
   </figure>
 
-<figure>
+  
+  <figure class="gphoto_entry" data-gphoto-id="6480556224578117954">
     
       <video controls="controls" poster="https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4" src="https://lh3.googleusercontent.com/RJRhTeMoYxGYWSS72ATe23gQCSpx6Ra2Y27UYPyysshneSIycLnGnm-umehYgT8tUp85ih8hcWo=m37" onclick="if (this.paused) {this.play();} else {this.pause();}">
         Your browser doesn't support HTML5 video.
@@ -466,8 +709,10 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.</p>
       
       
     </figcaption>
-    
   </figure>
+
+</div>
+<!-- end gphoto_album.html -->
 
 
         
@@ -582,26 +827,15 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.</p>
 
 <!-- end custom footer snippets -->
         <script>
-  var corsProxy = 'https://dtreskunov-cors-anywhere.herokuapp.com';
-  // var corsProxy = 'https://cors-anywhere.herokuapp.com';
-  var containers = document.getElementsByClassName('photosphere');
-  for (var i = 0; i < containers.length; i++) {
-    var container = containers[i];
-    var viewer = PhotoSphereViewer({
-      container: container,
-      panorama: corsProxy + '/' + container.dataset.url,
-      caption: container.dataset.caption,
-      gyroscope: true
-    });
-    viewer.getNavbarButton('markers').hide();
-  };
+  window.SHOW_MAP = false;
+  window.MAP_OPTIONS = {"mapTypeId":"terrain","maxZoom":16};
 </script>
-
+<script src="/assets/js/footer.js"></script>
 <div class="page__footer-copyright">
   &copy; 2017 Denis Treskunov. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
-  Updated on 10/25/17.
+  Updated on 10/26/17.
   
-  Based on commit <a href="https://github.com/dtreskunov/dtreskunov.github.io/commit/8d38b6e9bea12b87e764dd91a21ad2ff13dcd1a3">8d38b6e</a>.
+  Based on commit <a href="https://github.com/dtreskunov/dtreskunov.github.io/commit/08c3ca5f3885dc822a42d83795644ad80f23fd80">08c3ca5</a>.
   
 </div>
 

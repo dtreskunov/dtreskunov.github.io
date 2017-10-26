@@ -119,6 +119,9 @@
 
   
     
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTzriL8x2ujGJRK80VHxSF-THcHa4tEvE"></script>
+  
+    
     <script src="https://cdn.jsdelivr.net/npm/three@0.87.1/build/three.min.js"></script>
   
     
@@ -157,6 +160,10 @@ video {
 }
 .psv-caption {
   font-size: smaller;
+}
+.sidebar .google-map {
+  width: 100%;
+  height: 10em;;
 }
 </style>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/photo-sphere-viewer@3.2.3/dist/photo-sphere-viewer.min.css">
@@ -354,19 +361,65 @@ the first king of the Kingdom of Italy. It was designed in 1861 and built by arc
 
 <p>Click <a href="https://en.wikipedia.org/wiki/Galleria_Vittorio_Emanuele_II">here</a> to read more about it.</p>
 
-<figure>
+<!-- begin gphoto_album.html -->
+<!-- page.gphoto_album_data:
+---
+id: '6480710145333999457'
+entries:
+- id: '6480710146736193394'
+  best:
+    url: https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/Rz0IYbMYzSIXZKw7ECAiKmZi1twyeHqfACHMYBhgL/I/PANO_20171012_134421.jpg
+    height: 2530
+    width: 5876
+    type: image/jpeg
+    medium: image
+  exif: Google Pixel XL
+  thumbnails:
+  - url: https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s400/PANO_20171012_134421.jpg
+    height: 173
+    width: 400
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s800/PANO_20171012_134421.jpg
+    height: 345
+    width: 800
+    type: 
+    medium: 
+  - url: https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s1600/PANO_20171012_134421.jpg
+    height: 689
+    width: 1600
+    type: 
+    medium: 
+  srcset: https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s400/PANO_20171012_134421.jpg
+    400w,https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s800/PANO_20171012_134421.jpg
+    800w,https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s1600/PANO_20171012_134421.jpg
+    1600w
+  title: PANO_20171012_134421.jpg
+  caption: "#cover"
+  photosphere: true
+  locality: Milano, Lombardia, Italy
+geojson: '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[9.189875,45.46550833333333]},"properties":{"id":"6480710146736193394"}}]}'
+
+-->
+
+<div class="gphoto_album" data-gphoto-id="6480710145333999457" data-geojson="{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:[{&quot;type&quot;:&quot;Feature&quot;,&quot;geometry&quot;:{&quot;type&quot;:&quot;Point&quot;,&quot;coordinates&quot;:[9.189875,45.46550833333333]},&quot;properties&quot;:{&quot;id&quot;:&quot;6480710146736193394&quot;}}]}">
+
+  
+  <figure class="gphoto_entry" data-gphoto-id="6480710146736193394">
     
       
       
-        <div class="photosphere" data-url="https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/Rz0IYbMYzSIXZKw7ECAiKmZi1twyeHqfACHMYBhgL/I/PANO_20171012_134421.jpg" data-caption="PANO_20171012_134421.jpg"></div>
+        <div class="photosphere" data-url="https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/Rz0IYbMYzSIXZKw7ECAiKmZi1twyeHqfACHMYBhgL/I/PANO_20171012_134421.jpg" data-caption="&lt;i class=&quot;fa fa-camera&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Google Pixel XL"></div>
       
     
     <figcaption>
       
       #cover
     </figcaption>
-    
   </figure>
+
+</div>
+<!-- end gphoto_album.html -->
 
 
         
@@ -462,26 +515,15 @@ the first king of the Kingdom of Italy. It was designed in 1861 and built by arc
 
 <!-- end custom footer snippets -->
         <script>
-  var corsProxy = 'https://dtreskunov-cors-anywhere.herokuapp.com';
-  // var corsProxy = 'https://cors-anywhere.herokuapp.com';
-  var containers = document.getElementsByClassName('photosphere');
-  for (var i = 0; i < containers.length; i++) {
-    var container = containers[i];
-    var viewer = PhotoSphereViewer({
-      container: container,
-      panorama: corsProxy + '/' + container.dataset.url,
-      caption: container.dataset.caption,
-      gyroscope: true
-    });
-    viewer.getNavbarButton('markers').hide();
-  };
+  window.SHOW_MAP = true;
+  window.MAP_OPTIONS = {"mapTypeId":"terrain","maxZoom":16};
 </script>
-
+<script src="/assets/js/footer.js"></script>
 <div class="page__footer-copyright">
   &copy; 2017 Denis Treskunov. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
-  Updated on 10/25/17.
+  Updated on 10/26/17.
   
-  Based on commit <a href="https://github.com/dtreskunov/dtreskunov.github.io/commit/8d38b6e9bea12b87e764dd91a21ad2ff13dcd1a3">8d38b6e</a>.
+  Based on commit <a href="https://github.com/dtreskunov/dtreskunov.github.io/commit/08c3ca5f3885dc822a42d83795644ad80f23fd80">08c3ca5</a>.
   
 </div>
 
