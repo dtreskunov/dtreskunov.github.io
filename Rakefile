@@ -85,6 +85,8 @@ task :deploy => [:build] do
   end
 end
 
+require 'httparty'
+
 class FacebookClient
   include HTTParty
   base_uri 'https://graph.facebook.com'
@@ -116,7 +118,7 @@ task :post_to_facebook do
                     .lines
                     .map(&:split)
                     .select {|status, name| status=='A' and name =~ /\.html$/}
-                    .map {|status, name| File.join(base_url, name}
+                    .map {|status, name| File.join(base_url, name)}
     unless added_urls.empty?
       post = {
         link: added_urls[0],
@@ -125,5 +127,6 @@ task :post_to_facebook do
       puts "Posting the following to Facebook Page #{page_id}: #{post}"
       id = FacebookClient.post_to_page(page_id, access_token, post)
       puts "Success! Post id returned was #{id}"
+    end
   end
 end
