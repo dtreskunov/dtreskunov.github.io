@@ -84,3 +84,49 @@ task :deploy => [:build] do
     sh "git push #{remote_name} #{branch_name}"
   end
 end
+
+require 'httparty'
+
+class FacebookClient
+  include HTTParty
+  base_uri 'https://graph.facebook.com'
+  format :json
+
+  def self.post_to_page(page_id, page_access_token, body)
+    opts = {
+      headers: {'Authorization' => 'Bearer ' + page_access_token},
+      body: body
+    }
+    response = post("/#{page_id}/feed", opts)
+    raise "Got an unsuccessful HTTP code #{response.code} from Facebook: #{response.body}" if response.code.to_i >= 400
+    response.parsed_response['id']
+  end
+end
+
+desc "Maybe post a link to Facebook if a new page was created on the site"
+task :post_to_facebook do
+  page_id = ENV['FB_PAGE_ID']
+  access_token = ENV['FB_PAGE_ACCESS_TOKEN']
+  if page_id.nil? or access_token.nil?
+    puts "Environment variables FB_PAGE_ID and FB_PAGE_ACCESS_TOKEN must be specified"
+    return
+  end
+
+  cd BUILD_DIR do
+    base_url = YAML.load_file(File.join(PROJECT_ROOT, '_config.yml'))['url']
+    added_urls = `git diff-tree --no-commit-id --name-status -r HEAD~1..HEAD`
+                    .lines
+                    .map(&:split)
+                    .select {|status, name| status=='A' and name =~ /\.html$/}
+                    .map {|status, name| File.join(base_url, name).sub(/\/index.html/i, '')}
+    unless added_urls.empty?
+      post = {
+        link: added_urls[0],
+        message: added_urls[1..-1].join("\n")
+      }
+      puts "Posting the following to Facebook Page #{page_id}: #{post}"
+      id = FacebookClient.post_to_page(page_id, access_token, post)
+      puts "Success! Post id returned was #{id}"
+    end
+  end
+end
