@@ -251,17 +251,19 @@ EOS
                          {}
            unless exif_data.empty?
              lat, lng = exif_to_lat_lng(exif_data)
-             locality = gmaps_client.reverse_geocode(lat, lng)
-             geojson_features << {
-               'type' => 'Feature',
-               'geometry' => {
-                 'type' => 'Point',
-                 'coordinates' => [lng, lat]
-               },
-               'properties' => {
-                 'id' => entry.id
+             unless lat.nil? or lng.nil?
+               locality = gmaps_client.reverse_geocode(lat, lng)
+               geojson_features << {
+                 'type' => 'Feature',
+                 'geometry' => {
+                   'type' => 'Point',
+                   'coordinates' => [lng, lat]
+                 },
+                 'properties' => {
+                   'id' => entry.id
+                 }
                }
-             }
+             end
            end
 
            exif_arr = []
@@ -318,8 +320,12 @@ EOS
       end
 
       def exif_to_lat_lng(exif)
-        [dms_to_f(*(exif.dig :gps, :gps_latitude), (exif.dig :gps, :gps_latitude_ref)),
-         dms_to_f(*(exif.dig :gps, :gps_longitude), (exif.dig :gps, :gps_longitude_ref))]
+        if exif[:gps].empty?
+          nil
+        else
+          [dms_to_f(*(exif.dig :gps, :gps_latitude), (exif.dig :gps, :gps_latitude_ref)),
+           dms_to_f(*(exif.dig :gps, :gps_longitude), (exif.dig :gps, :gps_longitude_ref))]
+        end
       end
 
       def content_item(raw_item)
