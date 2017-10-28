@@ -4,7 +4,7 @@
 -->
 {% assign album = page.gphoto_album_data %}
 {% assign sizes = "(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px" %}
-<div class="gphoto_album" data-gphoto-id="{{ album.id }}" data-geojson="{{ album.geojson | escape}}">
+<div class="gphoto_album" data-gphoto-id="{{ album.id }}" data-geo-json="{{ album.geo_json | escape}}">
 {% for entry in album.entries %}
   {% capture img %}
     <img src="{{ entry.thumbnails.first.url }}"
@@ -12,7 +12,7 @@
          srcset="{{ entry.srcset }}"
          sizes="{{ sizes }}">
   {% endcapture %}
-  <figure class="gphoto_entry" data-gphoto-id="{{ entry.id }}" data-geojson-id="{{ entry.geojson_id }}">
+  <figure class="gphoto_entry" data-gphoto-id="{{ entry.id }}" data-geo-json-id="{{ entry.geo_json_id }}">
     {% case entry.best.medium %}
     {% when 'image' %}
       {% capture exif %}<i class="fa fa-camera" aria-hidden="true"></i> {{ entry.exif }}{% endcapture %}

@@ -211,7 +211,7 @@ EOS
             Jekyll.logger.warn 'GPhoto:', "album matching `#{album_search_str}` not found"
             next
           end
-          album = picasa_client.album.show(album_id, imgmax: 'd', thumbsize: '400,800,1600')
+          album = picasa_client.album.show(album_id, imgmax: 'd', thumbsize: '100c,400,800,1600')
           docs.each do |doc|
             album_data = get_album_data(album, exif_reader, gmaps_client)
             doc.data['locality'] ||= common_val(album_data['entries'], 'locality')
@@ -240,9 +240,13 @@ EOS
       end
 
       def get_album_data(album, exif_reader, gmaps_client)
-        geojson_features = []
+        geo_json_features = []
         template_entries = []
         album.entries.each do |entry|
+           raw_thumbnails = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$thumbnail')
+           thumbnails = raw_thumbnails[1..-1].map{|i|content_item(i)}.sort_by{|i|i['width']}
+           icon = content_item raw_thumbnails[0]
+
            contents = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$content')
            best = contents.max_by{|i|i['width']}
 
@@ -253,14 +257,15 @@ EOS
              lat, lng = exif_to_lat_lng(exif_data)
              unless lat.nil? or lng.nil?
                locality = gmaps_client.reverse_geocode(lat, lng)
-               geojson_features << {
+               geo_json_features << {
                  'type' => 'Feature',
                  'geometry' => {
                    'type' => 'Point',
                    'coordinates' => [lng, lat]
                  },
                  'properties' => {
-                   'id' => entry.id
+                   'id' => entry.id,
+                   'icon' => icon['url']
                  }
                }
              end
@@ -274,9 +279,6 @@ EOS
            exif_arr << ("ISO %s" % (exif_data.dig :exif, :iso_speed_ratings)) if (exif_data.dig :exif, :iso_speed_ratings)
            exif = exif_arr.join ' '
 
-           raw_thumbnails = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$thumbnail')
-           thumbnails = raw_thumbnails.map{|i|content_item(i)}.sort_by{|i|i['width']}
-
            srcset = thumbnails.map{|t| "#{t['url']} #{t['width']}w"}.join(',')
 
            stream_id = Picasa::Utils.safe_retrieve(entry.parsed_body, 'gphoto$streamId')&.first&.[]('$t')
@@ -284,7 +286,7 @@ EOS
 
            template_entries << {
              'id' => entry.id,
-             'geojson_id' => entry.id,
+             'geo_json_id' => entry.id,
              'best' => content_item(best),
              'exif' => exif,
              'thumbnails' => thumbnails,
@@ -296,15 +298,15 @@ EOS
            }
         end
         
-        geojson = {
+        geo_json = {
           'type' => 'FeatureCollection',
-          'features' => geojson_features
+          'features' => geo_json_features
         }
         
         return {
           'id' => album.id,
           'entries' => template_entries,
-          'geojson' => JSON.unparse(geojson)
+          'geo_json' => JSON.unparse(geo_json)
         }
       end
 
