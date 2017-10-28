@@ -16,10 +16,13 @@
   });
 
   window.addEventListener('load', function setupGeoJsons() {
+    var ICON_INACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png';
+    var ICON_ACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png';
+
     if (window.SHOW_MAP !== undefined && !window.SHOW_MAP) {
       return;
     }
-    var annotatedElements = $('[data-geojson]');
+    var annotatedElements = $('[data-geo-json]');
     if (annotatedElements.length === 0) {
       return;
     }
@@ -34,7 +37,7 @@
     var map = new google.maps.Map(container[0], mapOptions);
 
     annotatedElements.each(function() {
-      var geoJson = JSON.parse(this.dataset.geojson);
+      var geoJson = JSON.parse(this.dataset.geoJson);
       var bounds = new google.maps.LatLngBounds();
       $.each(geoJson.features, function(i, feature) {
         var cs = feature.geometry.coordinates;
@@ -50,36 +53,68 @@
         }
       });
       map.data.setStyle(function(feature) {
-        return {
-          icon: feature.getProperty('icon') || 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png',
-        };
+        return {icon: feature.getProperty('active') ? ICON_ACTIVE : ICON_INACTIVE}
       });
-      features = map.data.addGeoJson(geoJson, {idPropertyName: 'id'});
+      map.data.addGeoJson(geoJson, {idPropertyName: 'id'});
       map.fitBounds(bounds);
     });
 
-    $('[data-geojson-id]').on('mouseover', function() {
-      var feature = map.data.getFeatureById(this.dataset.geojsonId);
-      if (feature !== undefined) {
-        map.data.revertStyle(feature);
-        map.data.overrideStyle(feature, {
-          icon: 'https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png',
-          zIndex: 1000,
-        });
+    $('[data-geo-json-id]').on('mouseover', function() {
+      var feature = map.data.getFeatureById(this.dataset.geoJsonId);
+      if (feature) {
+        var geometry = feature.getGeometry();
+        if (geometry.getType() === 'Point') {
+          map.panTo(geometry.get());
+        }
+        feature.setProperty('active', true);
       }
     }).on('mouseout', function() {
-      var feature = map.data.getFeatureById(this.dataset.geojsonId);
-      if (feature !== undefined) {
-        map.data.revertStyle(feature);
+      var feature = map.data.getFeatureById(this.dataset.geoJsonId);
+      if (feature) {
+        feature.setProperty('active', false);
+      }
+    }).on('click', function() {
+      var feature = map.data.getFeatureById(this.dataset.geoJsonId);
+      if (feature) {
+        openFeaturePopup(feature);
       }
     });
 
+    var infoWindow = new google.maps.InfoWindow();
+    map.addListener('click', function() {
+      infoWindow.close();
+    });
     map.data.addListener('click', function(event) {
-      var id = event.feature.getId();
-      if (id !== undefined) {
-        $.smoothScroll({scrollTarget: $('[data-geojson-id="' + id + '"]')});
+      var feature = event.feature;
+      if (feature) {
+        openFeaturePopup(feature);
       }
     });
+
+    function openFeaturePopup(feature) {
+      var icon = feature.getProperty('icon');
+      if (!icon) {
+        return;
+      }
+      var id = feature.getId();
+      var position = feature.getGeometry().getType() === 'Point' ? feature.getGeometry().get() : map.getCenter();
+      var img = $('<img class="google-map__icon">').attr('src', icon).on('click', function() {
+        var referencedElement = $('[data-geo-json-id="' + id + '"]');
+        if (!referencedElement) {
+          return;
+        }
+        if (referencedElement.is('a')) {
+          referencedElement.trigger('click');
+        } else if (referencedElement.find('a').length > 0) {
+          referencedElement.find('a').first().trigger('click');
+        } else {
+          $.magnificPopup.open({items: [{src: referencedElement.html(), type: 'inline'}]});
+        }
+      });
+      infoWindow.setContent(img[0]);
+      infoWindow.setPosition(position);
+      infoWindow.open(map);
+    }
   });
 
 }());
