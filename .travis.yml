@@ -12,6 +12,7 @@ env:
   global:
   - secure: "go/MW1DCyhi4GEJlcjLi192ZVJk2vw5hovyAnGSZ7mVOkKsjokz51tsFXrkKhzr/yoJc/yWifcT6j48fSRItlVFZnA4RTvzXP+h5luG1MVnzRVGA2LAuc/0Jlba7xnhQTBkjKVGDfyHVh2Q/JblBuIXsPTtsPMxxJyxTGS7QUoqbHMtD8a89v4iYBD5uSG5djD/17qx0E6CPFa/nFVe13xrIizzdeJx8rCLRDUljMkzVeJ8/Objd0XMlG45k51dwu5GJM78UOX+fAf7BAuoD8LQ8j0VdtMDi8LstAUHr4x6IyGVjqeWBkCmtYCiprEGXlyD5tnEKpaoeQUuYpkAbd2zvPwsmd433fcmORPcAF24C98z8Pu7zaor7PX9yH/y3r/5/q7+mFHA3c1dkkm3LNdErdAaGcJ7vHHGh8E+3m7QjdFVHbuFhDrwVTH60uZz1JluZCTJHFTzLwSzblSTodZ6kEs8sEOZQBolT4UQJhPZHGHxSmBZYicF87/i5zhZMGEQhyAJMnx6FexL7AtoIbN13wWtTK3lGHUFHivOIfYK9CT3lVLxclhUr/XouSVu107Ojpr/E9X4PoA+b2vUz5aBXNs2hhnldkuqpQNHJ8G6tmCNGWXtOjiZvVUIjDo5ci+QUJ3tgR6y+eDRxqUzDj2rZjASm3kW6RuAePnSP06g=" # FB_PAGE_ACCESS_TOKEN
   - FB_PAGE_ID: 290739048095510
+  - CORS_PROXY: https://dtreskunov-cors-anywhere.herokuapp.com
 
 before_install:
 - sudo apt-get install -y libexif-dev

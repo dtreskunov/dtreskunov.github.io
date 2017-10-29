@@ -1,17 +1,26 @@
 (function() {
 
-  //var CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
-  var CORS_PROXY = 'https://dtreskunov-cors-anywhere.herokuapp.com';
+  function getCorsUrl(url) {
+    var proxy = window.CORS_PROXY || 'https://cors-anywhere.herokuapp.com';
+    return proxy + '/' + url;
+  }
 
-  window.addEventListener('load', function setupPhotospheres() {
-    $('.photosphere').each(function() {
-      var viewer = PhotoSphereViewer({
-        container: this,
-        panorama: CORS_PROXY + '/' + this.dataset.url,
-        caption: this.dataset.caption,
-        gyroscope: true
+  window.addEventListener('load', function setupPhotoSpheres() {
+    function setupPhotoSphere(container) {
+      $container = $(container);
+      $container.one('click', function() {
+        $container.empty();
+        var viewer = PhotoSphereViewer({
+          container: $container[0],
+          panorama: getCorsUrl($container.attr('data-url')),
+          caption: $container.attr('data-caption'),
+          gyroscope: true
+        });
+        viewer.getNavbarButton('markers').hide();
       });
-      viewer.getNavbarButton('markers').hide();
+    }
+    $('.photosphere').each(function() {
+      setupPhotoSphere(this);
     });
   });
 
@@ -59,7 +68,7 @@
       map.fitBounds(bounds);
     });
 
-    $('[data-geo-json-id]').on('mouseover', function() {
+    $('[data-geo-json-id]').on('mouseover click', function() {
       var feature = map.data.getFeatureById(this.dataset.geoJsonId);
       if (feature) {
         var geometry = feature.getGeometry();
@@ -72,11 +81,6 @@
       var feature = map.data.getFeatureById(this.dataset.geoJsonId);
       if (feature) {
         feature.setProperty('active', false);
-      }
-    }).on('click', function() {
-      var feature = map.data.getFeatureById(this.dataset.geoJsonId);
-      if (feature) {
-        openFeaturePopup(feature);
       }
     });
 
@@ -98,23 +102,37 @@
       }
       var id = feature.getId();
       var position = feature.getGeometry().getType() === 'Point' ? feature.getGeometry().get() : map.getCenter();
-      var img = $('<img class="google-map__icon">').attr('src', icon).on('click', function() {
-        var referencedElement = $('[data-geo-json-id="' + id + '"]');
-        if (!referencedElement) {
+      var $img = $('<img class="google-map__icon">').attr('src', icon).on('click', function() {
+        var $referencedElement = $('[data-geo-json-id="' + id + '"]');
+        if (!$referencedElement) {
           return;
         }
-        if (referencedElement.is('a')) {
-          referencedElement.trigger('click');
-        } else if (referencedElement.find('a').length > 0) {
-          referencedElement.find('a').first().trigger('click');
+        if ($referencedElement.is('a')) {
+          $referencedElement.trigger('click');
+        } else if ($referencedElement.find('a').length > 0) {
+          $referencedElement.find('a').first().trigger('click');
         } else {
-          $.magnificPopup.open({items: [{src: referencedElement.html(), type: 'inline'}]});
+          $(document).fullScreen(false);
+          $.smoothScroll({scrollTarget: $referencedElement});
         }
       });
-      infoWindow.setContent(img[0]);
+      infoWindow.setContent($img[0]);
       infoWindow.setPosition(position);
       infoWindow.open(map);
     }
+  });
+
+  window.addEventListener('load', function configureExternalLinks() {
+    var urlRegExp = /https?:\/\/(.*?)(\/|$)/i;
+    $('a[href]').each(function() {
+      var match = urlRegExp.exec(this.href);
+      if (match) {
+        var host = match[1];
+        if (host !== window.location.host) {
+          $(this).attr('target', '_blank').attr('title', host);
+        }
+      }
+    });
   });
 
 }());

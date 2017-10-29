@@ -17,7 +17,10 @@
     {% when 'image' %}
       {% capture exif %}<i class="fa fa-camera" aria-hidden="true"></i> {{ entry.exif }}{% endcapture %}
       {% if entry.photosphere %}
-        <div class="photosphere" data-url="{{ entry.best.url }}" data-caption="{{ exif | escape }}"></div>
+        <div class="photosphere" data-url="{{ entry.best.url }}" data-caption="{{ exif | escape }}">
+          {{ img }}
+          <div class="overlay"></div>
+        </div>
       {% else %}
         <a href="{{ entry.best.url }}" title="{{ exif | escape }}">{{ img }}</a>
       {% endif %}

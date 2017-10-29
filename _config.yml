@@ -97,7 +97,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "denis.treskunov"
+  facebook         : pg/the.real.denis/posts
   foursquare       :
   github           : "dtreskunov"
   gitlab           :
@@ -266,12 +266,17 @@ defaults:
         mapTypeId: terrain
         maxZoom: 16
         gestureHandling: greedy
-        clickableIcons: false
+        clickableIcons: true
 
 gphoto:
   email: denis.treskunov@gmail.com
 
-head_scripts:
+#head_scripts:
+
+footer_scripts:
+- /assets/js/main.min.js
+- /assets/js/dtreskunov.github.io.js
+- https://cdn.jsdelivr.net/npm/jquery-fullscreen-plugin@1.0.0/jquery.fullscreen-min.min.js
 - https://maps.googleapis.com/maps/api/js?key=AIzaSyBTzriL8x2ujGJRK80VHxSF-THcHa4tEvE
 - https://cdn.jsdelivr.net/npm/three@0.87.1/build/three.min.js
 - https://cdn.jsdelivr.net/npm/d.js@0.7.5/lib/D.min.js
