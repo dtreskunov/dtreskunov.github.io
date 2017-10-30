@@ -275,7 +275,8 @@ EOS
           icon = content_item raw_thumbnails[0]
 
           contents = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$content')
-          best = contents.max_by{|i|i['width']}
+          videos = contents.select{|i|i['medium']=='video'}
+          best = videos.max_by{|i|i['width']} || contents.max_by{|i|i['width']}
 
           exif_data = best['medium'] == 'image' ?
                         exif_reader.for_url(best['url']) :
