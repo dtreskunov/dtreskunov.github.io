@@ -194,6 +194,7 @@ EOS
     class Generator < ::Jekyll::Generator
       PHOTO_REGEX = /\.(jpg|jpeg|gif|png)$/i
       VIDEO_REGEX = /\.(mp4|mov|mkv)$/i
+      TEMPLATE_INCLUDE = '{% include gphoto_album.html %}'
 
       def generate(site)
         config = site.config['gphoto']
@@ -223,6 +224,7 @@ EOS
             # doc.data['gphoto_raw_album_yml'] = YAML.dump album.parsed_body
             doc.data['header'] = (doc.data['header'] || {}).dup
             doc.data.deep_merge!({'header' => {'overlay_image' => cover_entry['thumbnails'].last['url']}}) if cover_entry
+            doc.content += TEMPLATE_INCLUDE unless doc.content.include? TEMPLATE_INCLUDE
           end
         end
       end

@@ -21,5 +21,3 @@ Finally, after all this, you ask yourself: why go to all this trouble? Anyone ca
 
 Well, don't knock it 'til you try it. You're about to find out!
 
-
-{% include gphoto_album.html %}

@@ -11,4 +11,3 @@ the first king of the Kingdom of Italy. It was designed in 1861 and built by arc
 
 Click [here](https://en.wikipedia.org/wiki/Galleria_Vittorio_Emanuele_II) to read more about it.
 
-{% include gphoto_album.html %}
