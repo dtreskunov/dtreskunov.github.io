@@ -232,18 +232,22 @@ EOS
 
       private
       def get_tags(album_data)
-        album_data['entries'].map do |entry|
+        media = album_data['entries'].map do |entry|
           case entry['best']['medium']
           when 'video'
-            'video'
+            'Video'
           when 'image'
             if entry['photosphere']
-              'photosphere'
+              'PhotoSphere'
             else
-              'photo'
+              'Photo'
             end
           end
-        end.uniq
+        end
+        localities = album_data['entries'].map do |entry|
+          (entry['locality'] || '').split(', ')
+        end.flatten
+        (localities + media).uniq
       end
 
       def select_accessible_entries(entries)

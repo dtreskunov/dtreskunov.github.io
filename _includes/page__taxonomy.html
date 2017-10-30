@@ -8,6 +8,7 @@
 
 {% if page.locality %}
   <p class="page__locality">
-    <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ page.locality | escape }}
+    <strong><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Locality:</strong>
+    {{ page.locality | escape }}
   </p>
 {% endif %}

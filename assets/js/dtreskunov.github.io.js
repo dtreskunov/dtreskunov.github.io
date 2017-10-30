@@ -156,4 +156,9 @@
       }
     });
   });
+
+  window.addEventListener('load', function configureArchivePages() {
+    // http://accordionjs.zerowp.com/
+    $('.accordionjs').accordionjs({activeIndex: false});
+  });
 }());
