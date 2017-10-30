@@ -118,7 +118,8 @@ task :post_to_facebook do
                     .lines
                     .map(&:split)
                     .select {|status, name| status=='A' and name =~ /\.html$/}
-                    .map {|status, name| File.join(base_url, name).sub(/\/index.html/i, '')}
+                    .reject {|_, name| name.include? '/tags/' or name.include? '/categories/'}
+                    .map {|_, name| File.join(base_url, name).sub(/\/index.html/i, '')}
     unless added_urls.empty?
       post = {
         link: added_urls[0],
