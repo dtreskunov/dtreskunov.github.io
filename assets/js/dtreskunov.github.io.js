@@ -27,7 +27,6 @@
   window.addEventListener('load', function setupGeoJsons() {
     var ICON_INACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png';
     var ICON_ACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png';
-    var MAX_INITIAL_ZOOM = 16;
 
     if (window.SHOW_MAP !== undefined && !window.SHOW_MAP) {
       return;
@@ -75,7 +74,6 @@
       });
     });
     map.fitBounds(bounds);
-    map.setZoom(Math.min(map.getZoom(), MAX_INITIAL_ZOOM));
 
     $('[data-geo-json-id]').on('mouseover click', function() {
       var feature = map.data.getFeatureById(this.dataset.geoJsonId);

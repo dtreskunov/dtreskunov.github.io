@@ -215,6 +215,7 @@ EOS
           album = picasa_client.album.show(album_id, imgmax: 'd', thumbsize: '100c,400,800,1600')
           docs.each do |doc|
             album_data = get_album_data(album, exif_reader, gmaps_client)
+            doc.data['tags'] += get_tags(album_data)
             doc.data['locality'] ||= common_val(album_data['entries'], 'locality')
 
             cover_entry = album_data['entries'].find {|e| e['caption'].include? '#cover'}
@@ -230,6 +231,21 @@ EOS
       end
 
       private
+      def get_tags(album_data)
+        album_data['entries'].map do |entry|
+          case entry['best']['medium']
+          when 'video'
+            'video'
+          when 'image'
+            if entry['photosphere']
+              'photosphere'
+            else
+              'photo'
+            end
+          end
+        end.uniq
+      end
+
       def select_accessible_entries(entries)
         entries.select {|entry| entry.access == 'public' || entry.access == 'protected'}
       end
@@ -249,7 +265,7 @@ EOS
       def get_album_data(album, exif_reader, gmaps_client)
         geo_json_features = []
         template_entries = []
-        select_accessible_entries(album.entries).each do |entry|
+        album.entries.each do |entry|
           raw_thumbnails = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$thumbnail')
           thumbnails = raw_thumbnails[1..-1].map{|i|content_item(i)}.sort_by{|i|i['width']}
           icon = content_item raw_thumbnails[0]
