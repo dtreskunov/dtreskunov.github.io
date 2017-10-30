@@ -263,7 +263,6 @@ defaults:
       map_options:
         # https://developers.google.com/maps/documentation/javascript/3.exp/reference#MapOptions
         mapTypeId: terrain
-        minZoom: 5
         maxZoom: 16
         gestureHandling: greedy
         clickableIcons: true
