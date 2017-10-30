@@ -203,7 +203,7 @@ EOS
 
         groups = (site.pages + site.posts.docs).group_by {|doc| doc.data['gphoto_album']}.reject {|k, _| k.nil?}
         return if groups.empty?
-        all_albums = picasa_client.album.list.entries
+        all_albums = select_accessible_entries picasa_client.album.list.entries
 
         groups.each do |album_search_str, docs|
           album_id = find_album_id(all_albums, album_search_str)
@@ -220,6 +220,7 @@ EOS
 
             doc.data['gphoto_album_data'] = album_data
             doc.data['gphoto_album_data_yml'] = YAML.dump album_data
+            # doc.data['gphoto_raw_album_yml'] = YAML.dump album.parsed_body
             doc.data['header'] = (doc.data['header'] || {}).dup
             doc.data.deep_merge!({'header' => {'overlay_image' => cover_entry['thumbnails'].last['url']}}) if cover_entry
           end
@@ -227,6 +228,10 @@ EOS
       end
 
       private
+      def select_accessible_entries(entries)
+        entries.select {|entry| entry.access == 'public' || entry.access == 'protected'}
+      end
+
       def common_val(hashes, key)
         set = Set.new(hashes.map{|h| h[key]}.reject(&:nil?))
         set.size == 1 ? set.first : nil
@@ -242,67 +247,67 @@ EOS
       def get_album_data(album, exif_reader, gmaps_client)
         geo_json_features = []
         template_entries = []
-        album.entries.each do |entry|
-           raw_thumbnails = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$thumbnail')
-           thumbnails = raw_thumbnails[1..-1].map{|i|content_item(i)}.sort_by{|i|i['width']}
-           icon = content_item raw_thumbnails[0]
+        select_accessible_entries(album.entries).each do |entry|
+          raw_thumbnails = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$thumbnail')
+          thumbnails = raw_thumbnails[1..-1].map{|i|content_item(i)}.sort_by{|i|i['width']}
+          icon = content_item raw_thumbnails[0]
 
-           contents = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$content')
-           best = contents.max_by{|i|i['width']}
+          contents = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$content')
+          best = contents.max_by{|i|i['width']}
 
-           exif_data = best['medium'] == 'image' ?
-                         exif_reader.for_url(best['url']) :
-                         {}
-           unless exif_data.empty?
-             lat, lng = exif_to_lat_lng(exif_data)
-             unless lat.nil? or lng.nil?
-               locality = gmaps_client.reverse_geocode(lat, lng)
-               geo_json_features << {
-                 'type' => 'Feature',
-                 'geometry' => {
-                   'type' => 'Point',
-                   'coordinates' => [lng, lat]
-                 },
-                 'properties' => {
-                   'id' => entry.id,
-                   'icon' => icon['url']
-                 }
-               }
-             end
-           end
+          exif_data = best['medium'] == 'image' ?
+                        exif_reader.for_url(best['url']) :
+                        {}
+          unless exif_data.empty?
+            lat, lng = exif_to_lat_lng(exif_data)
+            unless lat.nil? or lng.nil?
+              locality = gmaps_client.reverse_geocode(lat, lng)
+              geo_json_features << {
+                'type' => 'Feature',
+                'geometry' => {
+                  'type' => 'Point',
+                  'coordinates' => [lng, lat]
+                },
+                'properties' => {
+                  'id' => entry.id,
+                  'icon' => icon['url']
+                }
+              }
+            end
+          end
 
-           exif_arr = []
-           exif_arr << (exif_data.dig :ifd0, :make) if (exif_data.dig :ifd0, :make)
-           exif_arr << (exif_data.dig :ifd0, :model) if (exif_data.dig :ifd0, :model)
-           exif_arr << ("f/%.1f" % (exif_data.dig :exif, :fnumber)) if (exif_data.dig :exif, :fnumber)
-           exif_arr << format_exposure_time(exif_data.dig :exif, :exposure_time) if (exif_data.dig :exif, :exposure_time)
-           exif_arr << ("ISO %s" % (exif_data.dig :exif, :iso_speed_ratings)) if (exif_data.dig :exif, :iso_speed_ratings)
-           exif = exif_arr.join ' '
+          exif_arr = []
+          exif_arr << (exif_data.dig :ifd0, :make) if (exif_data.dig :ifd0, :make)
+          exif_arr << (exif_data.dig :ifd0, :model) if (exif_data.dig :ifd0, :model)
+          exif_arr << ("f/%.1f" % (exif_data.dig :exif, :fnumber)) if (exif_data.dig :exif, :fnumber)
+          exif_arr << format_exposure_time(exif_data.dig :exif, :exposure_time) if (exif_data.dig :exif, :exposure_time)
+          exif_arr << ("ISO %s" % (exif_data.dig :exif, :iso_speed_ratings)) if (exif_data.dig :exif, :iso_speed_ratings)
+          exif = exif_arr.join ' '
 
-           srcset = thumbnails.map{|t| "#{t['url']} #{t['width']}w"}.join(',')
+          srcset = thumbnails.map{|t| "#{t['url']} #{t['width']}w"}.join(',')
 
-           stream_id = Picasa::Utils.safe_retrieve(entry.parsed_body, 'gphoto$streamId')&.first&.[]('$t')
-           photosphere = ('photosphere' == stream_id)
+          stream_id = Picasa::Utils.safe_retrieve(entry.parsed_body, 'gphoto$streamId')&.first&.[]('$t')
+          photosphere = ('photosphere' == stream_id)
 
-           template_entries << {
-             'id' => entry.id,
-             'geo_json_id' => entry.id,
-             'best' => content_item(best),
-             'exif' => exif,
-             'thumbnails' => thumbnails,
-             'srcset' => srcset,
-             'title' => entry.media.title,
-             'caption' => entry.media.description,
-             'photosphere' => photosphere,
-             'locality' => locality
-           }
+          template_entries << {
+            'id' => entry.id,
+            'geo_json_id' => entry.id,
+            'best' => content_item(best),
+            'exif' => exif,
+            'thumbnails' => thumbnails,
+            'srcset' => srcset,
+            'title' => entry.media.title,
+            'caption' => entry.media.description,
+            'photosphere' => photosphere,
+            'locality' => locality
+          }
         end
-        
+
         geo_json = {
           'type' => 'FeatureCollection',
           'features' => geo_json_features
         }
-        
+
         return {
           'id' => album.id,
           'entries' => template_entries,
