@@ -15,7 +15,14 @@ module Jekyll
       exif_reader = ExifReader.new(config)
       gmaps_client = GoogleMapsClient.new(config)
 
-      groups = (site.pages + site.posts.docs).group_by {|doc| doc.data['gphoto_album']}.reject {|k, _| k.nil?}
+      groups = (site.pages + site.posts.docs).group_by {|doc|
+        search = doc.data['gphoto_album']
+        search == true ?
+          doc.data['title'] :
+          search
+      }.reject {|search, _|
+        search.nil?
+      }
       return if groups.empty?
       all_albums = select_accessible_entries picasa_client.album.list.entries
 
