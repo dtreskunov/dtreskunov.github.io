@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-10-29T13:52:05-07:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">Milan - Galleria Vittorio Emanuele II</title><link href="https://dtreskunov.github.io/milan-galleria/" rel="alternate" type="text/html" title="Milan - Galleria Vittorio Emanuele II" /><published>2017-10-24T00:00:00-07:00</published><updated>2017-10-24T00:00:00-07:00</updated><id>https://dtreskunov.github.io/milan-galleria</id><content type="html" xml:base="https://dtreskunov.github.io/milan-galleria/">&lt;p&gt;The &lt;strong&gt;Galleria Vittorio Emanuele II&lt;/strong&gt; is the world’s oldest shopping mall.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-10-29T22:56:23-07:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">Milan - Galleria Vittorio Emanuele II</title><link href="https://dtreskunov.github.io/milan-galleria/" rel="alternate" type="text/html" title="Milan - Galleria Vittorio Emanuele II" /><published>2017-10-24T00:00:00-07:00</published><updated>2017-10-24T00:00:00-07:00</updated><id>https://dtreskunov.github.io/milan-galleria</id><content type="html" xml:base="https://dtreskunov.github.io/milan-galleria/">&lt;p&gt;The &lt;strong&gt;Galleria Vittorio Emanuele II&lt;/strong&gt; is the world’s oldest shopping mall.&lt;/p&gt;
 
 &lt;p&gt;Housed within a four-story double arcade in central Milan,
 the Galleria is named after &lt;a href=&quot;https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy&quot;&gt;Victor Emmanuel II&lt;/a&gt;,
@@ -8,6 +8,9 @@ the first king of the Kingdom of Italy. It was designed in 1861 and built by arc
 &lt;p&gt;Click &lt;a href=&quot;https://en.wikipedia.org/wiki/Galleria_Vittorio_Emanuele_II&quot;&gt;here&lt;/a&gt; to read more about it.&lt;/p&gt;
 
 &lt;!-- begin gphoto_album.html --&gt;
+&lt;!-- page.gphoto_album_raw_data:
+
+--&gt;
 &lt;!-- page.gphoto_album_data:
 ---
 id: '6480710145333999457'
@@ -71,7 +74,7 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
 &lt;/div&gt;
-&lt;!-- end gphoto_album.html --&gt;</content><author><name>Denis Treskunov</name></author><summary type="html">The Galleria Vittorio Emanuele II is the world’s oldest shopping mall.</summary></entry><entry><title type="html">First Post, starring Бонифаций the cat</title><link href="https://dtreskunov.github.io/bonya/" rel="alternate" type="text/html" title="First Post, starring Бонифаций the cat" /><published>2017-10-24T00:00:00-07:00</published><updated>2017-10-24T00:00:00-07:00</updated><id>https://dtreskunov.github.io/bonya</id><content type="html" xml:base="https://dtreskunov.github.io/bonya/">&lt;p&gt;Here are some photos of my cat.&lt;/p&gt;
+&lt;!-- end gphoto_album.html --&gt;</content><author><name>Denis Treskunov</name></author><category term="photosphere" /><summary type="html">The Galleria Vittorio Emanuele II is the world’s oldest shopping mall.</summary></entry><entry><title type="html">First Post, starring Бонифаций the cat</title><link href="https://dtreskunov.github.io/bonya/" rel="alternate" type="text/html" title="First Post, starring Бонифаций the cat" /><published>2017-10-24T00:00:00-07:00</published><updated>2017-10-24T00:00:00-07:00</updated><id>https://dtreskunov.github.io/bonya</id><content type="html" xml:base="https://dtreskunov.github.io/bonya/">&lt;p&gt;Here are some photos of my cat.&lt;/p&gt;
 
 &lt;p&gt;His full name is Boniface (Бонифаций in Russian). He is named after the cat I grew up with,
 a purebred &lt;a href=&quot;https://en.wikipedia.org/wiki/Russian_Blue&quot;&gt;Russian Blue&lt;/a&gt; who had fathered many an offspring and lived to the grand
@@ -84,6 +87,9 @@ old age of 18. I hope that his namesake also lives to be an octodecimarian.&lt;/
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/HwV_vpY3wB4?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;!-- begin gphoto_album.html --&gt;
+&lt;!-- page.gphoto_album_raw_data:
+
+--&gt;
 &lt;!-- page.gphoto_album_data:
 ---
 id: '6480522913483266113'
@@ -438,7 +444,7 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
 &lt;/div&gt;
-&lt;!-- end gphoto_album.html --&gt;</content><author><name>Denis Treskunov</name></author><summary type="html">Here are some photos of my cat.</summary></entry><entry><title type="html">Traveling to Munich</title><link href="https://dtreskunov.github.io/Traveling-to-Munich/" rel="alternate" type="text/html" title="Traveling to Munich" /><published>2017-10-07T00:00:00-07:00</published><updated>2017-10-07T00:00:00-07:00</updated><id>https://dtreskunov.github.io/Traveling-to-Munich</id><content type="html" xml:base="https://dtreskunov.github.io/Traveling-to-Munich/">&lt;p&gt;Bringing a 29-er mountain bike onto an airplane is usually a nerve-wracking experience.&lt;/p&gt;
+&lt;!-- end gphoto_album.html --&gt;</content><author><name>Denis Treskunov</name></author><category term="photo" /><category term="video" /><summary type="html">Here are some photos of my cat.</summary></entry><entry><title type="html">Traveling to Munich</title><link href="https://dtreskunov.github.io/Traveling-to-Munich/" rel="alternate" type="text/html" title="Traveling to Munich" /><published>2017-10-07T00:00:00-07:00</published><updated>2017-10-07T00:00:00-07:00</updated><id>https://dtreskunov.github.io/Traveling-to-Munich</id><content type="html" xml:base="https://dtreskunov.github.io/Traveling-to-Munich/">&lt;p&gt;Bringing a 29-er mountain bike onto an airplane is usually a nerve-wracking experience.&lt;/p&gt;
 
 &lt;p&gt;Before I get to the obvious question of &lt;em&gt;why would you do such a thing??&lt;/em&gt;, let me count the ways in which the experience is nerve-wracking.&lt;/p&gt;
 
@@ -457,6 +463,9 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
 &lt;p&gt;Well, don’t knock it ‘til you try it. You’re about to find out!&lt;/p&gt;
 
 &lt;!-- begin gphoto_album.html --&gt;
+&lt;!-- page.gphoto_album_raw_data:
+
+--&gt;
 &lt;!-- page.gphoto_album_data:
 ---
 id: '6481417471670645345'
@@ -874,4 +883,4 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
 &lt;/div&gt;
-&lt;!-- end gphoto_album.html --&gt;</content><author><name>Denis Treskunov</name></author><summary type="html">Bringing a 29-er mountain bike onto an airplane is usually a nerve-wracking experience.</summary></entry></feed>
+&lt;!-- end gphoto_album.html --&gt;</content><author><name>Denis Treskunov</name></author><category term="photo" /><summary type="html">Bringing a 29-er mountain bike onto an airplane is usually a nerve-wracking experience.</summary></entry></feed>

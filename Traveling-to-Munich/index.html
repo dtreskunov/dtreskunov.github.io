@@ -135,7 +135,7 @@
         <ul class="visible-links">
           
             
-            <li class="masthead__menu-item"><a href="https://dtreskunov.github.io//">Home</a></li>
+            <li class="masthead__menu-item"><a href="https://dtreskunov.github.io//tags">Tags</a></li>
           
         </ul>
         <button><div class="navicon"></div></button>
@@ -280,12 +280,13 @@
 
       
 
-      <li>
-  <a href="https://dtreskunov.github.io/feed.xml">
-    <i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed
-  </a>
-</li>
-
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
     </ul>
   </div>
 </div>
@@ -323,6 +324,9 @@
 <p>Well, don’t knock it ‘til you try it. You’re about to find out!</p>
 
 <!-- begin gphoto_album.html -->
+<!-- page.gphoto_album_raw_data:
+
+-->
 <!-- page.gphoto_album_data:
 ---
 id: '6481417471670645345'
@@ -742,13 +746,31 @@ geo_json: '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":
 </div>
 <!-- end gphoto_album.html -->
 
-
         
       </section>
 
       <footer class="page__meta">
         
         
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="https://dtreskunov.github.io/tags/photo" class="page__taxonomy-item" rel="tag">photo</a>
+    
+    </span>
+  </p>
+
+
 
 
 
@@ -877,14 +899,14 @@ geo_json: '{"type":"FeatureCollection","features":[{"type":"Feature","geometry":
 <!-- end custom footer snippets -->
         <script>
   window.SHOW_MAP = true;
-  window.MAP_OPTIONS = {"mapTypeId":"terrain","maxZoom":16,"gestureHandling":"greedy","clickableIcons":true};
+  window.MAP_OPTIONS = {"mapTypeId":"terrain","minZoom":5,"maxZoom":16,"gestureHandling":"greedy","clickableIcons":true};
   window.CORS_PROXY = "https://dtreskunov-cors-anywhere.herokuapp.com";
 </script>
 <div class="page__footer-copyright">
   &copy; 2017 Denis Treskunov. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
   Updated on 10/29/17.
   
-  Based on commit <a href="https://github.com/dtreskunov/dtreskunov.github.io/commit/7e50aa2e998edd8aab87b5db8db53df0346ec310">7e50aa2</a>.
+  Based on commit <a href="https://github.com/dtreskunov/dtreskunov.github.io/commit/e81f814e6aab5b737a13de6b9b146de53be2e023">e81f814</a>.
   
 </div>
 

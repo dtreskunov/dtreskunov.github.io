@@ -44,10 +44,21 @@
     }
     var mapOptions = $.extend({zoom: 1, center: {lat: 0, lng: 0}}, window.MAP_OPTIONS);
     var map = new google.maps.Map(container[0], mapOptions);
+    var bounds = new google.maps.LatLngBounds();
+
+    map.data.setStyle(function(feature) {
+      if (feature.getProperty('active')) {
+        return {icon: ICON_ACTIVE, zIndex: 10};
+      } else {
+        return {icon: ICON_INACTIVE, zIndex: 0};
+      }
+    });
 
     annotatedElements.each(function() {
       var geoJson = JSON.parse(this.dataset.geoJson);
-      var bounds = new google.maps.LatLngBounds();
+      map.data.addGeoJson(geoJson, {idPropertyName: 'id'});
+
+      // extend bounds
       $.each(geoJson.features, function(i, feature) {
         var cs = feature.geometry.coordinates;
         if (cs.length === 0) {
@@ -61,12 +72,8 @@
           });
         }
       });
-      map.data.setStyle(function(feature) {
-        return {icon: feature.getProperty('active') ? ICON_ACTIVE : ICON_INACTIVE}
-      });
-      map.data.addGeoJson(geoJson, {idPropertyName: 'id'});
-      map.fitBounds(bounds);
     });
+    map.fitBounds(bounds);
 
     $('[data-geo-json-id]').on('mouseover click', function() {
       var feature = map.data.getFeatureById(this.dataset.geoJsonId);
@@ -92,6 +99,18 @@
       var feature = event.feature;
       if (feature) {
         openFeaturePopup(feature);
+      }
+    });
+    map.data.addListener('mouseover', function(event) {
+      var feature = event.feature;
+      if (feature) {
+        feature.setProperty('active', true);
+      }
+    });
+    map.data.addListener('mouseout', function(event) {
+      var feature = event.feature;
+      if (feature) {
+        feature.setProperty('active', false);
       }
     });
 
@@ -125,14 +144,16 @@
   window.addEventListener('load', function configureExternalLinks() {
     var urlRegExp = /https?:\/\/(.*?)(\/|$)/i;
     $('a[href]').each(function() {
+      if ($(this).text().trim()) {
+        $(this).addClass('has-text');
+      }
       var match = urlRegExp.exec(this.href);
       if (match) {
         var host = match[1];
         if (host !== window.location.host) {
-          $(this).attr('target', '_blank').attr('title', host);
+          $(this).attr('target', '_blank');
         }
       }
     });
   });
-
 }());
