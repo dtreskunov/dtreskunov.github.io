@@ -7,7 +7,7 @@ require_relative 'jekyll-picasa-client'
 
 module Jekyll
   class GPhotoGenerator < Generator
-    TEMPLATE_INCLUDE = '{% include gphoto_album.html %}'
+    TEMPLATE_INCLUDE = "\n{% include gphoto_album.html %}"
 
     def generate(site)
       config = site.config['gphoto']
