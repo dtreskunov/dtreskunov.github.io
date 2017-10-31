@@ -41,6 +41,21 @@ video {
 a.has-text[target='_blank']:after {
   content: "\2197";
 }
-a.has-responsively-lazy {
+.has-responsively-lazy {
   width: 100%;
 }
+.exif {
+  display: none;
+}
+.mfp-content figcaption {
+  color: white;
+  float: left;
+}
+.mfp-content .exif {
+  display: inline;
+}
+.mfp-content .counter {
+  float: right;
+  color: white;
+}
+
