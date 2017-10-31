@@ -6,14 +6,19 @@
 {{ page.gphoto_album_data_yml }}
 -->
 {% assign album = page.gphoto_album_data %}
-{% assign sizes = "(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px" %}
+{% assign lazy_srcset = "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" %}
 <div class="gphoto_album" data-gphoto-id="{{ album.id }}" data-geo-json="{{ album.geo_json | escape}}">
 {% for entry in album.entries %}
+  {% assign width = entry.best.width | times: 1.0 %}
+  {% assign height = entry.best.height | times: 1.0 %}
+  {% capture aspect_ratio %}{{ height | times: 100 | divided_by: width }}{% endcapture %}
   {% capture img %}
-    <img src="{{ entry.thumbnails.first.url }}"
-         alt="{{ entry.title | escape }}"
-         srcset="{{ entry.srcset }}"
-         sizes="{{ sizes }}">
+    <div class="responsively-lazy" style="padding-bottom:{{ aspect_ratio }}%;">
+      <img src="{{ entry.thumbnails.first.url }}"
+           alt="{{ entry.title | escape }}"
+           srcset="{{ lazy_srcset }}"
+           data-srcset="{{ entry.srcset }}">
+    </div>
   {% endcapture %}
   <figure class="gphoto_entry" data-gphoto-id="{{ entry.id }}" data-geo-json-id="{{ entry.geo_json_id }}">
     {% case entry.best.medium %}
@@ -25,7 +30,7 @@
           <div class="overlay"></div>
         </div>
       {% else %}
-        <a href="{{ entry.best.url }}" title="{{ exif | escape }}">{{ img }}</a>
+        <a href="{{ entry.best.url }}" title="{{ exif | escape }}" class="has-responsively-lazy">{{ img }}</a>
       {% endif %}
     {% when 'video' %}
       <video controls="controls"
