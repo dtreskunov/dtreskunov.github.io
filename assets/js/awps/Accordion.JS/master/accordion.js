@@ -94,7 +94,7 @@
 			 */
 			getHash: function(){
 				if(window.location.hash) {
-					return window.location.hash.substring(1);
+					return decodeURIComponent(window.location.hash).substring(1);
 				}
 
 				return false;

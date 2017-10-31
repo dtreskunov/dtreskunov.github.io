@@ -10,6 +10,9 @@ video {
   width: 100%;
   height: 20em;
 }
+.photosphere div.responsively-lazy {
+  height: 100%;
+}
 .photosphere img {
   height: 100%;
   width: 100%;
