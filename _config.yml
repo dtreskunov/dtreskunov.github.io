@@ -274,6 +274,7 @@ gphoto:
 
 footer_scripts:
 - /assets/js/main.min.js
+#- https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.js
 - /assets/js/awps/Accordion.JS/master/accordion.js
 - /assets/js/dtreskunov.github.io.js
 - https://cdn.jsdelivr.net/npm/jquery-fullscreen-plugin@1.0.0/jquery.fullscreen-min.min.js

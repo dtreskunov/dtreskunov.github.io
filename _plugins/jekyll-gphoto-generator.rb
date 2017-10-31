@@ -44,7 +44,7 @@ module Jekyll
           doc.data['gphoto_album_data_yml'] = YAML.dump album_data
           # doc.data['gphoto_raw_album_yml'] = YAML.dump album.parsed_body
           doc.data['header'] = (doc.data['header'] || {}).dup
-          doc.data.deep_merge!({'header' => {'overlay_image' => cover_entry['thumbnails'].last['url']}}) if cover_entry
+          doc.data.deep_merge!({'header' => {'overlay_image' => cover_entry['images'].last['url']}}) if cover_entry
           doc.content += TEMPLATE_INCLUDE unless doc.content.include? TEMPLATE_INCLUDE
         end
       end
@@ -90,19 +90,22 @@ module Jekyll
       geo_json_features = []
       template_entries = []
       album.entries.each do |entry|
-        raw_thumbnails = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$thumbnail')
-        thumbnails = raw_thumbnails[1..-1].map{|i|content_item(i)}.sort_by{|i|i['width']}
-        icon = content_item raw_thumbnails[0]
-
         contents = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$content')
-        videos = contents.select{|i|i['medium']=='video'}
-        best = videos.max_by{|i|i['width']} || contents.max_by{|i|i['width']}
+        thumbnails = Picasa::Utils.safe_retrieve(entry.parsed_body, 'media$group', 'media$thumbnail')
 
-        exif_data = best['medium'] == 'image' ?
-                      exif_reader.for_url(best['url']) :
-                      {}
-        unless exif_data.empty?
-          lat, lng = exif_to_lat_lng(exif_data)
+        images = (thumbnails + contents.select{|i|i['medium'] == 'image'}).sort_by{|i|i['width']}
+        videos = contents.select{|i|i['medium'] == 'video'}.sort_by{|i|i['width']}
+
+        srcset = images.map{|i| "#{i['url']} #{i['width']}w"}.join(',')
+
+        icon = images.first
+        best = videos.last || images.last
+        best_is_image = (best['medium'] == 'image')
+
+        raw_exif = best_is_image ? exif_reader.for_url(best['url']) : {}
+
+        unless raw_exif.empty?
+          lat, lng = exif_to_lat_lng(raw_exif)
           unless lat.nil? or lng.nil?
             locality = gmaps_client.reverse_geocode(lat, lng)
             geo_json_features << {
@@ -119,29 +122,47 @@ module Jekyll
           end
         end
 
-        exif_arr = []
-        exif_arr << (exif_data.dig :ifd0, :make) if (exif_data.dig :ifd0, :make)
-        exif_arr << (exif_data.dig :ifd0, :model) if (exif_data.dig :ifd0, :model)
-        exif_arr << ("f/%.1f" % (exif_data.dig :exif, :fnumber)) if (exif_data.dig :exif, :fnumber)
-        exif_arr << format_exposure_time(exif_data.dig :exif, :exposure_time) if (exif_data.dig :exif, :exposure_time)
-        exif_arr << ("ISO %s" % (exif_data.dig :exif, :iso_speed_ratings)) if (exif_data.dig :exif, :iso_speed_ratings)
-        exif = exif_arr.join ' '
+        exif = {
+          'make' => (raw_exif.dig :ifd0, :make),
+          'model' => (raw_exif.dig :ifd0, :model),
+          'fstop' =>
+          begin
+            f = (raw_exif.dig :exif, :fnumber)
+            ("f/%.1f" % f) if f
+          end,
+          'exposure' =>
+          begin
+            t = (raw_exif.dig :exif, :exposure_time)
+            format_exposure_time(t) if t
+          end,
+          'iso' =>
+          begin
+            i = (raw_exif.dig :exif, :iso_speed_ratings)
+            ("ISO %s" % i) if i
+          end
+        }
 
-        srcset = thumbnails.map{|t| "#{t['url']} #{t['width']}w"}.join(',')
-
-        stream_id = Picasa::Utils.safe_retrieve(entry.parsed_body, 'gphoto$streamId')&.first&.[]('$t')
-        photosphere = ('photosphere' == stream_id)
+        type =
+          begin
+            stream_id = Picasa::Utils.safe_retrieve(entry.parsed_body, 'gphoto$streamId')&.first&.[]('$t')
+            if stream_id == 'photosphere'
+              'photosphere'
+            else
+              best['medium']
+            end
+          end
 
         template_entries << {
           'id' => entry.id,
           'geo_json_id' => entry.id,
-          'best' => content_item(best),
+          'type' => type,
+          'best' => best,
+          'aspect_ratio' => best['height'] / best['width'].to_f,
           'exif' => exif,
-          'thumbnails' => thumbnails,
+          'images' => images.size > 1 ? images[1..-1] : images, # first image is a tiny icon
           'srcset' => srcset,
           'title' => entry.media.title,
           'caption' => entry.media.description,
-          'photosphere' => photosphere,
           'locality' => locality
         }
       end
@@ -154,7 +175,7 @@ module Jekyll
       return {
         'id' => album.id,
         'entries' => template_entries,
-        'geo_json' => JSON.unparse(geo_json)
+        'geo_json' => geo_json
       }
     end
 
@@ -177,15 +198,5 @@ module Jekyll
          dms_to_f(*(exif.dig :gps, :gps_longitude), (exif.dig :gps, :gps_longitude_ref))]
       end
     end
-
-    def content_item(raw_item)
-      {'url' => raw_item['url'],
-       'height' => raw_item['height'],
-       'width' => raw_item['width'],
-       'type' => raw_item['type'],
-       'medium' => raw_item['medium']
-      }
-    end
   end
 end
-

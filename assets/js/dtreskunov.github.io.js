@@ -126,10 +126,9 @@
         if (!$referencedElement) {
           return;
         }
-        if ($referencedElement.is('a')) {
+        var listeningTo = $._data($referencedElement[0], 'events');
+        if (listeningTo && listeningTo.click) {
           $referencedElement.trigger('click');
-        } else if ($referencedElement.find('a').length > 0) {
-          $referencedElement.find('a').first().trigger('click');
         } else {
           $(document).fullScreen(false);
           $.smoothScroll({scrollTarget: $referencedElement});
@@ -158,8 +157,33 @@
     });
   });
 
-  window.addEventListener('load', function configureArchivePages() {
+  window.addEventListener('load', function configureAccordionJs() {
     // http://accordionjs.zerowp.com/
     $('.accordionjs').accordionjs({activeIndex: false});
+  });
+
+  window.addEventListener('load', function configurePhotoPopup() {
+    // http://dimsemenov.com/plugins/magnific-popup/documentation.html
+    var $photos = $('.popup.image');
+
+    var items = $photos.map(function(i) {
+      var $counter = $('<div class="counter">' + (i+1) + ' of ' + $photos.length + '</div>');
+      return {src: $(this).clone().append($counter)};
+    }).toArray();
+
+    $photos.each(function(i) {
+      $(this).magnificPopup({
+        type: 'inline',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+        },
+        items: items,
+        index: i,
+        closeOnContentClick: true,
+        midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+      });
+    });
   });
 }());

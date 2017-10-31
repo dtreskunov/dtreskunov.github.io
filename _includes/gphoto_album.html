@@ -7,34 +7,38 @@
 -->
 {% assign album = page.gphoto_album_data %}
 {% assign lazy_srcset = "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" %}
-<div class="gphoto_album" data-gphoto-id="{{ album.id }}" data-geo-json="{{ album.geo_json | escape}}">
+<div class="gphoto_album" data-gphoto-id="{{ album.id }}" data-geo-json="{{ album.geo_json | jsonify | escape}}">
 {% for entry in album.entries %}
-  {% assign width = entry.best.width | times: 1.0 %}
-  {% assign height = entry.best.height | times: 1.0 %}
-  {% capture aspect_ratio %}{{ height | times: 100 | divided_by: width }}{% endcapture %}
   {% capture img %}
-    <div class="responsively-lazy" style="padding-bottom:{{ aspect_ratio }}%;">
-      <img src="{{ entry.thumbnails.first.url }}"
+    <div class="responsively-lazy" style="padding-bottom:{{ entry.aspect_ratio | times: 100}}%;">
+      <img src="{{ entry.images.first.url }}"
            alt="{{ entry.title | escape }}"
            srcset="{{ lazy_srcset }}"
            data-srcset="{{ entry.srcset }}">
     </div>
   {% endcapture %}
-  <figure class="gphoto_entry" data-gphoto-id="{{ entry.id }}" data-geo-json-id="{{ entry.geo_json_id }}">
-    {% case entry.best.medium %}
+  {% capture exif %}
+    <i class="fa fa-camera" aria-hidden="true"></i>
+    {{ entry.exif.make | escape }}
+    {{ entry.exif.model | escape }}
+    {{ entry.exif.fstop | escape }}
+    {{ entry.exif.exposure | escape }}
+    {{ entry.exif.iso | escape }}
+  {% endcapture %}
+  <figure class="gphoto_entry popup {{ entry.type }}" data-gphoto-id="{{ entry.id }}" data-geo-json-id="{{ entry.geo_json_id }}">
+    {% case entry.type %}
     {% when 'image' %}
-      {% capture exif %}<i class="fa fa-camera" aria-hidden="true"></i> {{ entry.exif }}{% endcapture %}
-      {% if entry.photosphere %}
-        <div class="photosphere" data-url="{{ entry.best.url }}" data-caption="{{ exif | escape }}">
-          {{ img }}
-          <div class="overlay"></div>
-        </div>
-      {% else %}
-        <a href="{{ entry.best.url }}" title="{{ exif | escape }}" class="has-responsively-lazy">{{ img }}</a>
-      {% endif %}
+      <div class="has-responsively-lazy">
+        {{ img }}
+      </div>
+    {% when 'photosphere' %}
+      <div class="photosphere" data-url="{{ entry.best.url }}" data-caption="{{ exif | escape }}">
+        {{ img }}
+        <div class="overlay"></div>
+      </div>
     {% when 'video' %}
       <video controls="controls"
-             poster="{{ entry.thumbnails.first.url }}"
+             poster="{{ entry.images.first.url }}"
              src="{{ entry.best.url }}"
              onclick="if (this.paused) {this.play();} else {this.pause();}">
         Your browser doesn't support HTML5 video.
@@ -43,8 +47,9 @@
     {% endcase %}
     <figcaption>
       {% if entry.locality %}{% unless page.locality %}
-        <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ entry.locality | escape }}
+        <i class="fa fa-map-marker" aria-hidden="true"></i> {{ entry.locality | escape }}
       {% endunless %}{% endif %}
+      <div class="exif">{{ exif }}</div>
       {{ entry.caption | escape }}
     </figcaption>
   </figure>
