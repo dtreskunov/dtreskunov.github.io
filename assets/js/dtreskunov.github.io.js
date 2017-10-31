@@ -151,7 +151,8 @@
       if (match) {
         var host = match[1];
         if (host !== window.location.host) {
-          $(this).attr('target', '_blank');
+          $(this).attr('target', '_blank')
+            .attr('rel', 'noopener');
         }
       }
     });
