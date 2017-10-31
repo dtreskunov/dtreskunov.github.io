@@ -38,4 +38,6 @@ video {
 a.has-text[target='_blank']:after {
   content: "\2197";
 }
-
+a.has-responsively-lazy {
+  width: 100%;
+}

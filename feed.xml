@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-10-30T16:51:09-07:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">Milan - Galleria Vittorio Emanuele II</title><link href="https://dtreskunov.github.io/milan-galleria/" rel="alternate" type="text/html" title="Milan - Galleria Vittorio Emanuele II" /><published>2017-10-24T00:00:00-07:00</published><updated>2017-10-24T00:00:00-07:00</updated><id>https://dtreskunov.github.io/milan-galleria</id><content type="html" xml:base="https://dtreskunov.github.io/milan-galleria/">&lt;p&gt;The &lt;strong&gt;Galleria Vittorio Emanuele II&lt;/strong&gt; is the world’s oldest shopping mall.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-10-30T19:42:08-07:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">Milan - Galleria Vittorio Emanuele II</title><link href="https://dtreskunov.github.io/milan-galleria/" rel="alternate" type="text/html" title="Milan - Galleria Vittorio Emanuele II" /><published>2017-10-24T00:00:00-07:00</published><updated>2017-10-24T00:00:00-07:00</updated><id>https://dtreskunov.github.io/milan-galleria</id><content type="html" xml:base="https://dtreskunov.github.io/milan-galleria/">&lt;p&gt;The &lt;strong&gt;Galleria Vittorio Emanuele II&lt;/strong&gt; is the world’s oldest shopping mall.&lt;/p&gt;
 
 &lt;p&gt;Housed within a four-story double arcade in central Milan,
 the Galleria is named after &lt;a href=&quot;https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy&quot;&gt;Victor Emmanuel II&lt;/a&gt;,
@@ -55,13 +55,18 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
 &lt;div class=&quot;gphoto_album&quot; data-gphoto-id=&quot;6480710145333999457&quot; data-geo-json=&quot;{&amp;quot;type&amp;quot;:&amp;quot;FeatureCollection&amp;quot;,&amp;quot;features&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[9.189875,45.46550833333333]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480710146736193394&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s100-c/PANO_20171012_134421.jpg&amp;quot;}}]}&quot;&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480710146736193394&quot; data-geo-json-id=&quot;6480710146736193394&quot;&gt;
     
       
       
         &lt;div class=&quot;photosphere&quot; data-url=&quot;https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/Rz0IYbMYzSIXZKw7ECAiKmZi1twyeHqfACHMYBhgL/I/PANO_20171012_134421.jpg&quot; data-caption=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL&quot;&gt;
           
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s400/PANO_20171012_134421.jpg&quot; alt=&quot;PANO_20171012_134421.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s400/PANO_20171012_134421.jpg 400w,https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s800/PANO_20171012_134421.jpg 800w,https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s1600/PANO_20171012_134421.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:43.05650102110279%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s400/PANO_20171012_134421.jpg&quot; alt=&quot;PANO_20171012_134421.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s400/PANO_20171012_134421.jpg 400w,https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s800/PANO_20171012_134421.jpg 800w,https://lh3.googleusercontent.com/-Q8bENoWLDbg/WfAbisx6_3I/AAAAAAAAoTc/P4s918ZLheUXZKw7ECAiKmZi1twyeHqfACHMYBhgL/s1600/PANO_20171012_134421.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   
           &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
         &lt;/div&gt;
@@ -332,12 +337,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
 &lt;div class=&quot;gphoto_album&quot; data-gphoto-id=&quot;6480522913483266113&quot; data-geo-json=&quot;{&amp;quot;type&amp;quot;:&amp;quot;FeatureCollection&amp;quot;,&amp;quot;features&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35749052777778,47.62147902777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480555901343214562&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s100-c/IMG_20140927_124404.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.3575113888889,47.62151977777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480555364947914162&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s100-c/20150614_110800.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35708055555556,47.621541666666666]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480522914587888370&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s100-c/IMG_20151204_110418.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35802777777778,47.621583333333334]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480522915752660242&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s100-c/IMG_20160209_190906.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35761944444444,47.62170833333333]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480522914410833746&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s100-c/IMG_20160228_170516.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.35797777777778,47.621427777777775]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6480522915692925330&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s100-c/IMG_20160322_142210.jpg&amp;quot;}}]}&quot;&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480555901343214562&quot; data-geo-json-id=&quot;6480555901343214562&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/IuqewQTMd8s9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/I/IMG_20140927_124404.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; LGE Nexus 4 f/2.7 1/30 ISO 1100&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s400/IMG_20140927_124404.jpg&quot; alt=&quot;IMG_20140927_124404.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s400/IMG_20140927_124404.jpg 400w,https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s800/IMG_20140927_124404.jpg 800w,https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s1600/IMG_20140927_124404.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/IuqewQTMd8s9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/I/IMG_20140927_124404.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; LGE Nexus 4 f/2.7 1/30 ISO 1100&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:75.0%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s400/IMG_20140927_124404.jpg&quot; alt=&quot;IMG_20140927_124404.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s400/IMG_20140927_124404.jpg 400w,https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s800/IMG_20140927_124404.jpg 800w,https://lh3.googleusercontent.com/-3ZJBu9VZWuc/We-PQb6fq-I/AAAAAAAAoSI/2kAGKGR60to9QW_SwALKRhsFLsWgNkJPgCHMYBhgL/s1600/IMG_20140927_124404.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -347,13 +357,18 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
+  
+  
+  
   
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480555364947914162&quot; data-geo-json-id=&quot;6480555364947914162&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/qQoVRCo8oUYGFiTvad8qEkZyaMHxSDCwQCHMYBhgL/I/20150614_110800.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; LG Electronics LG-D800 f/2.4 1/20 ISO 100&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s400/20150614_110800.jpg&quot; alt=&quot;20150614_110800.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s400/20150614_110800.jpg 400w,https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s800/20150614_110800.jpg 800w,https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s1600/20150614_110800.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/qQoVRCo8oUYGFiTvad8qEkZyaMHxSDCwQCHMYBhgL/I/20150614_110800.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; LG Electronics LG-D800 f/2.4 1/20 ISO 100&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:75.0%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s400/20150614_110800.jpg&quot; alt=&quot;20150614_110800.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s400/20150614_110800.jpg 400w,https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s800/20150614_110800.jpg 800w,https://lh3.googleusercontent.com/-bKeYGGSwVg0/We-OxNr47bI/AAAAAAAAoR4/eJq0I8ecKs4GFiTvad8qEkZyaMHxSDCwQCHMYBhgL/s1600/20150614_110800.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -363,13 +378,18 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
+  
+  
+  
   
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522914587888370&quot; data-geo-json-id=&quot;6480522914587888370&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/NM7Noi-3Rc8RfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/I/IMG_20151204_110418.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/28 ISO 618&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg&quot; alt=&quot;IMG_20151204_110418.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg 400w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s800/IMG_20151204_110418.jpg 800w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s1600/IMG_20151204_110418.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/NM7Noi-3Rc8RfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/I/IMG_20151204_110418.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/28 ISO 618&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:74.23076923076923%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg&quot; alt=&quot;IMG_20151204_110418.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s400/IMG_20151204_110418.jpg 400w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s800/IMG_20151204_110418.jpg 800w,https://lh3.googleusercontent.com/-qFCXQOeRCrU/We9xQWrKSvI/AAAAAAAAoRA/LmU-E9CS1EIRfBzdZLo3VMkyC2Qmv22RwCHMYBhgL/s1600/IMG_20151204_110418.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -379,13 +399,18 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
+  
+  
+  
   
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522915752660242&quot; data-geo-json-id=&quot;6480522915752660242&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/AUD5oRUtBrQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/I/IMG_20160209_190906.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/19 ISO 884&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg&quot; alt=&quot;IMG_20160209_190906.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg 297w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s800/IMG_20160209_190906.jpg 594w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s1600/IMG_20160209_190906.jpg 1188w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/AUD5oRUtBrQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/I/IMG_20160209_190906.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/19 ISO 884&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:134.71502590673575%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg&quot; alt=&quot;IMG_20160209_190906.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s400/IMG_20160209_190906.jpg 297w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s800/IMG_20160209_190906.jpg 594w,https://lh3.googleusercontent.com/-tULsRXFczfE/We9xQbA3TRI/AAAAAAAAoRA/s7JE2tol9ZQ7GwnUJrzQAJJsct1Ez19qQCHMYBhgL/s1600/IMG_20160209_190906.jpg 1188w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -396,12 +421,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522914410833746&quot; data-geo-json-id=&quot;6480522914410833746&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/to610M4na_MN_pKmTuheNcANc8vaEfkngCHMYBhgL/I/IMG_20160228_170516.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/127 ISO 40&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg&quot; alt=&quot;IMG_20160228_170516.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg 400w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s800/IMG_20160228_170516.jpg 800w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s1600/IMG_20160228_170516.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/to610M4na_MN_pKmTuheNcANc8vaEfkngCHMYBhgL/I/IMG_20160228_170516.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/127 ISO 40&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:74.23076923076923%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg&quot; alt=&quot;IMG_20160228_170516.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s400/IMG_20160228_170516.jpg 400w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s800/IMG_20160228_170516.jpg 800w,https://lh3.googleusercontent.com/-dJTARgn1jX4/We9xQWA8p1I/AAAAAAAAoRA/nRtQ66MeWdEN_pKmTuheNcANc8vaEfkngCHMYBhgL/s1600/IMG_20160228_170516.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -412,12 +442,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480522915692925330&quot; data-geo-json-id=&quot;6480522915692925330&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/n1yjqMyMnIQ6lU9VIAQmi1hptUArYrgOQCHMYBhgL/I/IMG_20160322_142210.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/86 ISO 224&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg&quot; alt=&quot;IMG_20160322_142210.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg 400w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s800/IMG_20160322_142210.jpg 800w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s1600/IMG_20160322_142210.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/n1yjqMyMnIQ6lU9VIAQmi1hptUArYrgOQCHMYBhgL/I/IMG_20160322_142210.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; motorola Nexus 6 f/2.0 1/86 ISO 224&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:74.23076923076923%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg&quot; alt=&quot;IMG_20160322_142210.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s400/IMG_20160322_142210.jpg 400w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s800/IMG_20160322_142210.jpg 800w,https://lh3.googleusercontent.com/-QNzY3duUuK0/We9xQayn0ZI/AAAAAAAAoRA/sKyrQnGNQ386lU9VIAQmi1hptUArYrgOQCHMYBhgL/s1600/IMG_20160322_142210.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -428,12 +463,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6480556224578117954&quot; data-geo-json-id=&quot;6480556224578117954&quot;&gt;
     
       &lt;video controls=&quot;controls&quot; poster=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4&quot; src=&quot;https://lh3.googleusercontent.com/RJRhTeMoYxGYWSS72ATe23gQCSpx6Ra2Y27UYPyysshneSIycLnGnm-umehYgT8tUp85ih8hcWo=m37&quot; onclick=&quot;if (this.paused) {this.play();} else {this.pause();}&quot;&gt;
         Your browser doesn't support HTML5 video.
         
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4&quot; alt=&quot;VID_20160604_125922.mp4&quot; srcset=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4 400w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s800/VID_20160604_125922.mp4 800w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s1600/VID_20160604_125922.mp4 854w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:56.25%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4&quot; alt=&quot;VID_20160604_125922.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4 400w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s800/VID_20160604_125922.mp4 800w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s1600/VID_20160604_125922.mp4 854w&quot; /&gt;
+    &lt;/div&gt;
   
       &lt;/video&gt;
     
@@ -622,12 +662,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
 &lt;div class=&quot;gphoto_album&quot; data-gphoto-id=&quot;6482606633371114929&quot; data-geo-json=&quot;{&amp;quot;type&amp;quot;:&amp;quot;FeatureCollection&amp;quot;,&amp;quot;features&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[11.556102777777777,48.12851944444444]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6482606636380501842&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/3dh0wTJuzT06T2TgaXupYF2516nIGROewCHMYBhgL/s100-c/IMG_20171008_180408.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[11.573411111111112,48.13644166666667]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6482606633389878290&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/k6D2-cQNsjQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/s100-c/IMG_20171008_210730.jpg&amp;quot;}}]}&quot;&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6482606636380501842&quot; data-geo-json-id=&quot;6482606636380501842&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/ilXvUvNFGjw6T2TgaXupYF2516nIGROewCHMYBhgL/I/IMG_20171008_180408.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/33 ISO 680&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/3dh0wTJuzT06T2TgaXupYF2516nIGROewCHMYBhgL/s400/IMG_20171008_180408.jpg&quot; alt=&quot;IMG_20171008_180408.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/3dh0wTJuzT06T2TgaXupYF2516nIGROewCHMYBhgL/s400/IMG_20171008_180408.jpg 400w,https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/3dh0wTJuzT06T2TgaXupYF2516nIGROewCHMYBhgL/s800/IMG_20171008_180408.jpg 800w,https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/3dh0wTJuzT06T2TgaXupYF2516nIGROewCHMYBhgL/s1600/IMG_20171008_180408.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/ilXvUvNFGjw6T2TgaXupYF2516nIGROewCHMYBhgL/I/IMG_20171008_180408.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/33 ISO 680&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:75.0%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/3dh0wTJuzT06T2TgaXupYF2516nIGROewCHMYBhgL/s400/IMG_20171008_180408.jpg&quot; alt=&quot;IMG_20171008_180408.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/3dh0wTJuzT06T2TgaXupYF2516nIGROewCHMYBhgL/s400/IMG_20171008_180408.jpg 400w,https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/3dh0wTJuzT06T2TgaXupYF2516nIGROewCHMYBhgL/s800/IMG_20171008_180408.jpg 800w,https://lh3.googleusercontent.com/-FWgp4QuUyac/WfbYY7QMt1I/AAAAAAAAoYw/3dh0wTJuzT06T2TgaXupYF2516nIGROewCHMYBhgL/s1600/IMG_20171008_180408.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -638,12 +683,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6482606637196949042&quot; data-geo-json-id=&quot;6482606637196949042&quot;&gt;
     
       &lt;video controls=&quot;controls&quot; poster=&quot;https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s400/VID_20171008_201331.mp4&quot; src=&quot;https://lh3.googleusercontent.com/O5jSnh6JcgrqwKPcGJ1b9N0FBA6xsArEOTVxr-Y2vGy2mtecwUOFcsP9bpgROMn17zv2VYjd5iU=m37&quot; onclick=&quot;if (this.paused) {this.play();} else {this.pause();}&quot;&gt;
         Your browser doesn't support HTML5 video.
         
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s400/VID_20171008_201331.mp4&quot; alt=&quot;VID_20171008_201331.mp4&quot; srcset=&quot;https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s400/VID_20171008_201331.mp4 400w,https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s800/VID_20171008_201331.mp4 800w,https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s1600/VID_20171008_201331.mp4 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:56.25%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s400/VID_20171008_201331.mp4&quot; alt=&quot;VID_20171008_201331.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s400/VID_20171008_201331.mp4 400w,https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s800/VID_20171008_201331.mp4 800w,https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s1600/VID_20171008_201331.mp4 1600w&quot; /&gt;
+    &lt;/div&gt;
   
       &lt;/video&gt;
     
@@ -653,13 +703,18 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
+  
+  
+  
   
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6482606633625149186&quot; data-geo-json-id=&quot;6482606633625149186&quot;&gt;
     
       &lt;video controls=&quot;controls&quot; poster=&quot;https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s400/VID_20171008_203216.mp4&quot; src=&quot;https://lh3.googleusercontent.com/-2nGl4-1sJxPGOOYgvIveI6_kcAg0yR2X8wYYYKXn4tDzWkBhAzSDX3usDxFzPxHggqF3XPOIlM=m37&quot; onclick=&quot;if (this.paused) {this.play();} else {this.pause();}&quot;&gt;
         Your browser doesn't support HTML5 video.
         
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s400/VID_20171008_203216.mp4&quot; alt=&quot;VID_20171008_203216.mp4&quot; srcset=&quot;https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s400/VID_20171008_203216.mp4 400w,https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s800/VID_20171008_203216.mp4 800w,https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s1600/VID_20171008_203216.mp4 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:56.25%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s400/VID_20171008_203216.mp4&quot; alt=&quot;VID_20171008_203216.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s400/VID_20171008_203216.mp4 400w,https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s800/VID_20171008_203216.mp4 800w,https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s1600/VID_20171008_203216.mp4 1600w&quot; /&gt;
+    &lt;/div&gt;
   
       &lt;/video&gt;
     
@@ -670,12 +725,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6482606633389878290&quot; data-geo-json-id=&quot;6482606633389878290&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/OxEGiIFy6JQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/I/IMG_20171008_210730.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/33 ISO 522&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/k6D2-cQNsjQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/s400/IMG_20171008_210730.jpg&quot; alt=&quot;IMG_20171008_210730.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/k6D2-cQNsjQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/s400/IMG_20171008_210730.jpg 400w,https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/k6D2-cQNsjQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/s800/IMG_20171008_210730.jpg 800w,https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/k6D2-cQNsjQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/s1600/IMG_20171008_210730.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/OxEGiIFy6JQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/I/IMG_20171008_210730.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/33 ISO 522&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:75.0%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/k6D2-cQNsjQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/s400/IMG_20171008_210730.jpg&quot; alt=&quot;IMG_20171008_210730.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/k6D2-cQNsjQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/s400/IMG_20171008_210730.jpg 400w,https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/k6D2-cQNsjQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/s800/IMG_20171008_210730.jpg 800w,https://lh3.googleusercontent.com/-LojMQ1gZ_Wo/WfbYYwHLbBI/AAAAAAAAoYw/k6D2-cQNsjQQkT8SWttp2_9DiTpPVal4QCHMYBhgL/s1600/IMG_20171008_210730.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -983,12 +1043,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
 &lt;div class=&quot;gphoto_album&quot; data-gphoto-id=&quot;6481417471670645345&quot; data-geo-json=&quot;{&amp;quot;type&amp;quot;:&amp;quot;FeatureCollection&amp;quot;,&amp;quot;features&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.30072222222222,47.44233055555556]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6481418341930558306&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/2iz6W364GyYcFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/s100-c/IMG_20171007_103854.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-122.30285,47.43903611111111]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6481418341518313858&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/NiwG5pdOrxkmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/s100-c/00000IMG_00000_BURST20171007112048_COVER.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-0.48689444444444446,51.472566666666665]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6481418340555397810&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/wXH6Z5WdvAgEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/s100-c/PANO_20171008_071131.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-0.48689444444444446,51.47246388888889]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6481418341212192898&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/Z6USAUwvRv8CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/s100-c/IMG_20171008_082902.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[11.583472222222222,48.13624166666666]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6481418342617933794&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/Hqd7doSMdF8l3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/s100-c/IMG_20171009_111601.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[11.561080555555556,48.13815833333334]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6481417834691412290&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/RRCjYCabeNUow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/s100-c/IMG_20171010_081814.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[11.558130555555556,48.13786666666667]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6481417470649198002&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/_tt2grc_33Q3d6BiZHgF3ORSAqpV5URmACHMYBhgL/s100-c/PANO_20171010_104053.jpg&amp;quot;}}]}&quot;&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6481418341930558306&quot; data-geo-json-id=&quot;6481418341930558306&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/X75w2EsLEOocFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/I/IMG_20171007_103854.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/40 ISO 509&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/2iz6W364GyYcFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/s400/IMG_20171007_103854.jpg&quot; alt=&quot;IMG_20171007_103854.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/2iz6W364GyYcFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/s400/IMG_20171007_103854.jpg 400w,https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/2iz6W364GyYcFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/s800/IMG_20171007_103854.jpg 800w,https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/2iz6W364GyYcFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/s1600/IMG_20171007_103854.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/X75w2EsLEOocFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/I/IMG_20171007_103854.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/40 ISO 509&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:75.0%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/2iz6W364GyYcFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/s400/IMG_20171007_103854.jpg&quot; alt=&quot;IMG_20171007_103854.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/2iz6W364GyYcFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/s400/IMG_20171007_103854.jpg 400w,https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/2iz6W364GyYcFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/s800/IMG_20171007_103854.jpg 800w,https://lh3.googleusercontent.com/-JbM7cP6j7h8/WfKfpFd442I/AAAAAAAAoUw/2iz6W364GyYcFWtc5OtC_XmWtE7UvQI3ACHMYBhgL/s1600/IMG_20171007_103854.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -1000,13 +1065,18 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
+  
+  
+  
   
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6481418341518313858&quot; data-geo-json-id=&quot;6481418341518313858&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/wwat2MEZXKYmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/I/00000IMG_00000_BURST20171007112048_COVER.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/313 ISO 50&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/NiwG5pdOrxkmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/s400/00000IMG_00000_BURST20171007112048_COVER.jpg&quot; alt=&quot;00000IMG_00000_BURST20171007112048_COVER.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/NiwG5pdOrxkmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/s400/00000IMG_00000_BURST20171007112048_COVER.jpg 400w,https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/NiwG5pdOrxkmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/s800/00000IMG_00000_BURST20171007112048_COVER.jpg 800w,https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/NiwG5pdOrxkmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/s1600/00000IMG_00000_BURST20171007112048_COVER.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/wwat2MEZXKYmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/I/00000IMG_00000_BURST20171007112048_COVER.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/313 ISO 50&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:74.99362082163817%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/NiwG5pdOrxkmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/s400/00000IMG_00000_BURST20171007112048_COVER.jpg&quot; alt=&quot;00000IMG_00000_BURST20171007112048_COVER.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/NiwG5pdOrxkmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/s400/00000IMG_00000_BURST20171007112048_COVER.jpg 400w,https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/NiwG5pdOrxkmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/s800/00000IMG_00000_BURST20171007112048_COVER.jpg 800w,https://lh3.googleusercontent.com/-I8ERGefUMsw/WfKfpD7miYI/AAAAAAAAoVk/NiwG5pdOrxkmeyNoq_z43rMDnPoaJDf-wCHMYBhgL/s1600/00000IMG_00000_BURST20171007112048_COVER.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -1019,12 +1089,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6481418340555397810&quot; data-geo-json-id=&quot;6481418340555397810&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/aybb3CKUKgAEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/I/PANO_20171008_071131.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/wXH6Z5WdvAgEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/s400/PANO_20171008_071131.jpg&quot; alt=&quot;PANO_20171008_071131.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/wXH6Z5WdvAgEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/s400/PANO_20171008_071131.jpg 400w,https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/wXH6Z5WdvAgEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/s800/PANO_20171008_071131.jpg 800w,https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/wXH6Z5WdvAgEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/s1600/PANO_20171008_071131.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/aybb3CKUKgAEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/I/PANO_20171008_071131.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:57.51831107281344%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/wXH6Z5WdvAgEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/s400/PANO_20171008_071131.jpg&quot; alt=&quot;PANO_20171008_071131.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/wXH6Z5WdvAgEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/s400/PANO_20171008_071131.jpg 400w,https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/wXH6Z5WdvAgEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/s800/PANO_20171008_071131.jpg 800w,https://lh3.googleusercontent.com/-gH5ivYD6jhA/WfKfpAWBmrI/AAAAAAAAoUw/wXH6Z5WdvAgEqcrE6nFtp1WN-5Nx44nHACHMYBhgL/s1600/PANO_20171008_071131.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -1036,13 +1111,18 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
+  
+  
+  
   
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6481418341212192898&quot; data-geo-json-id=&quot;6481418341212192898&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/TLv_ZUoXGO0CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/I/IMG_20171008_082902.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/50 ISO 255&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/Z6USAUwvRv8CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/s400/IMG_20171008_082902.jpg&quot; alt=&quot;IMG_20171008_082902.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/Z6USAUwvRv8CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/s400/IMG_20171008_082902.jpg 400w,https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/Z6USAUwvRv8CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/s800/IMG_20171008_082902.jpg 800w,https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/Z6USAUwvRv8CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/s1600/IMG_20171008_082902.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/TLv_ZUoXGO0CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/I/IMG_20171008_082902.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/50 ISO 255&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:75.0%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/Z6USAUwvRv8CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/s400/IMG_20171008_082902.jpg&quot; alt=&quot;IMG_20171008_082902.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/Z6USAUwvRv8CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/s400/IMG_20171008_082902.jpg 400w,https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/Z6USAUwvRv8CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/s800/IMG_20171008_082902.jpg 800w,https://lh3.googleusercontent.com/-0DQOp37Vbgw/WfKfpCyngII/AAAAAAAAoUw/Z6USAUwvRv8CQWGboAKYFW0ZdvvEzBPoACHMYBhgL/s1600/IMG_20171008_082902.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -1055,12 +1135,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6481418342068940338&quot; data-geo-json-id=&quot;6481418342068940338&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/iz3jJ4Oxp2YanSr9t3X3mI3RfkMGIoUbQCHMYBhgL/I/IMG_20171008_093758.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/461 ISO 50&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/FYXsIt1evhganSr9t3X3mI3RfkMGIoUbQCHMYBhgL/s400/IMG_20171008_093758.jpg&quot; alt=&quot;IMG_20171008_093758.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/FYXsIt1evhganSr9t3X3mI3RfkMGIoUbQCHMYBhgL/s400/IMG_20171008_093758.jpg 400w,https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/FYXsIt1evhganSr9t3X3mI3RfkMGIoUbQCHMYBhgL/s800/IMG_20171008_093758.jpg 800w,https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/FYXsIt1evhganSr9t3X3mI3RfkMGIoUbQCHMYBhgL/s1600/IMG_20171008_093758.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/iz3jJ4Oxp2YanSr9t3X3mI3RfkMGIoUbQCHMYBhgL/I/IMG_20171008_093758.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/461 ISO 50&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:75.0%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/FYXsIt1evhganSr9t3X3mI3RfkMGIoUbQCHMYBhgL/s400/IMG_20171008_093758.jpg&quot; alt=&quot;IMG_20171008_093758.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/FYXsIt1evhganSr9t3X3mI3RfkMGIoUbQCHMYBhgL/s400/IMG_20171008_093758.jpg 400w,https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/FYXsIt1evhganSr9t3X3mI3RfkMGIoUbQCHMYBhgL/s800/IMG_20171008_093758.jpg 800w,https://lh3.googleusercontent.com/-6OP6RlS1X6w/WfKfpF-4bjI/AAAAAAAAoVU/FYXsIt1evhganSr9t3X3mI3RfkMGIoUbQCHMYBhgL/s1600/IMG_20171008_093758.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -1070,13 +1155,18 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
+  
+  
+  
   
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6481418342617933794&quot; data-geo-json-id=&quot;6481418342617933794&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/F5aBe-2cTUEl3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/I/IMG_20171009_111601.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/50 ISO 158&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/Hqd7doSMdF8l3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/s400/IMG_20171009_111601.jpg&quot; alt=&quot;IMG_20171009_111601.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/Hqd7doSMdF8l3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/s400/IMG_20171009_111601.jpg 400w,https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/Hqd7doSMdF8l3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/s800/IMG_20171009_111601.jpg 800w,https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/Hqd7doSMdF8l3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/s1600/IMG_20171009_111601.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/F5aBe-2cTUEl3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/I/IMG_20171009_111601.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/50 ISO 158&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:74.98659517426273%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/Hqd7doSMdF8l3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/s400/IMG_20171009_111601.jpg&quot; alt=&quot;IMG_20171009_111601.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/Hqd7doSMdF8l3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/s400/IMG_20171009_111601.jpg 400w,https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/Hqd7doSMdF8l3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/s800/IMG_20171009_111601.jpg 800w,https://lh3.googleusercontent.com/-y2qTm0s464U/WfKfpIBxZ-I/AAAAAAAAoVU/Hqd7doSMdF8l3T7P9zvxzmXMu4b0LGFBgCHMYBhgL/s1600/IMG_20171009_111601.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -1088,13 +1178,18 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
     &lt;/figcaption&gt;
   &lt;/figure&gt;
 
+  
+  
+  
   
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6481417834691412290&quot; data-geo-json-id=&quot;6481417834691412290&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/Qwa7UX_eL-kow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/I/IMG_20171010_081814.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/100 ISO 75&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/RRCjYCabeNUow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/s400/IMG_20171010_081814.jpg&quot; alt=&quot;IMG_20171010_081814.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/RRCjYCabeNUow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/s400/IMG_20171010_081814.jpg 400w,https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/RRCjYCabeNUow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/s800/IMG_20171010_081814.jpg 800w,https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/RRCjYCabeNUow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/s1600/IMG_20171010_081814.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/Qwa7UX_eL-kow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/I/IMG_20171010_081814.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL f/2.0 1/100 ISO 75&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:75.0%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/RRCjYCabeNUow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/s400/IMG_20171010_081814.jpg&quot; alt=&quot;IMG_20171010_081814.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/RRCjYCabeNUow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/s400/IMG_20171010_081814.jpg 400w,https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/RRCjYCabeNUow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/s800/IMG_20171010_081814.jpg 800w,https://lh3.googleusercontent.com/-Yg8ysUFAhI0/WfKfLj2pwUI/AAAAAAAAoUw/RRCjYCabeNUow4IHxeZ3Tz5IxIyCu_U3gCHMYBhgL/s1600/IMG_20171010_081814.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
@@ -1107,12 +1202,17 @@ geo_json: '{&quot;type&quot;:&quot;FeatureCollection&quot;,&quot;features&quot;:
   &lt;/figure&gt;
 
   
+  
+  
+  
   &lt;figure class=&quot;gphoto_entry&quot; data-gphoto-id=&quot;6481417470649198002&quot; data-geo-json-id=&quot;6481417470649198002&quot;&gt;
     
       
       
-        &lt;a href=&quot;https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/b4G6I1r5g3w3d6BiZHgF3ORSAqpV5URmACHMYBhgL/I/PANO_20171010_104053.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL&quot;&gt;
-    &lt;img src=&quot;https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/_tt2grc_33Q3d6BiZHgF3ORSAqpV5URmACHMYBhgL/s400/PANO_20171010_104053.jpg&quot; alt=&quot;PANO_20171010_104053.jpg&quot; srcset=&quot;https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/_tt2grc_33Q3d6BiZHgF3ORSAqpV5URmACHMYBhgL/s400/PANO_20171010_104053.jpg 400w,https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/_tt2grc_33Q3d6BiZHgF3ORSAqpV5URmACHMYBhgL/s800/PANO_20171010_104053.jpg 800w,https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/_tt2grc_33Q3d6BiZHgF3ORSAqpV5URmACHMYBhgL/s1600/PANO_20171010_104053.jpg 1600w&quot; sizes=&quot;(max-width: 440px) 400px, (max-width: 840px) 800px, 1600px&quot; /&gt;
+        &lt;a href=&quot;https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/b4G6I1r5g3w3d6BiZHgF3ORSAqpV5URmACHMYBhgL/I/PANO_20171010_104053.jpg&quot; title=&quot;&amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Google Pixel XL&quot; class=&quot;has-responsively-lazy&quot;&gt;
+    &lt;div class=&quot;responsively-lazy&quot; style=&quot;padding-bottom:35.79092159559835%;&quot;&gt;
+      &lt;img src=&quot;https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/_tt2grc_33Q3d6BiZHgF3ORSAqpV5URmACHMYBhgL/s400/PANO_20171010_104053.jpg&quot; alt=&quot;PANO_20171010_104053.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/_tt2grc_33Q3d6BiZHgF3ORSAqpV5URmACHMYBhgL/s400/PANO_20171010_104053.jpg 400w,https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/_tt2grc_33Q3d6BiZHgF3ORSAqpV5URmACHMYBhgL/s800/PANO_20171010_104053.jpg 800w,https://lh3.googleusercontent.com/-Uw27FsJ1_nw/WfKe2XsOZbI/AAAAAAAAoUw/_tt2grc_33Q3d6BiZHgF3ORSAqpV5URmACHMYBhgL/s1600/PANO_20171010_104053.jpg 1600w&quot; /&gt;
+    &lt;/div&gt;
   &lt;/a&gt;
       
     
