@@ -12,7 +12,7 @@ module Jekyll
 
     def initialize(config)
       config = DEFAULT_CONFIG.merge(config)
-      @cache = Cache.new(config['exif_cache_yml'], 'EXIF') do |url|
+      @cache = Cache.instance(config['exif_cache_yml'], 'EXIF') do |url|
         Exif::Data.new(open(url)).to_h
       end
     end

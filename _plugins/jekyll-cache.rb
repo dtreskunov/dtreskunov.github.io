@@ -4,7 +4,13 @@ require 'yaml'
 module Jekyll
   class Cache
     LOG_ID = 'jekyll-cache.rb:'
-    
+    @instances = {}
+
+    private_class_method :new
+    def self.instance(filename, description, &fetcher)
+      @instances[filename] ||= new(filename, description, &fetcher)
+    end
+
     def initialize(filename, description, &fetcher)
       @filename = filename
       @description = description

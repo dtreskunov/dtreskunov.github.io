@@ -26,7 +26,7 @@ module Jekyll
       end
       self.class.default_params key: api_key
 
-      @reverse_geocode_cache = Cache.new(config['reverse_geocode_cache_yml'], 'reverse geocode') do |lat_lng|
+      @reverse_geocode_cache = Cache.instance(config['reverse_geocode_cache_yml'], 'reverse geocode') do |lat_lng|
         response = self.class.get('/geocode/json', {query: {latlng: ("%f,%f" % lat_lng)}})
         code = response.code.to_i
         raise "invalid HTTP response code #{code}, body: #{response.body}" unless code == 200
