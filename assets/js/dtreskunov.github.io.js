@@ -5,7 +5,7 @@
     return proxy + '/' + url;
   }
 
-  window.addEventListener('load', function setupPhotoSpheres() {
+  $(document).ready(function setupPhotoSpheres() {
     function setupPhotoSphere(container) {
       $container = $(container);
       $container.one('click', function() {
@@ -24,7 +24,7 @@
     });
   });
 
-  window.addEventListener('load', function setupGeoJsons() {
+  $(document).ready(function setupGeoJsons() {
     var ICON_INACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png';
     var ICON_ACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png';
 
@@ -144,7 +144,7 @@
     }
   });
 
-  window.addEventListener('load', function configureExternalLinks() {
+  $(document).ready(function configureExternalLinks() {
     var urlRegExp = /https?:\/\/(.*?)(\/|$)/i;
     $('a[href]').each(function() {
       if ($(this).text().trim()) {
@@ -161,12 +161,12 @@
     });
   });
 
-  window.addEventListener('load', function configureAccordionJs() {
+  $(document).ready(function configureAccordionJs() {
     // http://accordionjs.zerowp.com/
     $('.accordionjs').accordionjs({activeIndex: false});
   });
 
-  window.addEventListener('load', function setupImagePopups() {
+  $(document).ready(function setupImagePopups() {
     function getImageSrc($img) {
       var srcset = $img.attr('data-srcset') || $img.attr('srcset');
       if (srcset) {
