@@ -25,11 +25,18 @@ module Jekyll
       }
       return if groups.empty?
       all_albums = select_accessible_entries picasa_client.album.list.entries
+      #all_albums = picasa_client.album.list({'max-results' => 9999999}).entries
+      #File.open("#{site.dest}/gphoto_albums.yml", 'w') do |f|
+      #  f.write YAML.dump(all_albums)
+      #  Jekyll.logger.debug 'GPhoto:', "Writing album metadata to #{f.path}"
+      #end
 
       groups.each do |album_search_str, docs|
         album_id = find_album_id(all_albums, album_search_str)
         unless album_id
-          Jekyll.logger.warn 'GPhoto:', "album matching `#{album_search_str}` not found"
+          Jekyll.logger.warn 'GPhoto:', "album matching `#{album_search_str}` not found - try
+going to `Sharing options`, unsharing, and then resharing the album. Make sure it shows up
+for you when you go to http://picasaweb.google.com"
           next
         end
         album = picasa_client.album.show(album_id, imgmax: 'd', thumbsize: '100c,400,800,1600')
