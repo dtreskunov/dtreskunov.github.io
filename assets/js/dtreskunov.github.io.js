@@ -6,21 +6,20 @@
   }
 
   $(document).ready(function setupPhotoSpheres() {
-    function setupPhotoSphere(container) {
-      $container = $(container);
-      $container.one('click', function() {
-        $container.empty();
+    function setupPhotoSphereViewer(container) {
+      $(container).one('click', function() {
+        $(this).empty();
         var viewer = PhotoSphereViewer({
-          container: $container[0],
-          panorama: getCorsUrl($container.attr('data-url')),
-          caption: $container.attr('data-caption'),
+          container: this,
+          panorama: getCorsUrl($(this).attr('data-url')),
+          caption: $(this).attr('data-caption'),
           gyroscope: true
         });
         viewer.getNavbarButton('markers').hide();
       });
     }
-    $('.photosphere').each(function() {
-      setupPhotoSphere(this);
+    $('.photosphere-viewer').each(function() {
+      setupPhotoSphereViewer(this);
     });
   });
 
