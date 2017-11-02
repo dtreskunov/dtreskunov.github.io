@@ -38,19 +38,25 @@ module Jekyll
           doc.data['tags'] += get_tags(album_data)
           doc.data['locality'] ||= common_val(album_data['entries'], 'locality')
 
-          cover_entry = album_data['entries'].find {|e| e['caption'].include? '#cover'}
-
           doc.data['gphoto_album_data'] = album_data
           doc.data['gphoto_album_data_yml'] = YAML.dump album_data
           # doc.data['gphoto_raw_album_yml'] = YAML.dump album.parsed_body
           doc.data['header'] = (doc.data['header'] || {}).dup
-          doc.data.deep_merge!({'header' => {'overlay_image' => cover_entry['images'].last['url']}}) if cover_entry
+          doc.data['header']['overlay_image'] ||= get_cover_image_url(album_data)
           doc.content += TEMPLATE_INCLUDE unless doc.content.include? TEMPLATE_INCLUDE
         end
       end
     end
 
     private
+    def get_cover_image_url(album_data)
+      entry = album_data['entries'].find {|e| e['caption'].include? '#cover'}
+      if entry
+        image = entry['images'].find{|i|i['width'] > 800} || entry['images'].last
+        image['url']
+      end
+    end
+
     def get_tags(album_data)
       media = album_data['entries'].map do |entry|
         case entry['best']['medium']

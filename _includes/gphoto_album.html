@@ -9,30 +9,41 @@
 {% assign lazy_srcset = "data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" %}
 <div class="gphoto_album" data-gphoto-id="{{ album.id }}" data-geo-json="{{ album.geo_json | jsonify | escape}}">
 {% for entry in album.entries %}
+  {% capture caption %}
+    {% if entry.type != 'video' %}
+      <div class="exif">
+        <i class="fa fa-camera" aria-hidden="true"></i>
+        {{ entry.exif.make | escape }}
+        {{ entry.exif.model | escape }}
+        {{ entry.exif.fstop | escape }}
+        {{ entry.exif.exposure | escape }}
+        {{ entry.exif.iso | escape }}
+      </div>
+    {% endif %}
+    {% if entry.locality %}{% unless page.locality %}
+      <div class="locality">
+        <i class="fa fa-map-marker" aria-hidden="true"></i> {{ entry.locality | escape }}
+      </div>
+    {% endunless %}{% endif %}
+    <div class="caption">
+      {{ entry.caption | escape }}
+    </div>
+  {% endcapture %}
   {% capture img %}
     <div class="responsively-lazy" style="padding-bottom:{{ entry.aspect_ratio | times: 100}}%;">
       <img src="{{ entry.images.first.url }}"
            alt="{{ entry.title | escape }}"
            srcset="{{ lazy_srcset }}"
-           data-srcset="{{ entry.srcset }}">
+           data-srcset="{{ entry.srcset }}"
+           data-caption="{{ caption | escape }}">
     </div>
   {% endcapture %}
-  {% capture exif %}
-    <i class="fa fa-camera" aria-hidden="true"></i>
-    {{ entry.exif.make | escape }}
-    {{ entry.exif.model | escape }}
-    {{ entry.exif.fstop | escape }}
-    {{ entry.exif.exposure | escape }}
-    {{ entry.exif.iso | escape }}
-  {% endcapture %}
-  <figure class="gphoto_entry popup {{ entry.type }}" data-gphoto-id="{{ entry.id }}" data-geo-json-id="{{ entry.geo_json_id }}">
+  <figure class="gphoto_entry {{ entry.type }}" data-gphoto-id="{{ entry.id }}" data-geo-json-id="{{ entry.geo_json_id }}">
     {% case entry.type %}
     {% when 'image' %}
-      <div class="has-responsively-lazy">
-        {{ img }}
-      </div>
+      {{ img }}
     {% when 'photosphere' %}
-      <div class="photosphere" data-url="{{ entry.best.url }}" data-caption="{{ exif | escape }}">
+      <div class="photosphere" data-url="{{ entry.best.url }}">
         {{ img }}
         <div class="overlay"></div>
       </div>
@@ -46,11 +57,7 @@
       </video>
     {% endcase %}
     <figcaption>
-      {% if entry.locality %}{% unless page.locality %}
-        <i class="fa fa-map-marker" aria-hidden="true"></i> {{ entry.locality | escape }}
-      {% endunless %}{% endif %}
-      <div class="exif">{{ exif }}</div>
-      {{ entry.caption | escape }}
+      {{ caption }}
     </figcaption>
   </figure>
 {% endfor %}

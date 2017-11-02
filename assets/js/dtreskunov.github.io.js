@@ -75,7 +75,7 @@
     });
     map.fitBounds(bounds);
 
-    $('[data-geo-json-id]').on('mouseover click', function() {
+    $('[data-geo-json-id]').on('mouseover', function() {
       var feature = map.data.getFeatureById(this.dataset.geoJsonId);
       if (feature) {
         var geometry = feature.getGeometry();
@@ -129,6 +129,10 @@
         var listeningTo = $._data($referencedElement[0], 'events');
         if (listeningTo && listeningTo.click) {
           $referencedElement.trigger('click');
+        } else if ($referencedElement.is('a')) {
+          $referencedElement.trigger('click');
+        } else if ($referencedElement.find('a').length > 0) {
+          $referencedElement.find('a').first().trigger('click');
         } else {
           $(document).fullScreen(false);
           $.smoothScroll({scrollTarget: $referencedElement});
@@ -162,28 +166,63 @@
     $('.accordionjs').accordionjs({activeIndex: false});
   });
 
-  window.addEventListener('load', function configurePhotoPopup() {
+  window.addEventListener('load', function setupImagePopups() {
+    function getImageSrc($img) {
+      var srcset = $img.attr('data-srcset') || $img.attr('srcset');
+      if (srcset) {
+        var ww = $(window).width();
+        var specs = srcset.split(/\s*,\s*/);
+        var regexp = /(\S+)\s+(([0-9]+)w)?/;
+        var srcWidthPairs = specs.map(function(spec) {
+          var match = regexp.exec(spec);
+          if (match) {
+            return [match[1], match[3]];
+          }
+        });
+        var srcWidthPair = srcWidthPairs.find(function(srcWidthPair) {
+          return !srcWidthPair[1] || srcWidthPair[1] > ww;
+        });
+        if (srcWidthPair) {
+          return srcWidthPair[0];
+        }
+      }
+      return $img.attr('src');
+    }
+
     // http://dimsemenov.com/plugins/magnific-popup/documentation.html
-    var $photos = $('.popup.image');
-
-    var items = $photos.map(function(i) {
-      var $counter = $('<div class="counter">' + (i+1) + ' of ' + $photos.length + '</div>');
-      return {src: $(this).clone().append($counter)};
-    }).toArray();
-
-    $photos.each(function(i) {
-      $(this).magnificPopup({
-        type: 'inline',
-        gallery: {
-          enabled: true,
-          navigateByImgClick: true,
-          preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+    $(".gphoto_entry.image").magnificPopup({
+      type: 'image',
+      tLoading: 'Loading image #%curr%...',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+      },
+      image: {
+        titleSrc: function(item) {
+          var $img = item.el.find('img');
+          return $img.attr('data-caption');
+        }
+      },
+      callbacks: {
+        elementParse: function(item) {
+          var $img = item.el.find('img');
+          item.src = getImageSrc($img);
         },
-        items: items,
-        index: i,
-        closeOnContentClick: true,
-        midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-      });
+        resize: function() {
+          var item = $.magnificPopup.instance.currItem;
+          if (item) {
+            var src = item.src;
+            item.src = getImageSrc(item.el.find('img'));
+            if (src !== item.src) {
+              $.magnificPopup.instance.updateItemHTML();
+            }
+          }
+        }
+      },
+      overflowY: 'hidden',
+      closeOnContentClick: true,
+      midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
     });
   });
 }());
