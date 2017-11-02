@@ -30,13 +30,12 @@
     </div>
   {% endcapture %}
   {% capture img %}
-    <div class="responsively-lazy" style="padding-bottom:{{ entry.aspect_ratio | times: 100}}%;">
-      <img src="{{ entry.images.first.url }}"
-           alt="{{ entry.title | escape }}"
-           srcset="{{ lazy_srcset }}"
-           data-srcset="{{ entry.srcset }}"
-           data-caption="{{ caption | escape }}">
-    </div>
+    <img class="responsively-lazy"
+         src="{{ entry.images.first.url }}"
+         alt="{{ entry.title | escape }}"
+         srcset="{{ lazy_srcset }}"
+         data-srcset="{{ entry.srcset }}"
+         data-caption="{{ caption | escape }}">
   {% endcapture %}
   <figure class="gphoto_entry {{ entry.type }}" data-gphoto-id="{{ entry.id }}" data-geo-json-id="{{ entry.geo_json_id }}">
     {% case entry.type %}

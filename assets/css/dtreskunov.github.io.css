@@ -10,9 +10,6 @@ video {
   width: 100%;
   height: 20em;
 }
-.photosphere-viewer div.responsively-lazy {
-  height: 100%;
-}
 .photosphere-viewer img {
   height: 100%;
   width: 100%;
@@ -40,7 +37,4 @@ video {
 }
 a.has-text[target='_blank']:after {
   content: "\2197";
-}
-figure .responsively-lazy {
-  width: 100%;
 }
