@@ -5,7 +5,62 @@
     return proxy + '/' + url;
   }
 
+  function checkNested(obj, levels) {
+    for (var i=0; i<levels.length; i++) {
+      if (!obj || !obj.hasOwnProperty(levels[i])) {
+        return false;
+      }
+      obj = obj[levels[i]];
+    }
+    return true;
+  }
+
+  function loadScripts(windowProperty, scripts) {
+    if (checkNested(window, windowProperty.split('.'))) {
+      return $.when();
+    } else {
+      scripts = $.isArray(scripts) ? scripts : [scripts];
+      var promises = $.map(scripts, function(script) {
+        return $.ajax({
+          dataType: 'script',
+          cache: true,
+          url: script[0] === '/' ? ((window.BASE_URL || '') + script) : script
+        });
+      });
+      return $.when.apply($, promises).then(function() {
+        if (!checkNested(window, windowProperty.split('.'))) {
+          var msg = 'window.' + windowProperty + ' is still undefined after loading '
+            + scripts.join(', ');
+          console.error(msg);
+          return $.Deferred().reject(msg);
+        }
+      });
+    }
+  }
+
+  function loadScriptsInOrder(propertyScriptsPairs) {
+    return propertyScriptsPairs.reduce(function(promise, propertyScriptsPair) {
+      return promise.then(function() {
+        return loadScripts(propertyScriptsPair[0], propertyScriptsPair[1]);
+      });
+    }, $.when());
+  }
+
   $(document).ready(function setupPhotoSpheres() {
+    function loadPhotoSphereScripts() {
+      return loadScriptsInOrder([
+        ['THREE', 'https://cdn.jsdelivr.net/npm/three@0.87.1/build/three.min.js'],
+        ['PhotoSphereViewer', [
+          'https://cdn.jsdelivr.net/npm/d.js@0.7.5/lib/D.min.js',
+          'https://cdn.jsdelivr.net/npm/uevent@1.0.0/uevent.min.js',
+          'https://cdn.jsdelivr.net/npm/dot@1.1.2/doT.min.js',
+          'https://cdn.jsdelivr.net/npm/photo-sphere-viewer@3.2.3/dist/photo-sphere-viewer.min.js',
+          '/assets/js/mrdoob/three.js/master/examples/js/renderers/CanvasRenderer.js',
+          '/assets/js/mrdoob/three.js/master/examples/js/renderers/Projector.js',
+          '/assets/js/mrdoob/three.js/master/examples/js/controls/DeviceOrientationControls.js']]
+      ]);
+    }
+
     function setupPhotoSphereViewer(container) {
       $(container).one('click', function() {
         $(this).empty();
@@ -18,12 +73,24 @@
         viewer.getNavbarButton('markers').hide();
       });
     }
-    $('.photosphere-viewer').each(function() {
-      setupPhotoSphereViewer(this);
-    });
+    var $containers = $('.photosphere-viewer');
+    if ($containers.length > 0) {
+      loadPhotoSphereScripts().then(function() {
+        $containers.each(function() {
+          setupPhotoSphereViewer(this);
+        });
+      });
+    }
   });
 
   $(document).ready(function setupGeoJsons() {
+    function loadGoogleMapsScripts() {
+      return $.when(
+        loadScripts('google.maps.Map', 'https://maps.googleapis.com/maps/api/js?key=' + window.GOOGLE_MAPS_KEY),
+        loadScripts('jQuery.prototype.fullScreen', 'https://cdn.jsdelivr.net/npm/jquery-fullscreen-plugin@1.0.0/jquery.fullscreen-min.min.js')
+      );
+    }
+
     var ICON_INACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png';
     var ICON_ACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png';
 
@@ -35,82 +102,84 @@
       return;
     }
 
-    // find an existing map container or make one and append it into sidebar
-    var container = $('#map');
-    if (container.length === 0) {
-      container = $('<div class="google-map">');
-      $('#main .sidebar').first().append(container);
-    }
-    var mapOptions = $.extend({zoom: 1, center: {lat: 0, lng: 0}}, window.MAP_OPTIONS);
-    var map = new google.maps.Map(container[0], mapOptions);
-    var bounds = new google.maps.LatLngBounds();
-
-    map.data.setStyle(function(feature) {
-      if (feature.getProperty('active')) {
-        return {icon: ICON_ACTIVE, zIndex: 10};
-      } else {
-        return {icon: ICON_INACTIVE, zIndex: 0};
+    loadGoogleMapsScripts().then(function() {
+      // find an existing map container or make one and append it into sidebar
+      var $container = $('#map');
+      if ($container.length === 0) {
+        $container = $('<div class="google-map">');
+        $('#main .sidebar').first().append($container);
       }
-    });
+      var mapOptions = $.extend({zoom: 1, center: {lat: 0, lng: 0}}, window.MAP_OPTIONS);
+      var map = new google.maps.Map($container[0], mapOptions);
+      var bounds = new google.maps.LatLngBounds();
 
-    annotatedElements.each(function() {
-      var geoJson = JSON.parse(this.dataset.geoJson);
-      map.data.addGeoJson(geoJson, {idPropertyName: 'id'});
-
-      // extend bounds
-      $.each(geoJson.features, function(i, feature) {
-        var cs = feature.geometry.coordinates;
-        if (cs.length === 0) {
-          return;
-        }
-        if (typeof cs[0] === 'number') {
-          bounds.extend({lng: cs[0], lat: cs[1]});
-        } else if ($.isArray(cs[0])) {
-          $.each(cs, function(i, lngLat) {
-            bounds.extend({lng: lngLat[0], lat: lngLat[1]});
-          });
+      map.data.setStyle(function(feature) {
+        if (feature.getProperty('active')) {
+          return {icon: ICON_ACTIVE, zIndex: 10};
+        } else {
+          return {icon: ICON_INACTIVE, zIndex: 0};
         }
       });
-    });
-    map.fitBounds(bounds);
 
-    $('[data-geo-json-id]').on('mouseover', function() {
-      var feature = map.data.getFeatureById(this.dataset.geoJsonId);
-      if (feature) {
-        var geometry = feature.getGeometry();
-        if (geometry.getType() === 'Point') {
-          map.panTo(geometry.get());
+      annotatedElements.each(function() {
+        var geoJson = JSON.parse(this.dataset.geoJson);
+        map.data.addGeoJson(geoJson, {idPropertyName: 'id'});
+
+        // extend bounds
+        $.each(geoJson.features, function(i, feature) {
+          var cs = feature.geometry.coordinates;
+          if (cs.length === 0) {
+            return;
+          }
+          if (typeof cs[0] === 'number') {
+            bounds.extend({lng: cs[0], lat: cs[1]});
+          } else if ($.isArray(cs[0])) {
+            $.each(cs, function(i, lngLat) {
+              bounds.extend({lng: lngLat[0], lat: lngLat[1]});
+            });
+          }
+        });
+      });
+      map.fitBounds(bounds);
+
+      $('[data-geo-json-id]').on('mouseover', function() {
+        var feature = map.data.getFeatureById(this.dataset.geoJsonId);
+        if (feature) {
+          var geometry = feature.getGeometry();
+          if (geometry.getType() === 'Point') {
+            map.panTo(geometry.get());
+          }
+          feature.setProperty('active', true);
         }
-        feature.setProperty('active', true);
-      }
-    }).on('mouseout', function() {
-      var feature = map.data.getFeatureById(this.dataset.geoJsonId);
-      if (feature) {
-        feature.setProperty('active', false);
-      }
-    });
+      }).on('mouseout', function() {
+        var feature = map.data.getFeatureById(this.dataset.geoJsonId);
+        if (feature) {
+          feature.setProperty('active', false);
+        }
+      });
 
-    var infoWindow = new google.maps.InfoWindow();
-    map.addListener('click', function() {
-      infoWindow.close();
-    });
-    map.data.addListener('click', function(event) {
-      var feature = event.feature;
-      if (feature) {
-        openFeaturePopup(feature);
-      }
-    });
-    map.data.addListener('mouseover', function(event) {
-      var feature = event.feature;
-      if (feature) {
-        feature.setProperty('active', true);
-      }
-    });
-    map.data.addListener('mouseout', function(event) {
-      var feature = event.feature;
-      if (feature) {
-        feature.setProperty('active', false);
-      }
+      var infoWindow = new google.maps.InfoWindow();
+      map.addListener('click', function() {
+        infoWindow.close();
+      });
+      map.data.addListener('click', function(event) {
+        var feature = event.feature;
+        if (feature) {
+          openFeaturePopup(feature);
+        }
+      });
+      map.data.addListener('mouseover', function(event) {
+        var feature = event.feature;
+        if (feature) {
+          feature.setProperty('active', true);
+        }
+      });
+      map.data.addListener('mouseout', function(event) {
+        var feature = event.feature;
+        if (feature) {
+          feature.setProperty('active', false);
+        }
+      });
     });
 
     function openFeaturePopup(feature) {
@@ -162,7 +231,13 @@
 
   $(document).ready(function configureAccordionJs() {
     // http://accordionjs.zerowp.com/
-    $('.accordionjs').accordionjs({activeIndex: false});
+    var $accordionjs = $('.accordionjs');
+    if ($accordionjs.length > 0) {
+      loadScripts('jQuery.prototype.accordionjs', '/assets/js/awps/Accordion.JS/master/accordion.js')
+        .then(function() {
+          $accordionjs.accordionjs({activeIndex: false});
+        });
+    }
   });
 
   $(document).ready(function setupImagePopups() {
@@ -223,5 +298,11 @@
       closeOnContentClick: true,
       midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
     });
+  });
+
+  $(document).ready(function setupResponsivelyLazyImages() {
+    if ($('.responsively-lazy').length > 0) {
+      loadScripts('responsivelyLazy', 'https://cdn.jsdelivr.net/npm/responsively-lazy@2.0.2/responsivelyLazy.min.js');
+    }
   });
 }());

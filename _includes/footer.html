@@ -1,7 +1,9 @@
 <script>
   window.SHOW_MAP = {{ page.show_map | jsonify }};
-  window.MAP_OPTIONS = {{ page.map_options || jsonify }};
-  window.CORS_PROXY = {{ site.env.CORS_PROXY || jsonify }};
+  window.MAP_OPTIONS = {{ page.map_options | jsonify }};
+  window.GOOGLE_MAPS_KEY = {{ page.google_maps_key | jsonify }};
+  window.CORS_PROXY = {{ site.env.CORS_PROXY | jsonify }};
+  window.BASE_URL = {{ '/' | absolute_url | jsonify }};
 </script>
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
