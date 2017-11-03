@@ -180,36 +180,36 @@
           feature.setProperty('active', false);
         }
       });
-    });
 
-    function openFeaturePopup(feature) {
-      var icon = feature.getProperty('icon');
-      if (!icon) {
-        return;
-      }
-      var id = feature.getId();
-      var position = feature.getGeometry().getType() === 'Point' ? feature.getGeometry().get() : map.getCenter();
-      var $img = $('<img class="google-map__icon">').attr('src', icon).on('click', function() {
-        var $referencedElement = $('[data-geo-json-id="' + id + '"]');
-        if (!$referencedElement) {
+      function openFeaturePopup(feature) {
+        var icon = feature.getProperty('icon');
+        if (!icon) {
           return;
         }
-        var listeningTo = $._data($referencedElement[0], 'events');
-        if (listeningTo && listeningTo.click) {
-          $referencedElement.trigger('click');
-        } else if ($referencedElement.is('a')) {
-          $referencedElement.trigger('click');
-        } else if ($referencedElement.find('a').length > 0) {
-          $referencedElement.find('a').first().trigger('click');
-        } else {
-          $(document).fullScreen(false);
-          $.smoothScroll({scrollTarget: $referencedElement});
-        }
-      });
-      infoWindow.setContent($img[0]);
-      infoWindow.setPosition(position);
-      infoWindow.open(map);
-    }
+        var id = feature.getId();
+        var position = feature.getGeometry().getType() === 'Point' ? feature.getGeometry().get() : map.getCenter();
+        var $img = $('<img class="google-map__icon">').attr('src', icon).on('click', function() {
+          var $referencedElement = $('[data-geo-json-id="' + id + '"]');
+          if (!$referencedElement) {
+            return;
+          }
+          var listeningTo = $._data($referencedElement[0], 'events');
+          if (listeningTo && listeningTo.click) {
+            $referencedElement.trigger('click');
+          } else if ($referencedElement.is('a')) {
+            $referencedElement.trigger('click');
+          } else if ($referencedElement.find('a').length > 0) {
+            $referencedElement.find('a').first().trigger('click');
+          } else {
+            $(document).fullScreen(false);
+            $.smoothScroll({scrollTarget: $referencedElement});
+          }
+        });
+        infoWindow.setContent($img[0]);
+        infoWindow.setPosition(position);
+        infoWindow.open(map);
+      }
+    });
   });
 
   $(document).ready(function configureExternalLinks() {
