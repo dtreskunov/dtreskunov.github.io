@@ -87,12 +87,10 @@
     function loadGoogleMapsScripts() {
       return $.when(
         loadScripts('google.maps.Map', 'https://maps.googleapis.com/maps/api/js?key=' + window.GOOGLE_MAPS_KEY),
-        loadScripts('jQuery.prototype.fullScreen', 'https://cdn.jsdelivr.net/npm/jquery-fullscreen-plugin@1.0.0/jquery.fullscreen-min.min.js')
+        loadScripts('jQuery.prototype.fullScreen', 'https://cdn.jsdelivr.net/npm/jquery-fullscreen-plugin@1.0.0/jquery.fullscreen-min.min.js'),
+        loadScripts('MarkerClusterer', '/assets/js/googlemaps/v3-utility-library/markerclusterer.js')
       );
     }
-
-    var ICON_INACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png';
-    var ICON_ACTIVE = 'https://maps.gstatic.com/mapfiles/ms2/micons/green-dot.png';
 
     if (window.SHOW_MAP !== undefined && !window.SHOW_MAP) {
       return;
@@ -111,103 +109,113 @@
       }
       var mapOptions = $.extend({zoom: 1, center: {lat: 0, lng: 0}}, window.MAP_OPTIONS);
       var map = new google.maps.Map($container[0], mapOptions);
-      var bounds = new google.maps.LatLngBounds();
+
+      // preserve map center when fullscreen mode is toggled
+      (function() {
+        var center = map.getCenter();
+        var fullScreen = $container.fullScreen();
+        map.addListener('center_changed', function() {
+          var curCenter = map.getCenter();
+          var curFullScreen = $container.fullScreen();
+          if (fullScreen !== curFullScreen) {
+            fullScreen = curFullScreen;
+            map.setCenter(center);
+          } else {
+            center = curCenter;
+          }
+        });
+      })();
 
       map.data.setStyle(function(feature) {
-        if (feature.getProperty('active')) {
-          return {icon: ICON_ACTIVE, zIndex: 10};
-        } else {
-          return {icon: ICON_INACTIVE, zIndex: 0};
+        var geometry = feature.getGeometry();
+        if (geometry.getType() === 'Point') {
+          return {visible: false}; // we'll create a Marker for each point-feature
         }
       });
 
       annotatedElements.each(function() {
         var geoJson = JSON.parse(this.dataset.geoJson);
         map.data.addGeoJson(geoJson, {idPropertyName: 'id'});
+      });
 
-        // extend bounds
-        $.each(geoJson.features, function(i, feature) {
-          var cs = feature.geometry.coordinates;
-          if (cs.length === 0) {
-            return;
-          }
-          if (typeof cs[0] === 'number') {
-            bounds.extend({lng: cs[0], lat: cs[1]});
-          } else if ($.isArray(cs[0])) {
-            $.each(cs, function(i, lngLat) {
-              bounds.extend({lng: lngLat[0], lat: lngLat[1]});
-            });
-          }
+      // fit map bounds to features
+      var bounds = new google.maps.LatLngBounds();
+      map.data.forEach(function(feature) {
+        var geometry = feature.getGeometry();
+        geometry.forEachLatLng(function(latLng) {
+          bounds.extend(latLng);
         });
       });
       map.fitBounds(bounds);
 
-      $('[data-geo-json-id]').on('mouseover', function() {
-        var feature = map.data.getFeatureById(this.dataset.geoJsonId);
-        if (feature) {
-          var geometry = feature.getGeometry();
-          if (geometry.getType() === 'Point') {
-            map.panTo(geometry.get());
-          }
-          feature.setProperty('active', true);
-        }
-      }).on('mouseout', function() {
-        var feature = map.data.getFeatureById(this.dataset.geoJsonId);
-        if (feature) {
-          feature.setProperty('active', false);
-        }
+      // add a marker for each feature and activate clustering
+      var clusterer = new MarkerClusterer(map, [], {
+        zoomOnClick: true,
+        averageCenter: true,
+        minimumClusterSize: 5,
+        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
       });
-
-      var infoWindow = new google.maps.InfoWindow();
-      map.addListener('click', function() {
-        infoWindow.close();
-      });
-      map.data.addListener('click', function(event) {
-        var feature = event.feature;
-        if (feature) {
-          openFeaturePopup(feature);
-        }
-      });
-      map.data.addListener('mouseover', function(event) {
-        var feature = event.feature;
-        if (feature) {
-          feature.setProperty('active', true);
-        }
-      });
-      map.data.addListener('mouseout', function(event) {
-        var feature = event.feature;
-        if (feature) {
-          feature.setProperty('active', false);
-        }
-      });
-
-      function openFeaturePopup(feature) {
-        var icon = feature.getProperty('icon');
-        if (!icon) {
+      map.data.forEach(function(feature) {
+        var geometry = feature.getGeometry();
+        if (geometry.getType() !== 'Point') {
           return;
         }
-        var id = feature.getId();
-        var position = feature.getGeometry().getType() === 'Point' ? feature.getGeometry().get() : map.getCenter();
-        var $img = $('<img class="google-map__icon">').attr('src', icon).on('click', function() {
-          var $referencedElement = $('[data-geo-json-id="' + id + '"]');
-          if (!$referencedElement) {
-            return;
-          }
-          var listeningTo = $._data($referencedElement[0], 'events');
-          if (listeningTo && listeningTo.click) {
-            $referencedElement.trigger('click');
-          } else if ($referencedElement.is('a')) {
-            $referencedElement.trigger('click');
-          } else if ($referencedElement.find('a').length > 0) {
-            $referencedElement.find('a').first().trigger('click');
-          } else {
-            $(document).fullScreen(false);
-            $.smoothScroll({scrollTarget: $referencedElement});
-          }
+        var icon = feature.getProperty('icon') ?
+            {url: feature.getProperty('icon'),
+             scaledSize: new google.maps.Size(50, 50)} :
+            undefined;
+        var marker = new google.maps.Marker({
+          position: geometry.get(),
+          icon: icon
         });
-        infoWindow.setContent($img[0]);
-        infoWindow.setPosition(position);
-        infoWindow.open(map);
+        marker.set('feature', feature);
+        marker.addListener('click', function(event) {
+          map.panTo(marker.getPosition());
+          activateElement($('[data-geo-json-id="' + feature.getId() + '"]'));
+        });
+        feature.setProperty('marker', marker);
+        clusterer.addMarker(marker, false);
+      });
+      clusterer.redraw();
+
+      // highlight map markers when related element is moused over
+      $('[data-geo-json-id]').each(function() {
+        var feature = map.data.getFeatureById(this.dataset.geoJsonId);
+        if (!feature) {
+          return;
+        }
+        var marker = feature.getProperty('marker');
+        if (!marker) {
+          return;
+        }
+        var highlightMarker = new google.maps.Marker({
+          position: marker.getPosition()
+        });
+
+        $(this).on('mouseover', function() {
+          //map.panTo(highlightMarker.getPosition());
+          //highlightMarker.setAnimation(google.maps.Animation.DROP);
+          highlightMarker.setMap(map);
+        }).on('mouseout', function() {
+          highlightMarker.setMap(null);
+        });
+      });
+
+      function activateElement($e) {
+        if (!$e.length) {
+          return;
+        }
+        var listeningTo = $._data($e[0], 'events');
+        if (listeningTo && listeningTo.click) {
+          $e.trigger('click');
+        } else if ($e.is('a')) {
+          $e.trigger('click');
+        } else if ($e.find('a').length > 0) {
+          $e.find('a').first().trigger('click');
+        } else {
+          $(document).fullScreen(false);
+          $.smoothScroll({scrollTarget: $e});
+        }
       }
     });
   });
