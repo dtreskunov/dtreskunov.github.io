@@ -89,7 +89,7 @@
   $(document).ready(function setupGeoJsons() {
     function loadGoogleMapsScripts() {
       return loadScriptsInOrder([
-        [['google.maps.Map', 'https://maps.googleapis.com/maps/api/js?key=' + window.GOOGLE_MAPS_KEY],
+        [['google.maps.Map', 'https://maps.googleapis.com/maps/api/js?libraries=geometry&key=' + window.GOOGLE_MAPS_KEY],
          ['jQuery.prototype.fullScreen', 'https://cdn.jsdelivr.net/npm/jquery-fullscreen-plugin@1.0.0/jquery.fullscreen-min.min.js'],
          ['MarkerClusterer', '/assets/js/googlemaps/v3-utility-library/markerclusterer.js']
         ]]);
@@ -98,8 +98,9 @@
     if (window.SHOW_MAP !== undefined && !window.SHOW_MAP) {
       return;
     }
-    var annotatedElements = $('[data-geo-json]');
-    if (annotatedElements.length === 0) {
+    var geoJsonElements = $('[data-geo-json]');
+    var polylineElements = $('[data-polyline]');
+    if (geoJsonElements.length === 0 && polylineElements.length === 0) {
       return;
     }
 
@@ -112,6 +113,7 @@
       }
       var mapOptions = $.extend({zoom: 1, center: {lat: 0, lng: 0}}, window.MAP_OPTIONS);
       var map = new google.maps.Map($container[0], mapOptions);
+      var bounds = new google.maps.LatLngBounds();
 
       // preserve map center when fullscreen mode is toggled
       (function() {
@@ -136,20 +138,18 @@
         }
       });
 
-      annotatedElements.each(function() {
+      geoJsonElements.each(function() {
         var geoJson = JSON.parse(this.dataset.geoJson);
         map.data.addGeoJson(geoJson, {idPropertyName: 'id'});
       });
 
       // fit map bounds to features
-      var bounds = new google.maps.LatLngBounds();
       map.data.forEach(function(feature) {
         var geometry = feature.getGeometry();
         geometry.forEachLatLng(function(latLng) {
           bounds.extend(latLng);
         });
       });
-      map.fitBounds(bounds);
 
       // add a marker for each feature and activate clustering
       var clusterer = new MarkerClusterer(map, [], {
@@ -204,6 +204,34 @@
         });
       });
 
+      polylineElements.each(function() {
+        var $e = $(this);
+        var latLngs = google.maps.geometry.encoding.decodePath(this.dataset.polyline);
+        latLngs.forEach(function(latLng) {
+          bounds.extend(latLng);
+        });
+        var mouseOutOptions = {
+          strokeColor: 'red',
+          strokeOpacity: 0.5
+        };
+        var mouseOverOptions = {
+          strokeOpacity: 1.0
+        };
+        var polyline = new google.maps.Polyline($.extend(mouseOutOptions, {
+          map: map,
+          path: latLngs
+        }));
+        polyline.addListener('click', function() {
+          activateElement($e);
+        });
+        polyline.addListener('mouseover', function() {
+          polyline.setOptions(mouseOverOptions);
+        });
+        polyline.addListener('mouseout', function() {
+          polyline.setOptions(mouseOutOptions);
+        });
+      });
+
       function activateElement($e) {
         if (!$e.length) {
           return;
@@ -212,14 +240,16 @@
         if (listeningTo && listeningTo.click) {
           $e.trigger('click');
         } else if ($e.is('a')) {
-          $e.trigger('click');
+          $e[0].click();
         } else if ($e.find('a').length > 0) {
-          $e.find('a').first().trigger('click');
+          $e.find('a')[0].click();
         } else {
           $(document).fullScreen(false);
           $.smoothScroll({scrollTarget: $e});
         }
       }
+
+      map.fitBounds(bounds);
     });
   });
 
