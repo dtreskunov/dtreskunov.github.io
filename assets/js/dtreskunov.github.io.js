@@ -38,10 +38,12 @@
     }
   }
 
-  function loadScriptsInOrder(propertyScriptsPairs) {
-    return propertyScriptsPairs.reduce(function(promise, propertyScriptsPair) {
+  function loadScriptsInOrder(propertyScriptPairArrays) {
+    return propertyScriptPairArrays.reduce(function(promise, propertyScriptPairArray) {
       return promise.then(function() {
-        return loadScripts(propertyScriptsPair[0], propertyScriptsPair[1]);
+        return $.when.apply($, propertyScriptPairArray.map(function(propertyScriptPair) {
+          return loadScripts(propertyScriptPair[0], propertyScriptPair[1]);
+        }));
       });
     }, $.when());
   }
@@ -49,16 +51,17 @@
   $(document).ready(function setupPhotoSpheres() {
     function loadPhotoSphereScripts() {
       return loadScriptsInOrder([
-        ['THREE', 'https://cdn.jsdelivr.net/npm/three@0.87.1/build/three.min.js'],
-        ['PhotoSphereViewer', [
-          'https://cdn.jsdelivr.net/npm/d.js@0.7.5/lib/D.min.js',
-          'https://cdn.jsdelivr.net/npm/uevent@1.0.0/uevent.min.js',
-          'https://cdn.jsdelivr.net/npm/dot@1.1.2/doT.min.js',
+        [['THREE', 'https://cdn.jsdelivr.net/npm/three@0.87.1/build/three.min.js'],
+         ['uEvent', 'https://cdn.jsdelivr.net/npm/uevent@1.0.0/uevent.min.js'],
+         ['D', 'https://cdn.jsdelivr.net/npm/d.js@0.7.5/lib/D.min.js'],
+         ['doT', 'https://cdn.jsdelivr.net/npm/dot@1.1.2/doT.min.js']
+        ],
+        [['PhotoSphereViewer', [
           'https://cdn.jsdelivr.net/npm/photo-sphere-viewer@3.2.3/dist/photo-sphere-viewer.min.js',
           '/assets/js/mrdoob/three.js/master/examples/js/renderers/CanvasRenderer.js',
           '/assets/js/mrdoob/three.js/master/examples/js/renderers/Projector.js',
           '/assets/js/mrdoob/three.js/master/examples/js/controls/DeviceOrientationControls.js']]
-      ]);
+        ]]);
     }
 
     function setupPhotoSphereViewer(container) {
@@ -85,11 +88,11 @@
 
   $(document).ready(function setupGeoJsons() {
     function loadGoogleMapsScripts() {
-      return $.when(
-        loadScripts('google.maps.Map', 'https://maps.googleapis.com/maps/api/js?key=' + window.GOOGLE_MAPS_KEY),
-        loadScripts('jQuery.prototype.fullScreen', 'https://cdn.jsdelivr.net/npm/jquery-fullscreen-plugin@1.0.0/jquery.fullscreen-min.min.js'),
-        loadScripts('MarkerClusterer', '/assets/js/googlemaps/v3-utility-library/markerclusterer.js')
-      );
+      return loadScriptsInOrder([
+        [['google.maps.Map', 'https://maps.googleapis.com/maps/api/js?key=' + window.GOOGLE_MAPS_KEY],
+         ['jQuery.prototype.fullScreen', 'https://cdn.jsdelivr.net/npm/jquery-fullscreen-plugin@1.0.0/jquery.fullscreen-min.min.js'],
+         ['MarkerClusterer', '/assets/js/googlemaps/v3-utility-library/markerclusterer.js']
+        ]]);
     }
 
     if (window.SHOW_MAP !== undefined && !window.SHOW_MAP) {
@@ -153,7 +156,7 @@
         zoomOnClick: true,
         averageCenter: true,
         minimumClusterSize: 5,
-        imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+        imagePath: (window.BASE_URL || '') + '/assets/img/m'
       });
       map.data.forEach(function(feature) {
         var geometry = feature.getGeometry();
