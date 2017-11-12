@@ -1,11 +1,33 @@
-<ul id="strava-activities">
+<table id="strava-activities">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Distance, mi</th>
+      <th>Elevation gain, ft</th>
+    </tr>
+  </thead>
+{% assign sum_distance = 0 %}
+{% assign sum_elevation_gain = 0 %}
 {% for activity in page.strava_activities %}
+{% assign sum_distance = sum_distance | plus: activity.distance %}
+{% assign sum_total_elevation_gain = sum_total_elevation_gain | plus: activity.total_elevation_gain %}
 {% capture url %}https://www.strava.com/activities/{{ activity.id }}{% endcapture %}
-<li data-polyline="{{ activity.map.polyline | escape }}"
-    data-polyline-url="{{ url }}"
-    title="{{ activity.name | escape }}"
-    >
-  <a href="{{ url }}">{{ activity.name | escape }}</a>
-</li>
+  <tr>
+    <td>
+      <a data-polyline="{{ activity.map.polyline | escape }}"
+         href="{{ url }}">
+        {{ activity.name | escape }}
+      </a>
+    </td>
+    <td>{{ activity.distance | divided_by: 1609.344 | round }}</td>
+    <td>{{ activity.total_elevation_gain | divided_by: 0.3048 | round }}</td>
+  </tr>
 {% endfor %}
-</ul>
+{% if page.strava_activities.size > 1 %}
+  <tr>
+    <th>Total</th>
+    <th>{{ sum_distance | divided_by: 1609.344 | round }}</th>
+    <th>{{ sum_total_elevation_gain | divided_by: 0.3048 | round }}</th>
+  </tr>
+{% endif %}
+</table>

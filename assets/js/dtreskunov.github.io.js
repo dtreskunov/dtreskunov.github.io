@@ -207,9 +207,11 @@
       polylineElements.each(function() {
         var $e = $(this);
         var latLngs = google.maps.geometry.encoding.decodePath(this.dataset.polyline);
+        var thisBounds = new google.maps.LatLngBounds();
         latLngs.forEach(function(latLng) {
-          bounds.extend(latLng);
+          thisBounds.extend(latLng);
         });
+        bounds = bounds.union(thisBounds);
         var mouseOutOptions = {
           strokeColor: 'red',
           strokeOpacity: 0.5
@@ -228,6 +230,13 @@
           polyline.setOptions(mouseOverOptions);
         });
         polyline.addListener('mouseout', function() {
+          polyline.setOptions(mouseOutOptions);
+        });
+        $e.on('mouseover', function() {
+          polyline.setOptions(mouseOverOptions);
+          map.panTo(thisBounds.getCenter());
+        });
+        $e.on('mouseout', function() {
           polyline.setOptions(mouseOutOptions);
         });
       });
