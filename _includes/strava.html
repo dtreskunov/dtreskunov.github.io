@@ -1,0 +1,11 @@
+<ul id="strava-activities">
+{% for activity in page.strava_activities %}
+{% capture url %}https://www.strava.com/activities/{{ activity.id }}{% endcapture %}
+<li data-polyline="{{ activity.map.polyline | escape }}"
+    data-polyline-url="{{ url }}"
+    title="{{ activity.name | escape }}"
+    >
+  <a href="{{ url }}">{{ activity.name | escape }}</a>
+</li>
+{% endfor %}
+</ul>
