@@ -114,6 +114,7 @@
       var mapOptions = $.extend({zoom: 1, center: {lat: 0, lng: 0}}, window.MAP_OPTIONS);
       var map = new google.maps.Map($container[0], mapOptions);
       var bounds = new google.maps.LatLngBounds();
+      var infoWindow = new google.maps.InfoWindow();
 
       // preserve map center when fullscreen mode is toggled
       (function() {
@@ -130,6 +131,10 @@
           }
         });
       })();
+
+      map.addListener('click', function() {
+        infoWindow.close();
+      });
 
       map.data.setStyle(function(feature) {
         var geometry = feature.getGeometry();
@@ -171,12 +176,10 @@
           position: geometry.get(),
           icon: icon
         });
-        marker.set('feature', feature);
         marker.addListener('click', function(event) {
           map.panTo(marker.getPosition());
           activateElement($('[data-geo-json-id="' + feature.getId() + '"]'));
         });
-        feature.setProperty('marker', marker);
         clusterer.addMarker(marker, false);
       });
       clusterer.redraw();
@@ -184,20 +187,14 @@
       // highlight map markers when related element is moused over
       $('[data-geo-json-id]').each(function() {
         var feature = map.data.getFeatureById(this.dataset.geoJsonId);
-        if (!feature) {
-          return;
-        }
-        var marker = feature.getProperty('marker');
-        if (!marker) {
+        if (!feature || feature.getGeometry().getType() !== 'Point') {
           return;
         }
         var highlightMarker = new google.maps.Marker({
-          position: marker.getPosition()
+          position: feature.getGeometry().get()
         });
 
         $(this).on('mouseover', function() {
-          //map.panTo(highlightMarker.getPosition());
-          //highlightMarker.setAnimation(google.maps.Animation.DROP);
           highlightMarker.setMap(map);
         }).on('mouseout', function() {
           highlightMarker.setMap(null);
@@ -223,8 +220,10 @@
           map: map,
           path: latLngs
         }));
-        polyline.addListener('click', function() {
-          activateElement($e);
+        polyline.addListener('click', function(event) {
+          infoWindow.setPosition(event.latLng);
+          infoWindow.setContent($e.clone()[0]);
+          infoWindow.open(map);
         });
         polyline.addListener('mouseover', function() {
           polyline.setOptions(mouseOverOptions);
@@ -246,12 +245,12 @@
           return;
         }
         var listeningTo = $._data($e[0], 'events');
-        if (listeningTo && listeningTo.click) {
-          $e.trigger('click');
-        } else if ($e.is('a')) {
+        if ($e.is('a')) {
           $e[0].click();
         } else if ($e.find('a').length > 0) {
           $e.find('a')[0].click();
+        } else if (listeningTo && listeningTo.click) {
+          $e.trigger('click');
         } else {
           $(document).fullScreen(false);
           $.smoothScroll({scrollTarget: $e});
