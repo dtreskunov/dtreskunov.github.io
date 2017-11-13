@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-11-12T14:56:10-08:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">MTB Adventure in Arizona</title><link href="https://dtreskunov.github.io/arizona/" rel="alternate" type="text/html" title="MTB Adventure in Arizona" /><published>2017-11-04T00:00:00-07:00</published><updated>2017-11-04T00:00:00-07:00</updated><id>https://dtreskunov.github.io/arizona</id><content type="html" xml:base="https://dtreskunov.github.io/arizona/">&lt;p&gt;November seems to be the perfect time to visit this corner of the world.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://dtreskunov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dtreskunov.github.io/" rel="alternate" type="text/html" /><updated>2017-11-12T17:43:15-08:00</updated><id>https://dtreskunov.github.io/</id><title type="html">Tech, Photo, Bikes, and all the rest</title><subtitle>An amazing website.</subtitle><author><name>Denis Treskunov</name></author><entry><title type="html">MTB Adventure in Arizona</title><link href="https://dtreskunov.github.io/arizona/" rel="alternate" type="text/html" title="MTB Adventure in Arizona" /><published>2017-11-04T00:00:00-07:00</published><updated>2017-11-04T00:00:00-07:00</updated><id>https://dtreskunov.github.io/arizona</id><content type="html" xml:base="https://dtreskunov.github.io/arizona/">&lt;p&gt;November seems to be the perfect time to visit this corner of the world.&lt;/p&gt;
 
 &lt;p&gt;Catching some rays and getting a dose of stoke with a dash of gnar to stave off the winter blues.&lt;/p&gt;
 
@@ -208,12 +208,12 @@ entries:
   geo_json_id: '6487612457696385378'
   type: image
   best: &amp;4
-    url: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/y412NDpltMYch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/I/IMG_20171105_122439.jpg
-    height: 3036
-    width: 4048
+    url: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/WdDibWHUQaUHuvPBOne9NgsAClqrXhVlwCHMYBhgL/I/IMG_20171105_122439.jpg
+    height: 2984
+    width: 3978
     type: image/jpeg
     medium: image
-  aspect_ratio: 0.75
+  aspect_ratio: 0.7501256913021619
   exif:
     make: Google
     model: Pixel XL
@@ -221,22 +221,22 @@ entries:
     exposure: 1/1692
     iso: ISO 50
   images:
-  - url: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s400/IMG_20171105_122439.jpg
-    height: 300
+  - url: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s400/IMG_20171105_122439.jpg
+    height: 301
     width: 400
-  - url: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s800/IMG_20171105_122439.jpg
-    height: 600
+  - url: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s800/IMG_20171105_122439.jpg
+    height: 601
     width: 800
-  - url: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s1600/IMG_20171105_122439.jpg
-    height: 1200
+  - url: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s1600/IMG_20171105_122439.jpg
+    height: 1201
     width: 1600
   - *4
-  srcset: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s100-c/IMG_20171105_122439.jpg
-    100w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s400/IMG_20171105_122439.jpg
-    400w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s800/IMG_20171105_122439.jpg
-    800w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s1600/IMG_20171105_122439.jpg
-    1600w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/y412NDpltMYch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/I/IMG_20171105_122439.jpg
-    4048w
+  srcset: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s100-c/IMG_20171105_122439.jpg
+    100w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s400/IMG_20171105_122439.jpg
+    400w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s800/IMG_20171105_122439.jpg
+    800w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s1600/IMG_20171105_122439.jpg
+    1600w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/WdDibWHUQaUHuvPBOne9NgsAClqrXhVlwCHMYBhgL/I/IMG_20171105_122439.jpg
+    3978w
   title: IMG_20171105_122439.jpg
   caption: Literally... a hangover!
   locality: Sedona, AZ
@@ -244,7 +244,7 @@ entries:
   geo_json_id: '6487612457471324562'
   type: image
   best: &amp;5
-    url: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/hKWqFNDtXfwNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/I/IMG_20171105_151808.jpg
+    url: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/WULvlmK4Ut8QNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/I/IMG_20171105_151808.jpg
     height: 3036
     width: 4048
     type: image/jpeg
@@ -257,21 +257,21 @@ entries:
     exposure: 1/1550
     iso: ISO 50
   images:
-  - url: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s400/IMG_20171105_151808.jpg
+  - url: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s400/IMG_20171105_151808.jpg
     height: 300
     width: 400
-  - url: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s800/IMG_20171105_151808.jpg
+  - url: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s800/IMG_20171105_151808.jpg
     height: 600
     width: 800
-  - url: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s1600/IMG_20171105_151808.jpg
+  - url: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s1600/IMG_20171105_151808.jpg
     height: 1200
     width: 1600
   - *5
-  srcset: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s100-c/IMG_20171105_151808.jpg
-    100w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s400/IMG_20171105_151808.jpg
-    400w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s800/IMG_20171105_151808.jpg
-    800w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s1600/IMG_20171105_151808.jpg
-    1600w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/hKWqFNDtXfwNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/I/IMG_20171105_151808.jpg
+  srcset: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s100-c/IMG_20171105_151808.jpg
+    100w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s400/IMG_20171105_151808.jpg
+    400w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s800/IMG_20171105_151808.jpg
+    800w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s1600/IMG_20171105_151808.jpg
+    1600w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/WULvlmK4Ut8QNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/I/IMG_20171105_151808.jpg
     4048w
   title: IMG_20171105_151808.jpg
   caption: Meeting our soon-to-be friends
@@ -356,7 +356,7 @@ entries:
   geo_json_id: '6487612458886977938'
   type: image
   best: &amp;7
-    url: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/QIVHFsFkfbobUTUKjLgH4oOaGyS08hRUQCHMYBhgL/I/IMG_20171106_130740.jpg
+    url: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/ExNrlRYzmYk01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/I/IMG_20171106_130740.jpg
     height: 3036
     width: 4048
     type: image/jpeg
@@ -369,21 +369,21 @@ entries:
     exposure: 1/1980
     iso: ISO 51
   images:
-  - url: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s400/IMG_20171106_130740.jpg
+  - url: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s400/IMG_20171106_130740.jpg
     height: 300
     width: 400
-  - url: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s800/IMG_20171106_130740.jpg
+  - url: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s800/IMG_20171106_130740.jpg
     height: 600
     width: 800
-  - url: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s1600/IMG_20171106_130740.jpg
+  - url: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s1600/IMG_20171106_130740.jpg
     height: 1200
     width: 1600
   - *7
-  srcset: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s100-c/IMG_20171106_130740.jpg
-    100w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s400/IMG_20171106_130740.jpg
-    400w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s800/IMG_20171106_130740.jpg
-    800w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s1600/IMG_20171106_130740.jpg
-    1600w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/QIVHFsFkfbobUTUKjLgH4oOaGyS08hRUQCHMYBhgL/I/IMG_20171106_130740.jpg
+  srcset: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s100-c/IMG_20171106_130740.jpg
+    100w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s400/IMG_20171106_130740.jpg
+    400w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s800/IMG_20171106_130740.jpg
+    800w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s1600/IMG_20171106_130740.jpg
+    1600w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/ExNrlRYzmYk01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/I/IMG_20171106_130740.jpg
     4048w
   title: IMG_20171106_130740.jpg
   caption: Hiline Trail (sic)
@@ -392,7 +392,7 @@ entries:
   geo_json_id: '6487612460270931122'
   type: photosphere
   best: &amp;8
-    url: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/zCH2-fkQLu8aJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/I/PANO_20171106_131233.jpg
+    url: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/19VvA4AwxzoeekWI_riCbF7ElpD8CIC3gCHMYBhgL/I/PANO_20171106_131233.jpg
     height: 2536
     width: 14848
     type: image/jpeg
@@ -405,21 +405,21 @@ entries:
     exposure: 
     iso: 
   images:
-  - url: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s400/PANO_20171106_131233.jpg
+  - url: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s400/PANO_20171106_131233.jpg
     height: 69
     width: 400
-  - url: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s800/PANO_20171106_131233.jpg
+  - url: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s800/PANO_20171106_131233.jpg
     height: 137
     width: 800
-  - url: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s1600/PANO_20171106_131233.jpg
+  - url: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s1600/PANO_20171106_131233.jpg
     height: 274
     width: 1600
   - *8
-  srcset: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s100-c/PANO_20171106_131233.jpg
-    100w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s400/PANO_20171106_131233.jpg
-    400w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s800/PANO_20171106_131233.jpg
-    800w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s1600/PANO_20171106_131233.jpg
-    1600w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/zCH2-fkQLu8aJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/I/PANO_20171106_131233.jpg
+  srcset: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s100-c/PANO_20171106_131233.jpg
+    100w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s400/PANO_20171106_131233.jpg
+    400w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s800/PANO_20171106_131233.jpg
+    800w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s1600/PANO_20171106_131233.jpg
+    1600w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/19VvA4AwxzoeekWI_riCbF7ElpD8CIC3gCHMYBhgL/I/PANO_20171106_131233.jpg
     14848w
   title: PANO_20171106_131233.jpg
   caption: Before the long descent on Hiline Trail
@@ -1083,7 +1083,7 @@ geo_json:
       - 34.874988888888886
     properties:
       id: '6487612457696385378'
-      icon: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s100-c/IMG_20171105_122439.jpg
+      icon: https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s100-c/IMG_20171105_122439.jpg
   - type: Feature
     geometry:
       type: Point
@@ -1092,7 +1092,7 @@ geo_json:
       - 34.82003888888889
     properties:
       id: '6487612457471324562'
-      icon: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s100-c/IMG_20171105_151808.jpg
+      icon: https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s100-c/IMG_20171105_151808.jpg
   - type: Feature
     geometry:
       type: Point
@@ -1110,7 +1110,7 @@ geo_json:
       - 34.810380555555554
     properties:
       id: '6487612458886977938'
-      icon: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s100-c/IMG_20171106_130740.jpg
+      icon: https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s100-c/IMG_20171106_130740.jpg
   - type: Feature
     geometry:
       type: Point
@@ -1119,7 +1119,7 @@ geo_json:
       - 34.81026
     properties:
       id: '6487612460270931122'
-      icon: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s100-c/PANO_20171106_131233.jpg
+      icon: https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s100-c/PANO_20171106_131233.jpg
   - type: Feature
     geometry:
       type: Point
@@ -1258,7 +1258,7 @@ geo_json:
 
 --&gt;
 
-&lt;div class=&quot;gphoto_album&quot; data-gphoto-id=&quot;6487612452514239505&quot; data-geo-json=&quot;{&amp;quot;type&amp;quot;:&amp;quot;FeatureCollection&amp;quot;,&amp;quot;features&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-112.10852777777778,33.441266666666664]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459583870338&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-5MCiYKAPC9k/WgihKL3lFYI/AAAAAAAAo08/y54vP0jOEj4CmgJPmDeSX6ItPRobRgpngCHMYBhgL/s100-c/IMG_20171104_100859.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.71667777777778,34.87734722222222]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458247152866&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-Pkhtyy4tfGM/WgihKG44ZOI/AAAAAAAAo08/gPR4iXH6C9oslHFVfIHtwv23QqEHinfnwCHMYBhgL/s100-c/IMG_20171105_115125.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.72704444444445,34.87580277777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612456476410322&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-mxXyLjhInpM/WgihKAStAdI/AAAAAAAAo1A/PuevODm5dZkJIBG7blQLaKohEtDIchLyACHMYBhgL/s100-c/IMG_20171105_121419.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.73166388888889,34.874988888888886]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457696385378&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s100-c/IMG_20171105_122439.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.77245833333333,34.82003888888889]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457471324562&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s100-c/IMG_20171105_151808.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.7799111111111,34.649883333333335]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457994672850&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-XjHrpRWkHcQ/WgihKF8r2tI/AAAAAAAAo08/Ivat7hoZdNYWmDFxlMZvFY7YWDl28Pa6QCHMYBhgL/s100-c/IMG_20171106_092837.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78063888888889,34.810380555555554]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458886977938&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s100-c/IMG_20171106_130740.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78536888888888,34.81026]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612460270931122&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s100-c/PANO_20171106_131233.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78526388888889,34.810338888888886]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459528453138&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-7Q0W7SApdoI/WgihKLqXfBI/AAAAAAAAo08/dk_ru3Es2ighMdD9E22notQAO7a3TQdOACHMYBhgL/s100-c/IMG_20171106_132116.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.79473055555556,34.813386111111114]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459791756850&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-glboijiATII/WgihKMpJLjI/AAAAAAAAo1E/Rppm8hRmmAEBuwFl9cNvcrPsYfjckHFyACHMYBhgL/s100-c/IMG_20171106_134904.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.76904166666667,34.80804444444444]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459574756850&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-cj6B_XwDZFU/WgihKL1aBfI/AAAAAAAAo08/p7J8jm2yJ74kzQv94U49tDAs1G1I7awWQCHMYBhgL/s100-c/IMG_20171106_162809.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.76454722222222,34.757619444444444]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457276240082&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-IJf567Gt9kI/WgihKDRZcNI/AAAAAAAAo2w/ynjw1KnpuDMhlo8XSQAhdVllOzhOYvTBACHMYBhgL/s100-c/IMG_20171107_093814.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78873333333334,34.821425]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458249097554&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-1SAYUDQdpvg/WgihKG5WEVI/AAAAAAAAo2w/fSfsmYRnNqwhVI17d6bLCv0E_JG78X0XACHMYBhgL/s100-c/IMG_20171107_112831.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78918888888889,34.82113611111111]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457877369122&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-hUmn8xiYXeY/WgihKFgt8SI/AAAAAAAAo08/DMo2fknb99oHZAmBYErJW3JE6GynxPIbwCHMYBhgL/s100-c/IMG_20171107_112934.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.80892777777778,34.82530277777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459220407650&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-yVFEMCvl200/WgihKKg7FWI/AAAAAAAAo08/03uQR11C26sytK9hs4V_TKMEBwKx143pQCHMYBhgL/s100-c/IMG_20171107_120450.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.80891944444444,34.82539722222222]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459365066114&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-KQRr2MUGtEc/WgihKLDaZYI/AAAAAAAAo08/Tw_wSlJylwMUFd2ILeLMINzytXH-EMYyACHMYBhgL/s100-c/IMG_20171107_121312.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.79971111111111,34.82377777777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612460367443858&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-a4nWyz0BdgQ/WgihKOyZd5I/AAAAAAAAo08/3MZ1Er8YZ8Mxf5u89D4NnZ78SOeeFiMvQCHMYBhgL/s100-c/IMG_20171107_123331.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.75478055555556,34.82995]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458451283074&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-vJSsaInjc90/WgihKHpjLII/AAAAAAAAo2w/J4IUIfYfHYUEzl29DG-MAaUA5RI55lXDACHMYBhgL/s100-c/IMG_20171107_152057.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.76933611111112,34.80757222222222]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458814263426&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-nDqwXMeav70/WgihKJAF0II/AAAAAAAAo2w/sfIs69_bYr0vQBSK3g3sko11NuTl1Hb9gCHMYBhgL/s100-c/IMG_20171107_171911.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.75175555555556,34.648447222222224]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457855876082&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-o4vwzIs1Ny4/WgihKFbl-_I/AAAAAAAAo2M/Ko3LOqlwc1cV73p1AkHVvQuu28BgYwF-QCHMYBhgL/s100-c/PANO_20171108_110322.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-112.11587222222222,34.75006388888889]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457129450978&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-np4diGVFZmw/WgihKCuZneI/AAAAAAAAo2w/QhYyyIKoOuAqI95x-YtEQ7hjRKfrxGuqwCHMYBhgL/s100-c/IMG_20171108_131831.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-112.50849444444444,34.55204444444445]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458096112562&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-vdJ1w1Wp0Ec/WgihKGU3s7I/AAAAAAAAo08/aGGEmvv7GMEj6uJfP5q0uUZ-2gX9qJgVQCHMYBhgL/s100-c/IMG_20171109_082409.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-112.53996944444444,34.55063055555556]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458618542178&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-Wf4qfT7f9Uw/WgihKIRbWGI/AAAAAAAAo08/djxCfBcCqAs2SL_XQHGd2RcF9QjUDw2OACHMYBhgL/s100-c/IMG_20171109_113235.jpg&amp;quot;}}]}&quot;&gt;
+&lt;div class=&quot;gphoto_album&quot; data-gphoto-id=&quot;6487612452514239505&quot; data-geo-json=&quot;{&amp;quot;type&amp;quot;:&amp;quot;FeatureCollection&amp;quot;,&amp;quot;features&amp;quot;:[{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-112.10852777777778,33.441266666666664]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459583870338&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-5MCiYKAPC9k/WgihKL3lFYI/AAAAAAAAo08/y54vP0jOEj4CmgJPmDeSX6ItPRobRgpngCHMYBhgL/s100-c/IMG_20171104_100859.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.71667777777778,34.87734722222222]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458247152866&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-Pkhtyy4tfGM/WgihKG44ZOI/AAAAAAAAo08/gPR4iXH6C9oslHFVfIHtwv23QqEHinfnwCHMYBhgL/s100-c/IMG_20171105_115125.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.72704444444445,34.87580277777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612456476410322&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-mxXyLjhInpM/WgihKAStAdI/AAAAAAAAo1A/PuevODm5dZkJIBG7blQLaKohEtDIchLyACHMYBhgL/s100-c/IMG_20171105_121419.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.73166388888889,34.874988888888886]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457696385378&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s100-c/IMG_20171105_122439.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.77245833333333,34.82003888888889]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457471324562&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s100-c/IMG_20171105_151808.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.7799111111111,34.649883333333335]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457994672850&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-XjHrpRWkHcQ/WgihKF8r2tI/AAAAAAAAo08/Ivat7hoZdNYWmDFxlMZvFY7YWDl28Pa6QCHMYBhgL/s100-c/IMG_20171106_092837.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78063888888889,34.810380555555554]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458886977938&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s100-c/IMG_20171106_130740.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78536888888888,34.81026]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612460270931122&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s100-c/PANO_20171106_131233.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78526388888889,34.810338888888886]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459528453138&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-7Q0W7SApdoI/WgihKLqXfBI/AAAAAAAAo08/dk_ru3Es2ighMdD9E22notQAO7a3TQdOACHMYBhgL/s100-c/IMG_20171106_132116.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.79473055555556,34.813386111111114]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459791756850&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-glboijiATII/WgihKMpJLjI/AAAAAAAAo1E/Rppm8hRmmAEBuwFl9cNvcrPsYfjckHFyACHMYBhgL/s100-c/IMG_20171106_134904.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.76904166666667,34.80804444444444]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459574756850&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-cj6B_XwDZFU/WgihKL1aBfI/AAAAAAAAo08/p7J8jm2yJ74kzQv94U49tDAs1G1I7awWQCHMYBhgL/s100-c/IMG_20171106_162809.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.76454722222222,34.757619444444444]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457276240082&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-IJf567Gt9kI/WgihKDRZcNI/AAAAAAAAo2w/ynjw1KnpuDMhlo8XSQAhdVllOzhOYvTBACHMYBhgL/s100-c/IMG_20171107_093814.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78873333333334,34.821425]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458249097554&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-1SAYUDQdpvg/WgihKG5WEVI/AAAAAAAAo2w/fSfsmYRnNqwhVI17d6bLCv0E_JG78X0XACHMYBhgL/s100-c/IMG_20171107_112831.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.78918888888889,34.82113611111111]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457877369122&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-hUmn8xiYXeY/WgihKFgt8SI/AAAAAAAAo08/DMo2fknb99oHZAmBYErJW3JE6GynxPIbwCHMYBhgL/s100-c/IMG_20171107_112934.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.80892777777778,34.82530277777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459220407650&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-yVFEMCvl200/WgihKKg7FWI/AAAAAAAAo08/03uQR11C26sytK9hs4V_TKMEBwKx143pQCHMYBhgL/s100-c/IMG_20171107_120450.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.80891944444444,34.82539722222222]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612459365066114&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-KQRr2MUGtEc/WgihKLDaZYI/AAAAAAAAo08/Tw_wSlJylwMUFd2ILeLMINzytXH-EMYyACHMYBhgL/s100-c/IMG_20171107_121312.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.79971111111111,34.82377777777778]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612460367443858&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-a4nWyz0BdgQ/WgihKOyZd5I/AAAAAAAAo08/3MZ1Er8YZ8Mxf5u89D4NnZ78SOeeFiMvQCHMYBhgL/s100-c/IMG_20171107_123331.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.75478055555556,34.82995]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458451283074&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-vJSsaInjc90/WgihKHpjLII/AAAAAAAAo2w/J4IUIfYfHYUEzl29DG-MAaUA5RI55lXDACHMYBhgL/s100-c/IMG_20171107_152057.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.76933611111112,34.80757222222222]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458814263426&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-nDqwXMeav70/WgihKJAF0II/AAAAAAAAo2w/sfIs69_bYr0vQBSK3g3sko11NuTl1Hb9gCHMYBhgL/s100-c/IMG_20171107_171911.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-111.75175555555556,34.648447222222224]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457855876082&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-o4vwzIs1Ny4/WgihKFbl-_I/AAAAAAAAo2M/Ko3LOqlwc1cV73p1AkHVvQuu28BgYwF-QCHMYBhgL/s100-c/PANO_20171108_110322.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-112.11587222222222,34.75006388888889]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612457129450978&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-np4diGVFZmw/WgihKCuZneI/AAAAAAAAo2w/QhYyyIKoOuAqI95x-YtEQ7hjRKfrxGuqwCHMYBhgL/s100-c/IMG_20171108_131831.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-112.50849444444444,34.55204444444445]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458096112562&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-vdJ1w1Wp0Ec/WgihKGU3s7I/AAAAAAAAo08/aGGEmvv7GMEj6uJfP5q0uUZ-2gX9qJgVQCHMYBhgL/s100-c/IMG_20171109_082409.jpg&amp;quot;}},{&amp;quot;type&amp;quot;:&amp;quot;Feature&amp;quot;,&amp;quot;geometry&amp;quot;:{&amp;quot;type&amp;quot;:&amp;quot;Point&amp;quot;,&amp;quot;coordinates&amp;quot;:[-112.53996944444444,34.55063055555556]},&amp;quot;properties&amp;quot;:{&amp;quot;id&amp;quot;:&amp;quot;6487612458618542178&amp;quot;,&amp;quot;icon&amp;quot;:&amp;quot;https://lh3.googleusercontent.com/-Wf4qfT7f9Uw/WgihKIRbWGI/AAAAAAAAo08/djxCfBcCqAs2SL_XQHGd2RcF9QjUDw2OACHMYBhgL/s100-c/IMG_20171109_113235.jpg&amp;quot;}}]}&quot;&gt;
 
   
   
@@ -1281,9 +1281,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Phoenix, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      On final into PHX
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        On final into PHX
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1304,9 +1306,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Phoenix, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      On final into PHX
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        On final into PHX
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1332,9 +1336,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      First taste of Sedona
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        First taste of Sedona
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1355,9 +1361,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      First taste of Sedona
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        First taste of Sedona
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1383,9 +1391,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Peter showing how it&amp;amp;#39;s done on the Hangover Trail
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Peter showing how it&amp;amp;#39;s done on the Hangover Trail
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1406,9 +1416,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Peter showing how it&amp;#39;s done on the Hangover Trail
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Peter showing how it&amp;#39;s done on the Hangover Trail
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1423,9 +1435,11 @@ geo_json:
     &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-maeLJjCiprs/WgihKFTkfVI/AAAAAAAAo08/ytnWzd0wEUcrl0HYt_grK0ocoOf7CArugCHMYBhgL/s400/VID_20171105_121718.mp4&quot; alt=&quot;VID_20171105_121718.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-maeLJjCiprs/WgihKFTkfVI/AAAAAAAAo08/ytnWzd0wEUcrl0HYt_grK0ocoOf7CArugCHMYBhgL/s100-c/VID_20171105_121718.mp4 100w,https://lh3.googleusercontent.com/-maeLJjCiprs/WgihKFTkfVI/AAAAAAAAo08/ytnWzd0wEUcrl0HYt_grK0ocoOf7CArugCHMYBhgL/s400/VID_20171105_121718.mp4 400w,https://lh3.googleusercontent.com/-maeLJjCiprs/WgihKFTkfVI/AAAAAAAAo08/ytnWzd0wEUcrl0HYt_grK0ocoOf7CArugCHMYBhgL/s800/VID_20171105_121718.mp4 800w,https://lh3.googleusercontent.com/-maeLJjCiprs/WgihKFTkfVI/AAAAAAAAo08/ytnWzd0wEUcrl0HYt_grK0ocoOf7CArugCHMYBhgL/s1600/VID_20171105_121718.mp4 1600w,https://lh3.googleusercontent.com/-maeLJjCiprs/WgihKFTkfVI/AAAAAAAAo08/L1jIYD6W8Iorl0HYt_grK0ocoOf7CArugCHMYBhgL/I/VID_20171105_121718.mp4 1920w&quot; data-caption=&quot;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Rudy: landing gear down
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Rudy: landing gear down
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
       &lt;/video&gt;
@@ -1434,9 +1448,11 @@ geo_json:
       
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Rudy: landing gear down
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Rudy: landing gear down
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1451,9 +1467,11 @@ geo_json:
     &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-3HjcQAa1xkE/WgihKEtCrTI/AAAAAAAAo08/RmxPsnC-98ImNYZl8zV_gbOkdvjfXJIFgCHMYBhgL/s400/VID_20171105_121933%257E2.mp4&quot; alt=&quot;VID_20171105_121933~2.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-3HjcQAa1xkE/WgihKEtCrTI/AAAAAAAAo08/RmxPsnC-98ImNYZl8zV_gbOkdvjfXJIFgCHMYBhgL/s100-c/VID_20171105_121933%257E2.mp4 100w,https://lh3.googleusercontent.com/-3HjcQAa1xkE/WgihKEtCrTI/AAAAAAAAo08/RmxPsnC-98ImNYZl8zV_gbOkdvjfXJIFgCHMYBhgL/s400/VID_20171105_121933%257E2.mp4 400w,https://lh3.googleusercontent.com/-3HjcQAa1xkE/WgihKEtCrTI/AAAAAAAAo08/RmxPsnC-98ImNYZl8zV_gbOkdvjfXJIFgCHMYBhgL/s800/VID_20171105_121933%257E2.mp4 800w,https://lh3.googleusercontent.com/-3HjcQAa1xkE/WgihKEtCrTI/AAAAAAAAo08/RmxPsnC-98ImNYZl8zV_gbOkdvjfXJIFgCHMYBhgL/s1600/VID_20171105_121933%257E2.mp4 1600w,https://lh3.googleusercontent.com/-3HjcQAa1xkE/WgihKEtCrTI/AAAAAAAAo08/sd3E9rT6ij0mNYZl8zV_gbOkdvjfXJIFgCHMYBhgL/I/VID_20171105_121933%257E2.mp4 1920w&quot; data-caption=&quot;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Peter on Hangover Trail
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Peter on Hangover Trail
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
       &lt;/video&gt;
@@ -1462,9 +1480,11 @@ geo_json:
       
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Peter on Hangover Trail
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Peter on Hangover Trail
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1474,7 +1494,7 @@ geo_json:
   &lt;figure class=&quot;gphoto_entry image&quot; data-gphoto-id=&quot;6487612457696385378&quot; data-geo-json-id=&quot;6487612457696385378&quot;&gt;
     
       
-    &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s400/IMG_20171105_122439.jpg&quot; alt=&quot;IMG_20171105_122439.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s100-c/IMG_20171105_122439.jpg 100w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s400/IMG_20171105_122439.jpg 400w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s800/IMG_20171105_122439.jpg 800w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/4rNVJBz8CQwch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/s1600/IMG_20171105_122439.jpg 1600w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo08/y412NDpltMYch4M10_BKHQ7yxIE7nsL0gCHMYBhgL/I/IMG_20171105_122439.jpg 4048w&quot; data-caption=&quot;
+    &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s400/IMG_20171105_122439.jpg&quot; alt=&quot;IMG_20171105_122439.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s100-c/IMG_20171105_122439.jpg 100w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s400/IMG_20171105_122439.jpg 400w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s800/IMG_20171105_122439.jpg 800w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/gA07upl5tRIHuvPBOne9NgsAClqrXhVlwCHMYBhgL/s1600/IMG_20171105_122439.jpg 1600w,https://lh3.googleusercontent.com/-10o3wZtOXvc/WgihKE1kWWI/AAAAAAAAo3k/WdDibWHUQaUHuvPBOne9NgsAClqrXhVlwCHMYBhgL/I/IMG_20171105_122439.jpg 3978w&quot; data-caption=&quot;
     
       &amp;lt;div class=&amp;quot;exif&amp;quot;&amp;gt;
         &amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
@@ -1490,9 +1510,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Literally... a hangover!
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Literally... a hangover!
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1513,9 +1535,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Literally... a hangover!
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Literally... a hangover!
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1525,7 +1549,7 @@ geo_json:
   &lt;figure class=&quot;gphoto_entry image&quot; data-gphoto-id=&quot;6487612457471324562&quot; data-geo-json-id=&quot;6487612457471324562&quot;&gt;
     
       
-    &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s400/IMG_20171105_151808.jpg&quot; alt=&quot;IMG_20171105_151808.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s100-c/IMG_20171105_151808.jpg 100w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s400/IMG_20171105_151808.jpg 400w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s800/IMG_20171105_151808.jpg 800w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/HqPFfMjnMioNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/s1600/IMG_20171105_151808.jpg 1600w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo08/hKWqFNDtXfwNG8MOKtHUrBrL0Qjq8auUQCHMYBhgL/I/IMG_20171105_151808.jpg 4048w&quot; data-caption=&quot;
+    &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s400/IMG_20171105_151808.jpg&quot; alt=&quot;IMG_20171105_151808.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s100-c/IMG_20171105_151808.jpg 100w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s400/IMG_20171105_151808.jpg 400w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s800/IMG_20171105_151808.jpg 800w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/0EQXzSLszdsQNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/s1600/IMG_20171105_151808.jpg 1600w,https://lh3.googleusercontent.com/-W5JpIcLiXNY/WgihKD_6MZI/AAAAAAAAo3k/WULvlmK4Ut8QNxuIfYyRgdJ_DhxUn6zkgCHMYBhgL/I/IMG_20171105_151808.jpg 4048w&quot; data-caption=&quot;
     
       &amp;lt;div class=&amp;quot;exif&amp;quot;&amp;gt;
         &amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
@@ -1541,9 +1565,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Meeting our soon-to-be friends
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Meeting our soon-to-be friends
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1564,9 +1590,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Meeting our soon-to-be friends
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Meeting our soon-to-be friends
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1581,9 +1609,11 @@ geo_json:
     &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-42FS7BVUUlw/WgihKIz9mFI/AAAAAAAAo1A/Jf_LcK9KoB4qjO0m9N0oY6Ky9Bm9hCkZACHMYBhgL/s400/VID_20171105_165950%257E2.mp4&quot; alt=&quot;VID_20171105_165950~2.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-42FS7BVUUlw/WgihKIz9mFI/AAAAAAAAo1A/Jf_LcK9KoB4qjO0m9N0oY6Ky9Bm9hCkZACHMYBhgL/s100-c/VID_20171105_165950%257E2.mp4 100w,https://lh3.googleusercontent.com/-42FS7BVUUlw/WgihKIz9mFI/AAAAAAAAo1A/Jf_LcK9KoB4qjO0m9N0oY6Ky9Bm9hCkZACHMYBhgL/s400/VID_20171105_165950%257E2.mp4 400w,https://lh3.googleusercontent.com/-42FS7BVUUlw/WgihKIz9mFI/AAAAAAAAo1A/Jf_LcK9KoB4qjO0m9N0oY6Ky9Bm9hCkZACHMYBhgL/s800/VID_20171105_165950%257E2.mp4 800w,https://lh3.googleusercontent.com/-42FS7BVUUlw/WgihKIz9mFI/AAAAAAAAo1A/Jf_LcK9KoB4qjO0m9N0oY6Ky9Bm9hCkZACHMYBhgL/s1600/VID_20171105_165950%257E2.mp4 1600w,https://lh3.googleusercontent.com/-42FS7BVUUlw/WgihKIz9mFI/AAAAAAAAo1A/Ctnyf3RWHvQqjO0m9N0oY6Ky9Bm9hCkZACHMYBhgL/I/VID_20171105_165950%257E2.mp4 1920w&quot; data-caption=&quot;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Peter making it look easy
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Peter making it look easy
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
       &lt;/video&gt;
@@ -1592,9 +1622,11 @@ geo_json:
       
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Peter making it look easy
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Peter making it look easy
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1620,9 +1652,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Lake Montezuma, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Boondocking next to the garbage turtle
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Boondocking next to the garbage turtle
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1643,9 +1677,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Lake Montezuma, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Boondocking next to the garbage turtle
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Boondocking next to the garbage turtle
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1655,7 +1691,7 @@ geo_json:
   &lt;figure class=&quot;gphoto_entry image&quot; data-gphoto-id=&quot;6487612458886977938&quot; data-geo-json-id=&quot;6487612458886977938&quot;&gt;
     
       
-    &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s400/IMG_20171106_130740.jpg&quot; alt=&quot;IMG_20171106_130740.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s100-c/IMG_20171106_130740.jpg 100w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s400/IMG_20171106_130740.jpg 400w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s800/IMG_20171106_130740.jpg 800w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/iRR2LiC-HOMbUTUKjLgH4oOaGyS08hRUQCHMYBhgL/s1600/IMG_20171106_130740.jpg 1600w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo08/QIVHFsFkfbobUTUKjLgH4oOaGyS08hRUQCHMYBhgL/I/IMG_20171106_130740.jpg 4048w&quot; data-caption=&quot;
+    &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s400/IMG_20171106_130740.jpg&quot; alt=&quot;IMG_20171106_130740.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s100-c/IMG_20171106_130740.jpg 100w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s400/IMG_20171106_130740.jpg 400w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s800/IMG_20171106_130740.jpg 800w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/C-XunSf2oBU01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/s1600/IMG_20171106_130740.jpg 1600w,https://lh3.googleusercontent.com/-K0W4mrJxubA/WgihKJRbWZI/AAAAAAAAo30/ExNrlRYzmYk01h3xl2j-yJ_38XJLpNvVwCHMYBhgL/I/IMG_20171106_130740.jpg 4048w&quot; data-caption=&quot;
     
       &amp;lt;div class=&amp;quot;exif&amp;quot;&amp;gt;
         &amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
@@ -1671,9 +1707,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Hiline Trail (sic)
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Hiline Trail (sic)
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1694,9 +1732,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Hiline Trail (sic)
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Hiline Trail (sic)
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1705,9 +1745,9 @@ geo_json:
   
   &lt;figure class=&quot;gphoto_entry photosphere&quot; data-gphoto-id=&quot;6487612460270931122&quot; data-geo-json-id=&quot;6487612460270931122&quot;&gt;
     
-      &lt;div class=&quot;photosphere-viewer&quot; data-url=&quot;https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/zCH2-fkQLu8aJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/I/PANO_20171106_131233.jpg&quot;&gt;
+      &lt;div class=&quot;photosphere-viewer&quot; data-url=&quot;https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/19VvA4AwxzoeekWI_riCbF7ElpD8CIC3gCHMYBhgL/I/PANO_20171106_131233.jpg&quot;&gt;
         
-    &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s400/PANO_20171106_131233.jpg&quot; alt=&quot;PANO_20171106_131233.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s100-c/PANO_20171106_131233.jpg 100w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s400/PANO_20171106_131233.jpg 400w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s800/PANO_20171106_131233.jpg 800w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/4Xer462yP8YaJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/s1600/PANO_20171106_131233.jpg 1600w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo1I/zCH2-fkQLu8aJxQiSIKAgWdRFtVBYkj-gCHMYBhgL/I/PANO_20171106_131233.jpg 14848w&quot; data-caption=&quot;
+    &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s400/PANO_20171106_131233.jpg&quot; alt=&quot;PANO_20171106_131233.jpg&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s100-c/PANO_20171106_131233.jpg 100w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s400/PANO_20171106_131233.jpg 400w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s800/PANO_20171106_131233.jpg 800w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/1d9lc9hN3iQeekWI_riCbF7ElpD8CIC3gCHMYBhgL/s1600/PANO_20171106_131233.jpg 1600w,https://lh3.googleusercontent.com/-IcgkBC2JtnY/WgihKObYzLI/AAAAAAAAo3w/19VvA4AwxzoeekWI_riCbF7ElpD8CIC3gCHMYBhgL/I/PANO_20171106_131233.jpg 14848w&quot; data-caption=&quot;
     
       &amp;lt;div class=&amp;quot;exif&amp;quot;&amp;gt;
         &amp;lt;i class=&amp;quot;fa fa-camera&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
@@ -1723,9 +1763,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Before the long descent on Hiline Trail
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Before the long descent on Hiline Trail
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
         &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
@@ -1748,9 +1790,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Before the long descent on Hiline Trail
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Before the long descent on Hiline Trail
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1776,9 +1820,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      The gang (minus Peter) #cover
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        The gang (minus Peter) #cover
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1799,9 +1845,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      The gang (minus Peter) #cover
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        The gang (minus Peter) #cover
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1827,9 +1875,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Got sandstone?
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Got sandstone?
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1850,9 +1900,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Got sandstone?
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Got sandstone?
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1878,9 +1930,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Vanlife
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Vanlife
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1901,9 +1955,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Vanlife
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Vanlife
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1929,9 +1985,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Red Rock Ranger (Pooping) Station. Stopping here every morning at opening time, 9am, was a guarantee to a successful day.
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Red Rock Ranger (Pooping) Station. Stopping here every morning at opening time, 9am, was a guarantee to a successful day.
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -1952,9 +2010,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Red Rock Ranger (Pooping) Station. Stopping here every morning at opening time, 9am, was a guarantee to a successful day.
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Red Rock Ranger (Pooping) Station. Stopping here every morning at opening time, 9am, was a guarantee to a successful day.
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -1980,9 +2040,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2003,9 +2065,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2031,9 +2095,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2054,9 +2120,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2082,9 +2150,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2105,9 +2175,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2133,9 +2205,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      WTF
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        WTF
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2156,9 +2230,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      WTF
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        WTF
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2184,9 +2260,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2207,9 +2285,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2235,9 +2315,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      The (in)famous White Line.
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        The (in)famous White Line.
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2258,9 +2340,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      The (in)famous White Line.
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        The (in)famous White Line.
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2286,9 +2370,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Sedona, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2309,9 +2395,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Sedona, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2333,9 +2421,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Montezuma Well
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Montezuma Well
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2352,9 +2442,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Montezuma Well
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Montezuma Well
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2380,9 +2472,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Jerome, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2403,9 +2497,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Jerome, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2420,9 +2516,11 @@ geo_json:
     &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-q8poob_1z0o/WgihKOXsYzI/AAAAAAAAo1A/sU_TUhH45k0dcxQZO86en0rAOKT2QEupwCHMYBhgL/s400/VID_20171108_152522%257E2.mp4&quot; alt=&quot;VID_20171108_152522~2.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-q8poob_1z0o/WgihKOXsYzI/AAAAAAAAo1A/sU_TUhH45k0dcxQZO86en0rAOKT2QEupwCHMYBhgL/s100-c/VID_20171108_152522%257E2.mp4 100w,https://lh3.googleusercontent.com/-q8poob_1z0o/WgihKOXsYzI/AAAAAAAAo1A/sU_TUhH45k0dcxQZO86en0rAOKT2QEupwCHMYBhgL/s400/VID_20171108_152522%257E2.mp4 400w,https://lh3.googleusercontent.com/-q8poob_1z0o/WgihKOXsYzI/AAAAAAAAo1A/sU_TUhH45k0dcxQZO86en0rAOKT2QEupwCHMYBhgL/s800/VID_20171108_152522%257E2.mp4 800w,https://lh3.googleusercontent.com/-q8poob_1z0o/WgihKOXsYzI/AAAAAAAAo1A/sU_TUhH45k0dcxQZO86en0rAOKT2QEupwCHMYBhgL/s1600/VID_20171108_152522%257E2.mp4 1600w,https://lh3.googleusercontent.com/-q8poob_1z0o/WgihKOXsYzI/AAAAAAAAo1A/OcZvcqcQJXwdcxQZO86en0rAOKT2QEupwCHMYBhgL/I/VID_20171108_152522%257E2.mp4 1920w&quot; data-caption=&quot;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Riding the Dells - not quite a walk in the park
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Riding the Dells - not quite a walk in the park
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
       &lt;/video&gt;
@@ -2431,9 +2529,11 @@ geo_json:
       
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Riding the Dells - not quite a walk in the park
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Riding the Dells - not quite a walk in the park
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2448,9 +2548,11 @@ geo_json:
     &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-p0tPaD7th5c/WgihKOz5oSI/AAAAAAAAo08/DpLc7TKXrBw7l5NWQ-7hw1Li7pMJ9zc8ACHMYBhgL/s400/VID_20171108_152625.mp4&quot; alt=&quot;VID_20171108_152625.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-p0tPaD7th5c/WgihKOz5oSI/AAAAAAAAo08/DpLc7TKXrBw7l5NWQ-7hw1Li7pMJ9zc8ACHMYBhgL/s100-c/VID_20171108_152625.mp4 100w,https://lh3.googleusercontent.com/-p0tPaD7th5c/WgihKOz5oSI/AAAAAAAAo08/DpLc7TKXrBw7l5NWQ-7hw1Li7pMJ9zc8ACHMYBhgL/s400/VID_20171108_152625.mp4 400w,https://lh3.googleusercontent.com/-p0tPaD7th5c/WgihKOz5oSI/AAAAAAAAo08/DpLc7TKXrBw7l5NWQ-7hw1Li7pMJ9zc8ACHMYBhgL/s800/VID_20171108_152625.mp4 800w,https://lh3.googleusercontent.com/-p0tPaD7th5c/WgihKOz5oSI/AAAAAAAAo08/DpLc7TKXrBw7l5NWQ-7hw1Li7pMJ9zc8ACHMYBhgL/s1600/VID_20171108_152625.mp4 1600w,https://lh3.googleusercontent.com/-p0tPaD7th5c/WgihKOz5oSI/AAAAAAAAo08/eCK-HemE4wo7l5NWQ-7hw1Li7pMJ9zc8ACHMYBhgL/I/VID_20171108_152625.mp4 1920w&quot; data-caption=&quot;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
       &lt;/video&gt;
@@ -2459,9 +2561,11 @@ geo_json:
       
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2487,9 +2591,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Prescott, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Pecos the trail dog
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Pecos the trail dog
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2510,9 +2616,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Prescott, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Pecos the trail dog
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Pecos the trail dog
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2538,9 +2646,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Prescott, AZ
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Prescott gnar
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Prescott gnar
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -2561,9 +2671,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Prescott, AZ
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Prescott gnar
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Prescott gnar
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -2768,9 +2880,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      #cover
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        #cover
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
         &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
@@ -2789,9 +2903,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      #cover
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        #cover
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -3152,9 +3268,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -3171,9 +3289,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -3195,9 +3315,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -3214,9 +3336,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -3238,9 +3362,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -3257,9 +3383,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -3281,9 +3409,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -3300,9 +3430,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -3324,9 +3456,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      #cover
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        #cover
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -3343,9 +3477,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      #cover
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        #cover
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -3367,9 +3503,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -3386,9 +3524,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -3403,9 +3543,11 @@ geo_json:
     &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4&quot; alt=&quot;VID_20160604_125922.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s100-c/VID_20160604_125922.mp4 100w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s400/VID_20160604_125922.mp4 400w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s800/VID_20160604_125922.mp4 800w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/NJBrq29_Yd00TrH1NYXWVFY-0S7bTJaHACHMYBhgL/s1600/VID_20160604_125922.mp4 854w,https://lh3.googleusercontent.com/-4u1aGhhFkkA/We-PjQDs4UI/AAAAAAAAoSE/YuopBRBBydM0TrH1NYXWVFY-0S7bTJaHACHMYBhgL/I/VID_20160604_125922.mp4 854w&quot; data-caption=&quot;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
       &lt;/video&gt;
@@ -3414,9 +3556,11 @@ geo_json:
       
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -3523,9 +3667,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      #cover
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        #cover
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -3542,9 +3688,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      #cover
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        #cover
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -4999,9 +5147,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      A visit to a local bike shop to fix a loose suspension pivot
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        A visit to a local bike shop to fix a loose suspension pivot
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5018,9 +5168,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      A visit to a local bike shop to fix a loose suspension pivot
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        A visit to a local bike shop to fix a loose suspension pivot
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5042,9 +5194,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      View towards Maximiliansbrücke
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        View towards Maximiliansbrücke
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5061,9 +5215,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      View towards Maximiliansbrücke
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        View towards Maximiliansbrücke
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5085,9 +5241,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      View from Friedensengel (Angel of Peace) towards Luitpoldbrücke
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        View from Friedensengel (Angel of Peace) towards Luitpoldbrücke
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5104,9 +5262,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      View from Friedensengel (Angel of Peace) towards Luitpoldbrücke
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        View from Friedensengel (Angel of Peace) towards Luitpoldbrücke
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5128,9 +5288,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Friedensengel (Angel of Peace)
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Friedensengel (Angel of Peace)
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5147,9 +5309,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Friedensengel (Angel of Peace)
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Friedensengel (Angel of Peace)
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5171,9 +5335,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Maximiliansanlagen
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Maximiliansanlagen
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5190,9 +5356,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Maximiliansanlagen
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Maximiliansanlagen
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5214,9 +5382,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Looking North from Luitpoldbrücke
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Looking North from Luitpoldbrücke
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5233,9 +5403,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Looking North from Luitpoldbrücke
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Looking North from Luitpoldbrücke
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5257,9 +5429,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5276,9 +5450,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5300,9 +5476,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Olympiaturm
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Olympiaturm
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5319,9 +5497,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Olympiaturm
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Olympiaturm
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5343,9 +5523,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      BMW Welt
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        BMW Welt
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5362,9 +5544,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      BMW Welt
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        BMW Welt
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5387,9 +5571,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Schloss Nymphenburg
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Schloss Nymphenburg
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
         &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
@@ -5408,9 +5594,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Schloss Nymphenburg
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Schloss Nymphenburg
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5433,9 +5621,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Karlsplatz
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Karlsplatz
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
         &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
@@ -5454,9 +5644,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Karlsplatz
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Karlsplatz
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5478,9 +5670,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5497,9 +5691,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5521,9 +5717,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Oberpollinger Rooftop
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Oberpollinger Rooftop
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5540,9 +5738,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Oberpollinger Rooftop
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Oberpollinger Rooftop
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5564,9 +5764,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Interesting statue of a poor sleeping person next to Restaurant Bricelta
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Interesting statue of a poor sleeping person next to Restaurant Bricelta
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5583,9 +5785,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Interesting statue of a poor sleeping person next to Restaurant Bricelta
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Interesting statue of a poor sleeping person next to Restaurant Bricelta
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5607,9 +5811,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      One-footed brick dude
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        One-footed brick dude
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5626,9 +5832,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      One-footed brick dude
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        One-footed brick dude
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5650,9 +5858,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Asamkirche
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Asamkirche
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5669,9 +5879,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Asamkirche
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Asamkirche
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5693,9 +5905,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      View from Asamkirche along Sendlingerstraße
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        View from Asamkirche along Sendlingerstraße
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5712,9 +5926,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      View from Asamkirche along Sendlingerstraße
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        View from Asamkirche along Sendlingerstraße
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5737,9 +5953,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      St. Jakobs-Platz
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        St. Jakobs-Platz
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
         &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
@@ -5758,9 +5976,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      St. Jakobs-Platz
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        St. Jakobs-Platz
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5783,9 +6003,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Courtyard inside the New Town Hall
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Courtyard inside the New Town Hall
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
         &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
@@ -5804,9 +6026,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Courtyard inside the New Town Hall
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Courtyard inside the New Town Hall
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5829,9 +6053,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Marienplatz
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Marienplatz
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
         &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
@@ -5850,9 +6076,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Marienplatz
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Marienplatz
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5874,9 +6102,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Looking towards Heiliggeistkirche from Peterskirche
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Looking towards Heiliggeistkirche from Peterskirche
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5893,9 +6123,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Looking towards Heiliggeistkirche from Peterskirche
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Looking towards Heiliggeistkirche from Peterskirche
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5917,9 +6149,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      View from Peterskirche
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        View from Peterskirche
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5936,9 +6170,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      View from Peterskirche
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        View from Peterskirche
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5960,9 +6196,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Looking towards Frauenkirche from Peterskirche
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Looking towards Frauenkirche from Peterskirche
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -5979,9 +6217,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Looking towards Frauenkirche from Peterskirche
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Looking towards Frauenkirche from Peterskirche
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -5996,9 +6236,11 @@ geo_json:
     &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-57Tk0ke1nbU/WfqUPJl3f6I/AAAAAAAAolc/KG3eg8BkK8U7NzF7zXiizvFQABcO4LwAACHMYBhgL/s400/VID_20171009_174731.mp4&quot; alt=&quot;VID_20171009_174731.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-57Tk0ke1nbU/WfqUPJl3f6I/AAAAAAAAolc/KG3eg8BkK8U7NzF7zXiizvFQABcO4LwAACHMYBhgL/s100-c/VID_20171009_174731.mp4 100w,https://lh3.googleusercontent.com/-57Tk0ke1nbU/WfqUPJl3f6I/AAAAAAAAolc/KG3eg8BkK8U7NzF7zXiizvFQABcO4LwAACHMYBhgL/s400/VID_20171009_174731.mp4 400w,https://lh3.googleusercontent.com/-57Tk0ke1nbU/WfqUPJl3f6I/AAAAAAAAolc/KG3eg8BkK8U7NzF7zXiizvFQABcO4LwAACHMYBhgL/s800/VID_20171009_174731.mp4 800w,https://lh3.googleusercontent.com/-57Tk0ke1nbU/WfqUPJl3f6I/AAAAAAAAolc/KG3eg8BkK8U7NzF7zXiizvFQABcO4LwAACHMYBhgL/s1600/VID_20171009_174731.mp4 1600w,https://lh3.googleusercontent.com/-57Tk0ke1nbU/WfqUPJl3f6I/AAAAAAAAolc/Q8KPRppWpII7NzF7zXiizvFQABcO4LwAACHMYBhgL/I/VID_20171009_174731.mp4 1920w&quot; data-caption=&quot;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
       &lt;/video&gt;
@@ -6007,9 +6249,11 @@ geo_json:
       
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6031,9 +6275,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Marienplatz #cover
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Marienplatz #cover
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -6050,9 +6296,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Marienplatz #cover
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Marienplatz #cover
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6074,9 +6322,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      View from Peterskirche toward Alter Rathausturm
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        View from Peterskirche toward Alter Rathausturm
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -6093,9 +6343,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      View from Peterskirche toward Alter Rathausturm
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        View from Peterskirche toward Alter Rathausturm
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6117,9 +6369,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -6136,9 +6390,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6160,9 +6416,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -6179,9 +6437,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6204,9 +6464,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Max-Joseph-Platz
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Max-Joseph-Platz
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
         &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
@@ -6225,9 +6487,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Max-Joseph-Platz
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Max-Joseph-Platz
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6250,9 +6514,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Theatinerhof
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Theatinerhof
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
         &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
@@ -6271,9 +6537,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Theatinerhof
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Theatinerhof
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6295,9 +6563,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      A well-deserved currant cake and coffee at Oberpollinger
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        A well-deserved currant cake and coffee at Oberpollinger
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -6314,9 +6584,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      A well-deserved currant cake and coffee at Oberpollinger
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        A well-deserved currant cake and coffee at Oberpollinger
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6556,9 +6828,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -6575,9 +6849,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6592,9 +6868,11 @@ geo_json:
     &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s400/VID_20171008_201331.mp4&quot; alt=&quot;VID_20171008_201331.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s100-c/VID_20171008_201331.mp4 100w,https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s400/VID_20171008_201331.mp4 400w,https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s800/VID_20171008_201331.mp4 800w,https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/lw78taBi4qIyOP8FqWx34zOIXZftiH9KQCHMYBhgL/s1600/VID_20171008_201331.mp4 1600w,https://lh3.googleusercontent.com/-FsBfeUCTKwg/WfbYY-S2tjI/AAAAAAAAoYo/66UYd52VoGoyOP8FqWx34zOIXZftiH9KQCHMYBhgL/I/VID_20171008_201331.mp4 1920w&quot; data-caption=&quot;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
       &lt;/video&gt;
@@ -6603,9 +6881,11 @@ geo_json:
       
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6620,9 +6900,11 @@ geo_json:
     &lt;img class=&quot;responsively-lazy&quot; src=&quot;https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s400/VID_20171008_203216.mp4&quot; alt=&quot;VID_20171008_203216.mp4&quot; srcset=&quot;data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&quot; data-srcset=&quot;https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s100-c/VID_20171008_203216.mp4 100w,https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s400/VID_20171008_203216.mp4 400w,https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s800/VID_20171008_203216.mp4 800w,https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/CDxbAwt4FoEa5swPojCHp2Pu3wMNgnkuACHMYBhgL/s1600/VID_20171008_203216.mp4 1600w,https://lh3.googleusercontent.com/-GqCrqUx9bzA/WfbYYw_RXwI/AAAAAAAAoYo/VywhpAzsEbsa5swPojCHp2Pu3wMNgnkuACHMYBhgL/I/VID_20171008_203216.mp4 1920w&quot; data-caption=&quot;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
       &lt;/video&gt;
@@ -6631,9 +6913,11 @@ geo_json:
       
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -6655,9 +6939,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      Das Spanische Fruchthaus #cover
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        Das Spanische Fruchthaus #cover
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -6674,9 +6960,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      Das Spanische Fruchthaus #cover
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        Das Spanische Fruchthaus #cover
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -7043,9 +7331,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; SeaTac, WA
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -7066,9 +7356,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; SeaTac, WA
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -7094,9 +7386,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; SeaTac, WA
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -7117,9 +7411,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; SeaTac, WA
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -7145,9 +7441,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Longford, England, United Kingdom
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -7168,9 +7466,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Longford, England, United Kingdom
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -7196,9 +7496,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; Longford, England, United Kingdom
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -7219,9 +7521,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Longford, England, United Kingdom
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -7243,9 +7547,11 @@ geo_json:
       &amp;lt;/div&amp;gt;
     
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -7262,9 +7568,11 @@ geo_json:
       &lt;/div&gt;
     
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -7290,9 +7598,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; München, BY, Germany
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -7313,9 +7623,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; München, BY, Germany
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;
@@ -7341,9 +7653,11 @@ geo_json:
         &amp;lt;i class=&amp;quot;fa fa-map-marker&amp;quot; aria-hidden=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; München, BY, Germany
       &amp;lt;/div&amp;gt;
     
-    &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
-      #cover
-    &amp;lt;/div&amp;gt;
+    
+      &amp;lt;div class=&amp;quot;caption&amp;quot;&amp;gt;
+        #cover
+      &amp;lt;/div&amp;gt;
+    
   &quot; /&gt;
   
     
@@ -7364,9 +7678,11 @@ geo_json:
         &lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; München, BY, Germany
       &lt;/div&gt;
     
-    &lt;div class=&quot;caption&quot;&gt;
-      #cover
-    &lt;/div&gt;
+    
+      &lt;div class=&quot;caption&quot;&gt;
+        #cover
+      &lt;/div&gt;
+    
   
     &lt;/figcaption&gt;
   &lt;/figure&gt;

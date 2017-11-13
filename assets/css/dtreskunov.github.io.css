@@ -38,3 +38,11 @@ video {
 a.has-text[target='_blank']:after {
   content: "\2197";
 }
+.caption, .locality, .exif {
+  display: inline-block;
+  margin-right: 1em;
+}
+figcaption .fa {
+  width: 1em;
+  text-align: center;
+}
