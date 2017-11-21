@@ -19,9 +19,9 @@ module Jekyll
         search = doc.data['gphoto_album']
         search == true ?
           doc.data['title'] :
-          search
+          search.to_s
       }.reject {|search, _|
-        search.nil?
+        search.nil? or search == ''
       }
       return if groups.empty?
       all_albums = select_accessible_entries picasa_client.album.list.entries
@@ -42,7 +42,7 @@ for you when you go to http://picasaweb.google.com"
         album = picasa_client.album.show(album_id, imgmax: 'd', thumbsize: '100c,400,800,1600')
         docs.each do |doc|
           album_data = get_album_data(album, exif_reader, gmaps_client)
-          doc.data['tags'] += get_tags(album_data)
+          doc.data['tags'] = (doc.data['tags'] || []) + get_tags(album_data)
           doc.data['locality'] ||= common_val(album_data['entries'], 'locality')
 
           doc.data['gphoto_album_data'] = album_data
@@ -66,16 +66,7 @@ for you when you go to http://picasaweb.google.com"
 
     def get_tags(album_data)
       media = album_data['entries'].map do |entry|
-        case entry['best']['medium']
-        when 'video'
-          'Video'
-        when 'image'
-          if entry['photosphere']
-            'PhotoSphere'
-          else
-            'Photo'
-          end
-        end
+        entry['type'].capitalize
       end
       localities = album_data['entries'].map do |entry|
         (entry['locality'] || '').split(', ')
