@@ -1,5 +1,5 @@
 main:
 - title: Tags
   url: tags
-
-
+- title: Search
+  url: search
