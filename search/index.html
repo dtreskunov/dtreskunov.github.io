@@ -19,7 +19,7 @@
 
 
 
-<title>Tech, Photo, Bikes, and all the rest - Page 2</title>
+<title>Search - Tech, Photo, Bikes, and all the rest</title>
 
 
 
@@ -33,11 +33,11 @@
 
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Tech, Photo, Bikes, and all the rest">
-<meta property="og:title" content="Tech, Photo, Bikes, and all the rest">
+<meta property="og:title" content="Search">
 
 
-  <link rel="canonical" href="https://dtreskunov.github.io//page2/">
-  <meta property="og:url" content="https://dtreskunov.github.io//page2/">
+  <link rel="canonical" href="https://dtreskunov.github.io//search/">
+  <meta property="og:url" content="https://dtreskunov.github.io//search/">
 
 
 
@@ -68,8 +68,6 @@
 
 
 
-
-  <link rel="prev" href="https://dtreskunov.github.io//">
 
 
 
@@ -134,7 +132,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--search">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -280,115 +278,21 @@
 
   <div class="archive">
     
-      <h1 class="page__title"></h1>
-    
-    <h3 class="archive__subtitle">Recent Posts</h3>
-
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="https://dtreskunov.github.io/sightseeing-in-munich/" rel="permalink">Sightseeing In Munich
-</a>
-      
-    </h2>
-    
-    <p class="archive__item-excerpt" itemprop="description">Trying to visit as many sights as physically possible is sometimes worth it.
-
-</p>
-  </article>
-</div>
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="https://dtreskunov.github.io/munich-1/" rel="permalink">Munich 1
-</a>
-      
-    </h2>
-    
-    <p class="archive__item-excerpt" itemprop="description">First order of business upon landing in a foreign city is to sample the local beer.
-
-</p>
-  </article>
-</div>
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="https://dtreskunov.github.io/Traveling-to-Munich/" rel="permalink">Traveling to Munich
-</a>
-      
-    </h2>
-    
-    <p class="archive__item-excerpt" itemprop="description">Bringing a 29-er mountain bike onto an airplane is usually a nerve-wracking experience.
-
-</p>
-  </article>
-</div>
-
-
-
-<nav class="pagination">
-  
-  <ul>
-    
-    
-      
-        <li><a href="https://dtreskunov.github.io/">Previous</a></li>
-      
-    
-
-    
-    
-      <li><a href="https://dtreskunov.github.io/">1</a></li>
-    
-
-    
-    
-
-    
-    
+      <h1 class="page__title">Search</h1>
     
 
     
 
-    
-    
 
-    
-      <li><a href="#" class="disabled current">2</a></li>
-    
+    <form>
+      <input placeholder="Enter your search term..." type="search" id="search" class="search-input">
+    </form>
 
-    
-    
-      <li><a href="#" class="disabled"><span aria-hidden="true">Next</span></a></li>
-    
-  </ul>
-</nav>
-
-
+    <div id="results"></div>
 
   </div>
 </div>
+
 
     <div class="page__footer">
       <footer>
@@ -423,6 +327,9 @@
   
 
 
+
+  <script src="https://dtreskunov.github.io/assets/js/lunr.min.js"></script>
+  <script src="https://dtreskunov.github.io/assets/js/lunr-en.js"></script>
 
 
 
